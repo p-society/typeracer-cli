@@ -13,12 +13,12 @@ stdin.setRawMode(true)
 stdin.resume()
 require('readline').emitKeypressEvents(stdin)
 let stringTyped = ''
+let gameEnd = true
 
 // To clear the terminal
 stdout.on('resize', () => {
-		// clear terminal
-		stdout.write('\u001B[2J\u001B[0;0f')
-		updateColor()
+  stdout.write('\u001B[2J\u001B[0;0f')
+  updateColor()
 })
 
 // Generating a random paragraph
@@ -82,6 +82,9 @@ function color (quote, stringTyped) {
     if (typedLetters[i] === quoteLetters[i]) {
       wrongInput = false
       colouredString += chalk.green(quoteLetters[i])
+      if (quote === stringTyped) {
+        gameEnd = true
+      }
     } else {
       wrongInput = true
       colouredString += chalk.red(quoteLetters[i])
@@ -91,15 +94,12 @@ function color (quote, stringTyped) {
 }
 
 /**
-* @function update
+* @function gameEnded
 */
 
-function update () {
-  for (let i = 0; i < stringTyped.length; i++) {
-    if (stringTyped[i] !== quote[i]) {
-      countedMistakes++
-    }
-  }
+function gameEnded () {
+  stdin.removeListener('keypress', keypress)
+  process.exit(0)
 }
 
 /**
@@ -107,8 +107,15 @@ function update () {
 */
 
 function game () {
+  gameEnd = false
   stdin.on('keypress', keypress)
-  update()
+
+  const interval = setInterval(() => {
+    if (gameEnd) {
+      gameEnded()
+      clearInterval(interval)
+    }
+  }, 100)
 }
 
 module.exports = game
