@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest && standard --fix",
-    "dev" : "nodemon index.js"
+    "dev": "nodemon index.js"
   },
   "keywords": [
     "typeracer",
@@ -24,7 +24,9 @@
     "standard": "^11.0.1"
   },
   "dependencies": {
-    "commander": "^2.15.1"
+    "chalk": "^2.4.1",
+    "commander": "^2.15.1",
+    "log-update": "^2.3.0"
   },
   "standard": {
     "env": [
