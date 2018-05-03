@@ -14,6 +14,13 @@ stdin.resume()
 require('readline').emitKeypressEvents(stdin)
 let stringTyped = ''
 
+// To clear the terminal
+stdout.on('resize', () => {
+		// clear terminal
+		stdout.write('\u001B[2J\u001B[0;0f')
+		updateColor()
+})
+
 // Generating a random paragraph
 const random = Math.floor((Math.random() * para.length))
 const quote = para[random].para
