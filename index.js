@@ -14,7 +14,7 @@ program
   .option('-p, --practice', 'Start practice mode')
   .option('-o, --online', 'Start playing online mode')
   .action((options) => {
-    if(options.practice) {
+    if (options.practice) {
       game()
     }
   })

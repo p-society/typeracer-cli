@@ -13,12 +13,14 @@ stdin.setRawMode(true)
 stdin.resume()
 require('readline').emitKeypressEvents(stdin)
 let stringTyped = ''
-
+let gameEnd = true
+let timeStarted = 0
+let time = 0
+let wordsPermin = 0
 // To clear the terminal
 stdout.on('resize', () => {
-		// clear terminal
-		stdout.write('\u001B[2J\u001B[0;0f')
-		updateColor()
+  stdout.write('\u001B[2J\u001B[0;0f')
+  updateColor()
 })
 
 // Generating a random paragraph
@@ -55,8 +57,12 @@ function keypress (chunk, key) {
 function updateColor () {
   let updatedString = color(quote, stringTyped)
   updatedString += quote.slice(stringTyped.length, quote.length)
+  let timeColour = 'cyan'
+  let wordsPerminColor = 'red'
   logUpdate(
-    `${updatedString}`)
+    `${updatedString}
+    wordsPermin: ${chalk[wordsPerminColor](Math.round(wordsPermin * 10) / 10)}
+    time: ${chalk[timeColour](Math.round(time * 10) / 10)}s`)
 }
 
 /**
@@ -82,6 +88,9 @@ function color (quote, stringTyped) {
     if (typedLetters[i] === quoteLetters[i]) {
       wrongInput = false
       colouredString += chalk.green(quoteLetters[i])
+      if (quote === stringTyped) {
+        gameEnd = true
+      }
     } else {
       wrongInput = true
       colouredString += chalk.red(quoteLetters[i])
@@ -91,15 +100,30 @@ function color (quote, stringTyped) {
 }
 
 /**
-* @function update
+* @function Time
 */
 
-function update () {
-  for (let i = 0; i < stringTyped.length; i++) {
-    if (stringTyped[i] !== quote[i]) {
-      countedMistakes++
-    }
+function Time () {
+  time = (Date.now() - timeStarted) / 1000
+}
+
+/**
+* @function updateWpm
+*/
+
+function updateWpm () {
+  if (stringTyped.length > 0) {
+    wordsPermin = stringTyped.split(' ').length / (time / 60)
   }
+}
+
+/**
+* @function gameEnded
+*/
+
+function gameEnded () {
+  stdin.removeListener('keypress', keypress)
+  process.exit(0)
 }
 
 /**
@@ -107,8 +131,19 @@ function update () {
 */
 
 function game () {
+  gameEnd = false
+  timeStarted = Date.now()
   stdin.on('keypress', keypress)
-  update()
+
+  const interval = setInterval(() => {
+    if (gameEnd) {
+      gameEnded()
+      clearInterval(interval)
+    } else {
+      Time()
+      updateWpm()
+    }
+  }, 100)
 }
 
 module.exports = game

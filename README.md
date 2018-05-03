@@ -9,8 +9,8 @@ This is gonna be a big and awesome project.
 - [x] Offline mode practice
 - [x] Random paragraph everytime
 - [ ] Add logical paragraphs
-- [ ] Show time
-- [ ] Show speed
+- [x] Show time
+- [x] Show speed
 - [ ] Write tests
 - [ ] Design API for online mode
 - [ ] Online mode competition
