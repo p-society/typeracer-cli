@@ -14,7 +14,9 @@ stdin.resume()
 require('readline').emitKeypressEvents(stdin)
 let stringTyped = ''
 let gameEnd = true
-
+let timeStarted = 0
+let time = 0
+let wordsPermin = 0
 // To clear the terminal
 stdout.on('resize', () => {
   stdout.write('\u001B[2J\u001B[0;0f')
@@ -55,8 +57,12 @@ function keypress (chunk, key) {
 function updateColor () {
   let updatedString = color(quote, stringTyped)
   updatedString += quote.slice(stringTyped.length, quote.length)
+  let timeColour = 'cyan'
+  let wordsPerminColor = 'red'
   logUpdate(
-    `${updatedString}`)
+    `${updatedString}
+    wordsPermin: ${chalk[wordsPerminColor](Math.round(wordsPermin * 10) / 10)}
+    time: ${chalk[timeColour](Math.round(time * 10) / 10)}s`)
 }
 
 /**
@@ -94,6 +100,24 @@ function color (quote, stringTyped) {
 }
 
 /**
+* @function Time
+*/
+
+function Time () {
+  time = (Date.now() - timeStarted) / 1000
+}
+
+/**
+* @function updateWpm
+*/
+
+function updateWpm () {
+  if (stringTyped.length > 0) {
+    wordsPermin = stringTyped.split(' ').length / (time / 60)
+  }
+}
+
+/**
 * @function gameEnded
 */
 
@@ -108,12 +132,16 @@ function gameEnded () {
 
 function game () {
   gameEnd = false
+  timeStarted = Date.now()
   stdin.on('keypress', keypress)
 
   const interval = setInterval(() => {
     if (gameEnd) {
       gameEnded()
       clearInterval(interval)
+    } else {
+      Time()
+      updateWpm()
     }
   }, 100)
 }
