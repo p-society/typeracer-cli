@@ -58,7 +58,10 @@ function updateColor () {
   let updatedString = color(quote, stringTyped)
   updatedString += quote.slice(stringTyped.length, quote.length)
   let timeColour = 'cyan'
-  let wordsPerminColor = 'red'
+  let wordsPerminColor = 'cyan'
+  if (wordsPermin < 30 ) {
+    wordsPerminColor = 'red'
+  }
   logUpdate(
     `${updatedString}
     wordsPermin: ${chalk[wordsPerminColor](Math.round(wordsPermin * 10) / 10)}
