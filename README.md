@@ -5,15 +5,16 @@ This is gonna be a big and awesome project.
 
 # To-Do
 
-- [ ] Make as npm package
+- [x] Make as npm package
 - [x] Offline mode practice
 - [x] Random paragraph everytime
 - [x] Add logical paragraphs
 - [x] Show time
 - [x] Show speed
-- [ ] Write tests
+- [ ] Setup server
 - [ ] Design API for online mode
 - [ ] Online mode competition
+- [ ] Write tests
 
 # How to Use
 

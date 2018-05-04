@@ -3,7 +3,7 @@
 */
 const chalk = require('chalk')
 const logUpdate = require('log-update')
-const para = require('../paragraphs/para')
+const quote = require('./paragraph')
 
 // Creating an interface for reading line from console
 
@@ -22,13 +22,6 @@ stdout.on('resize', () => {
   stdout.write('\u001B[2J\u001B[0;0f')
   updateColor()
 })
-
-// Generating a random paragraph
-const random = Math.floor((Math.random() * para.length))
-var quote = para[random].para
-if (quote.length < 100) {
-  quote = para[random].para + ' ' + para[random - 1].para
-}
 
 /**
 * @function keypress
