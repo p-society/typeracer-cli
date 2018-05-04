@@ -8,7 +8,7 @@ This is gonna be a big and awesome project.
 - [ ] Make as npm package
 - [x] Offline mode practice
 - [x] Random paragraph everytime
-- [ ] Add logical paragraphs
+- [x] Add logical paragraphs
 - [x] Show time
 - [x] Show speed
 - [ ] Write tests

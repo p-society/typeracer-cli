@@ -78,5 +78,6561 @@
   {
     "id": "20",
     "para": "Oh, right! To call you stupid would be an insult to stupid people! I've known sheep that could outwit you. I've worn dresses with higher IQs. But you think you're an intellectual, don't you, ape?"
-  }
+  },
+  {
+  "id": 21,
+  "para": "Genius is one percent inspiration and ninety-nine percent perspiration."
+ },
+ {
+  "id": 22,
+  "para": "You can observe a lot just by watching."
+ },
+ {
+  "id": 23,
+  "para": "A house divided against itself cannot stand."
+ },
+ {
+  "id": 24,
+  "para": "Difficulties increase the nearer we get to the goal."
+ },
+ {
+  "id": 25,
+  "para": "Fate is in your hands and no one elses"
+ },
+ {
+  "id": 26,
+  "para": "Be the chief but never the lord."
+ },
+ {
+  "id": 27,
+  "para": "Nothing happens unless first we dream."
+ },
+ {
+  "id": 28,
+  "para": "Well begun is half done."
+ },
+ {
+  "id": 29,
+  "para": "Life is a learning experience, only if you learn."
+ },
+ {
+  "id": 30,
+  "para": "Self-complacency is fatal to progress."
+ },
+ {
+  "id": 31,
+  "para": "Peace comes from within. Do not seek it without."
+ },
+ {
+  "id": 32,
+  "para": "What you give is what you get."
+ },
+ {
+  "id": 33,
+  "para": "We can only learn to love by loving."
+ },
+ {
+  "id": 34,
+  "para": "Life is change. Growth is optional. Choose wisely."
+ },
+ {
+  "id": 35,
+  "para": "You'll see it when you believe it."
+ },
+ {
+  "id": 36,
+  "para": "Today is the tomorrow we worried about yesterday."
+ },
+ {
+  "id": 37,
+  "para": "It's easier to see the mistakes on someone else's paper."
+ },
+ {
+  "id": 38,
+  "para": "Every man dies. Not every man really lives."
+ },
+ {
+  "id": 39,
+  "para": "To lead people walk behind them."
+ },
+ {
+  "id": 40,
+  "para": "Having nothing, nothing can he lose."
+ },
+ {
+  "id": 41,
+  "para": "Trouble is only opportunity in work clothes."
+ },
+ {
+  "id": 42,
+  "para": "A rolling stone gathers no moss."
+ },
+ {
+  "id": 43,
+  "para": "Ideas are the beginning points of all fortunes."
+ },
+ {
+  "id": 44,
+  "para": "Everything in life is luck."
+ },
+ {
+  "id": 45,
+  "para": "Doing nothing is better than being busy doing nothing."
+ },
+ {
+  "id": 46,
+  "para": "Trust yourself. You know more than you think you do."
+ },
+ {
+  "id": 47,
+  "para": "Study the past, if you would divine the future."
+ },
+ {
+  "id": 48,
+  "para": "The day is already blessed, find peace within it."
+ },
+ {
+  "id": 49,
+  "para": "From error to error one discovers the entire truth."
+ },
+ {
+  "id": 50,
+  "para": "Well done is better than well said."
+ },
+ {
+  "id": 51,
+  "para": "Bite off more than you can chew, then chew it."
+ },
+ {
+  "id": 52,
+  "para": "Work out your own salvation. Do not depend on others."
+ },
+ {
+  "id": 53,
+  "para": "One today is worth two tomorrows."
+ },
+ {
+  "id": 54,
+  "para": "Once you choose hope, anythings possible."
+ },
+ {
+  "id": 55,
+  "para": "God always takes the simplest way."
+ },
+ {
+  "id": 56,
+  "para": "One fails forward toward success."
+ },
+ {
+  "id": 57,
+  "para": "From small beginnings come great things."
+ },
+ {
+  "id": 58,
+  "para": "Learning is a treasure that will follow its owner everywhere"
+ },
+ {
+  "id": 59,
+  "para": "Be as you wish to seem."
+ },
+ {
+  "id": 60,
+  "para": "The world is always in movement."
+ },
+ {
+  "id": 61,
+  "para": "Never mistake activity for achievement."
+ },
+ {
+  "id": 62,
+  "para": "What worries you masters you."
+ },
+ {
+  "id": 63,
+  "para": "One faces the future with ones past."
+ },
+ {
+  "id": 64,
+  "para": "Goals are the fuel in the furnace of achievement."
+ },
+ {
+  "id": 65,
+  "para": "Who sows virtue reaps honour."
+ },
+ {
+  "id": 66,
+  "para": "Be kind whenever possible. It is always possible."
+ },
+ {
+  "id": 67,
+  "para": "Talk doesn't cook rice."
+ },
+ {
+  "id": 68,
+  "para": "He is able who thinks he is able."
+ },
+ {
+  "id": 69,
+  "para": "A goal without a plan is just a wish."
+ },
+ {
+  "id": 70,
+  "para": "To succeed, we must first believe that we can."
+ },
+ {
+  "id": 71,
+  "para": "Learn from yesterday, live for today, hope for tomorrow."
+ },
+ {
+  "id": 72,
+  "para": "A weed is no more than a flower in disguise."
+ },
+ {
+  "id": 73,
+  "para": "Do, or do not. There is no try."
+ },
+ {
+  "id": 74,
+  "para": "All serious daring starts from within."
+ },
+ {
+  "id": 75,
+  "para": "The best teacher is experience learned from failures."
+ },
+ {
+  "id": 76,
+  "para": "Think how hard physics would be if particles could think."
+ },
+ {
+  "id": 77,
+  "para": "Love is the flower you've got to let grow."
+ },
+ {
+  "id": 78,
+  "para": "Don't wait. The time will never be just right."
+ },
+ {
+  "id": 79,
+  "para": "Time is the wisest counsellor of all."
+ },
+ {
+  "id": 80,
+  "para": "You give before you get."
+ },
+ {
+  "id": 81,
+  "para": "Wisdom begins in wonder."
+ },
+ {
+  "id": 82,
+  "para": "Without courage, wisdom bears no fruit."
+ },
+ {
+  "id": 83,
+  "para": "Change in all things is sweet."
+ },
+ {
+  "id": 84,
+  "para": "What you fear is that which requires action to overcome."
+ },
+ {
+  "id": 85,
+  "para": "When performance exceeds ambition, the overlap is called success."
+ },
+ {
+  "id": 86,
+  "para": "When deeds speak, words are nothing."
+ },
+ {
+  "id": 87,
+  "para": "Real magic in relationships means an absence of judgement of others."
+ },
+ {
+  "id": 88,
+  "para": "I never think of the future. It comes soon enough."
+ },
+ {
+  "id": 89,
+  "para": "Skill to do comes of doing."
+ },
+ {
+  "id": 90,
+  "para": "Wisdom is the supreme part of happiness."
+ },
+ {
+  "id": 91,
+  "para": "I believe that every person is born with talent."
+ },
+ {
+  "id": 92,
+  "para": "Important principles may, and must, be inflexible."
+ },
+ {
+  "id": 93,
+  "para": "The undertaking of a new action brings new strength."
+ },
+ {
+  "id": 94,
+  "para": "The years teach much which the days never know."
+ },
+ {
+  "id": 95,
+  "para": "Our distrust is very expensive."
+ },
+ {
+  "id": 96,
+  "para": "All know the way; few actually walk it."
+ },
+ {
+  "id": 97,
+  "para": "Great talent finds happiness in execution."
+ },
+ {
+  "id": 98,
+  "para": "Faith in oneself is the best and safest course."
+ },
+ {
+  "id": 99,
+  "para": "Courage is going from failure to failure without losing enthusiasm."
+ },
+ {
+  "id": 100,
+  "para": "The two most powerful warriors are patience and time."
+ },
+ {
+  "id": 101,
+  "para": "Anticipate the difficult by managing the easy."
+ },
+ {
+  "id": 102,
+  "para": "Those who are free of resentful thoughts surely find peace."
+ },
+ {
+  "id": 103,
+  "para": "A short saying often contains much wisdom."
+ },
+ {
+  "id": 104,
+  "para": "It takes both sunshine and rain to make a rainbow."
+ },
+ {
+  "id": 105,
+  "para": "A beautiful thing is never perfect."
+ },
+ {
+  "id": 106,
+  "para": "Only do what your heart tells you."
+ },
+ {
+  "id": 107,
+  "para": "Life is movement-we breathe, we eat, we walk, we move!"
+ },
+ {
+  "id": 108,
+  "para": "No one can make you feel inferior without your consent."
+ },
+ {
+  "id": 109,
+  "para": "Argue for your limitations, and sure enough theyre yours."
+ },
+ {
+  "id": 110,
+  "para": "Luck is what happens when preparation meets opportunity."
+ },
+ {
+  "id": 111,
+  "para": "Victory belongs to the most persevering."
+ },
+ {
+  "id": 112,
+  "para": "Love all, trust a few, do wrong to none."
+ },
+ {
+  "id": 113,
+  "para": "In order to win, you must expect to win."
+ },
+ {
+  "id": 114,
+  "para": "A goal is a dream with a deadline."
+ },
+ {
+  "id": 115,
+  "para": "You can do it if you believe you can!"
+ },
+ {
+  "id": 116,
+  "para": "Set your goals high, and don't stop till you get there."
+ },
+ {
+  "id": 117,
+  "para": "Every new day is another chance to change your life."
+ },
+ {
+  "id": 118,
+  "para": "Smile, breathe, and go slowly."
+ },
+ {
+  "id": 119,
+  "para": "Nobody will believe in you unless you believe in yourself."
+ },
+ {
+  "id": 120,
+  "para": "Do more than dream: work."
+ },
+ {
+  "id": 121,
+  "para": "No man was ever wise by chance."
+ },
+ {
+  "id": 122,
+  "para": "Some pursue happiness, others create it."
+ },
+ {
+  "id": 123,
+  "para": "He that is giddy thinks the world turns round."
+ },
+ {
+  "id": 124,
+  "para": "Don't ruin the present with the ruined past."
+ },
+ {
+  "id": 125,
+  "para": "Do something wonderful, people may imitate it."
+ },
+ {
+  "id": 126,
+  "para": "We do what we do because we believe."
+ },
+ {
+  "id": 127,
+  "para": "Do one thing every day that scares you."
+ },
+ {
+  "id": 128,
+  "para": "If you cannot be silent be brilliant and thoughtful."
+ },
+ {
+  "id": 129,
+  "para": "Who looks outside, dreams; who looks inside, awakes."
+ },
+ {
+  "id": 130,
+  "para": "What we think, we become."
+ },
+ {
+  "id": 131,
+  "para": "The shortest answer is doing."
+ },
+ {
+  "id": 132,
+  "para": "All our knowledge has its origins in our perceptions."
+ },
+ {
+  "id": 133,
+  "para": "The harder you fall, the higher you bounce."
+ },
+ {
+  "id": 134,
+  "para": "Trusting our intuition often saves us from disaster."
+ },
+ {
+  "id": 135,
+  "para": "Truth is powerful and it prevails."
+ },
+ {
+  "id": 136,
+  "para": "Light tomorrow with today!"
+ },
+ {
+  "id": 137,
+  "para": "Silence is a fence around wisdom."
+ },
+ {
+  "id": 138,
+  "para": "Society develops wit, but its contemplation alone forms genius."
+ },
+ {
+  "id": 139,
+  "para": "The simplest things are often the truest."
+ },
+ {
+  "id": 140,
+  "para": "Everyone smiles in the same language."
+ },
+ {
+  "id": 141,
+  "para": "Yesterday I dared to struggle. Today I dare to win."
+ },
+ {
+  "id": 142,
+  "para": "No alibi will save you from accepting the responsibility."
+ },
+ {
+  "id": 143,
+  "para": "If you can dream it, you can do it."
+ },
+ {
+  "id": 144,
+  "para": "It is better to travel well than to arrive."
+ },
+ {
+  "id": 145,
+  "para": "Life shrinks or expands in proportion to one's courage."
+ },
+ {
+  "id": 146,
+  "para": "You have to believe in yourself."
+ },
+ {
+  "id": 147,
+  "para": "Our intention creates our reality."
+ },
+ {
+  "id": 148,
+  "para": "Silence is a true friend who never betrays."
+ },
+ {
+  "id": 149,
+  "para": "Character develops itself in the stream of life."
+ },
+ {
+  "id": 150,
+  "para": "From little acorns mighty oaks do grow."
+ },
+ {
+  "id": 151,
+  "para": "You can't stop the waves, but you can learn to surf."
+ },
+ {
+  "id": 152,
+  "para": "Reality does not conform to the ideal, but confirms it."
+ },
+ {
+  "id": 153,
+  "para": "Speak low, if you speak love."
+ },
+ {
+  "id": 154,
+  "para": "A really great talent finds its happiness in execution."
+ },
+ {
+  "id": 155,
+  "para": "Reality leaves a lot to the imagination."
+ },
+ {
+  "id": 156,
+  "para": "The greatest remedy for anger is delay."
+ },
+ {
+  "id": 157,
+  "para": "Growth itself contains the germ of happiness."
+ },
+ {
+  "id": 158,
+  "para": "You can do what's reasonable or you can decide what's possible."
+ },
+ {
+  "id": 159,
+  "para": "Nothing strengthens authority so much as silence."
+ },
+ {
+  "id": 160,
+  "para": "Wherever you go, go with all your heart."
+ },
+ {
+  "id": 161,
+  "para": "The only real valuable thing is intuition."
+ },
+ {
+  "id": 162,
+  "para": "Good luck is another name for tenacity of purpose."
+ },
+ {
+  "id": 163,
+  "para": "Rainbows apologize for angry skies."
+ },
+ {
+  "id": 164,
+  "para": "Friendship isn't a big thing. It's a million little things."
+ },
+ {
+  "id": 165,
+  "para": "Time is the most valuable thing a man can spend."
+ },
+ {
+  "id": 166,
+  "para": "Whatever happens, take responsibility."
+ },
+ {
+  "id": 167,
+  "para": "Experience is simply the name we give our mistakes."
+ },
+ {
+  "id": 168,
+  "para": "I think and that is all that I am."
+ },
+ {
+  "id": 169,
+  "para": "A good plan today is better than a perfect plan tomorrow."
+ },
+ {
+  "id": 170,
+  "para": "If the shoe doesn't fit, must we change the foot?"
+ },
+ {
+  "id": 171,
+  "para": "Each day provides its own gifts."
+ },
+ {
+  "id": 172,
+  "para": "While we stop to think, we often miss our opportunity."
+ },
+ {
+  "id": 173,
+  "para": "Life isn't about finding yourself. Life is about creating yourself."
+ },
+ {
+  "id": 174,
+  "para": "To bring anything into your life, imagine that it's already there."
+ },
+ {
+  "id": 175,
+  "para": "Begin to weave and God will give you the thread."
+ },
+ {
+  "id": 176,
+  "para": "The more you know yourself, the more you forgive yourself."
+ },
+ {
+  "id": 177,
+  "para": "Someone remembers, someone cares; your name is whispered in someone's prayers."
+ },
+ {
+  "id": 178,
+  "para": "Without faith, nothing is possible. With it, nothing is impossible."
+ },
+ {
+  "id": 179,
+  "para": "Once we accept our limits, we go beyond them."
+ },
+ {
+  "id": 180,
+  "para": "Don't be pushed by your problems; be led by your dreams."
+ },
+ {
+  "id": 181,
+  "para": "Whatever we expect with confidence becomes our own self-fulfilling prophecy."
+ },
+ {
+  "id": 182,
+  "para": "Everything you can imagine is real."
+ },
+ {
+  "id": 183,
+  "para": "Fear is a darkroom where negatives develop."
+ },
+ {
+  "id": 184,
+  "para": "The truest wisdom is a resolute determination."
+ },
+ {
+  "id": 185,
+  "para": "Life is the flower for which love is the honey."
+ },
+ {
+  "id": 186,
+  "para": "Freedom is the right to live as we wish."
+ },
+ {
+  "id": 187,
+  "para": "Change your thoughts, change your life!"
+ },
+ {
+  "id": 188,
+  "para": "Never ignore a gut feeling, but never believe that it's enough."
+ },
+ {
+  "id": 189,
+  "para": "Loss is nothing else but change,and change is Natures delight."
+ },
+ {
+  "id": 190,
+  "para": "Someone is special only if you tell them."
+ },
+ {
+  "id": 191,
+  "para": "Today is the tomorrow you worried about yesterday."
+ },
+ {
+  "id": 192,
+  "para": "There is no way to happiness, happiness is the way."
+ },
+ {
+  "id": 193,
+  "para": "The day always looks brighter from behind a smile."
+ },
+ {
+  "id": 194,
+  "para": "A stumble may prevent a fall."
+ },
+ {
+  "id": 195,
+  "para": "He who talks more is sooner exhausted."
+ },
+ {
+  "id": 196,
+  "para": "He who is contented is rich."
+ },
+ {
+  "id": 197,
+  "para": "What we achieve inwardly will change outer reality."
+ },
+ {
+  "id": 198,
+  "para": "Our strength grows out of our weaknesses."
+ },
+ {
+  "id": 199,
+  "para": "We must become the change we want to see."
+ },
+ {
+  "id": 200,
+  "para": "Happiness is found in doing, not merely possessing."
+ },
+ {
+  "id": 201,
+  "para": "Put your future in good hands : your own."
+ },
+ {
+  "id": 202,
+  "para": "We choose our destiny in the way we treat others."
+ },
+ {
+  "id": 203,
+  "para": "No snowflake in an avalanche ever feels responsible."
+ },
+ {
+  "id": 204,
+  "para": "Fortune favours the brave."
+ },
+ {
+  "id": 205,
+  "para": "I believe in one thing only, the power of human will."
+ },
+ {
+  "id": 206,
+  "para": "The best way out is always through."
+ },
+ {
+  "id": 207,
+  "para": "The mind unlearns with difficulty what it has long learned."
+ },
+ {
+  "id": 208,
+  "para": "I destroy my enemies when I make them my friends."
+ },
+ {
+  "id": 209,
+  "para": "No garden is without its weeds."
+ },
+ {
+  "id": 210,
+  "para": "There is no failure except in no longer trying."
+ },
+ {
+  "id": 211,
+  "para": "Kind words will unlock an iron door."
+ },
+ {
+  "id": 212,
+  "para": "Problems are only opportunities with thorns on them."
+ },
+ {
+  "id": 213,
+  "para": "Life is just a chance to grow a soul."
+ },
+ {
+  "id": 214,
+  "para": "Mountains cannot be surmounted except by winding paths."
+ },
+ {
+  "id": 215,
+  "para": "May our hearts garden of awakening bloom with hundreds of flowers."
+ },
+ {
+  "id": 216,
+  "para": "Fortune befriends the bold."
+ },
+ {
+  "id": 217,
+  "para": "Keep true to the dreams of thy youth."
+ },
+ {
+  "id": 218,
+  "para": "You're never a loser until you quit trying."
+ },
+ {
+  "id": 219,
+  "para": "Science is organized knowledge. Wisdom is organized life."
+ },
+ {
+  "id": 220,
+  "para": "Knowing is not enough; we must apply!"
+ },
+ {
+  "id": 221,
+  "para": "Strong beliefs win strong men, and then make them stronger."
+ },
+ {
+  "id": 222,
+  "para": "Autumn is a second spring when every leaf is a flower."
+ },
+ {
+  "id": 223,
+  "para": "If you surrender to the wind, you can ride it."
+ },
+ {
+  "id": 224,
+  "para": "Keep yourself to the sunshine and you cannot see the shadow."
+ },
+ {
+  "id": 225,
+  "para": "Write your plans in pencil and give God the eraser."
+ },
+ {
+  "id": 226,
+  "para": "Inspiration exists, but it has to find us working."
+ },
+ {
+  "id": 227,
+  "para": "Pick battles big enough to matter, small enough to win."
+ },
+ {
+  "id": 228,
+  "para": "Don't compromise yourself. You are all you've got."
+ },
+ {
+  "id": 229,
+  "para": "A short saying oft contains much wisdom."
+ },
+ {
+  "id": 230,
+  "para": "Difficulties are things that show a person what they are."
+ },
+ {
+  "id": 231,
+  "para": "When you doubt your power, you give power to your doubt."
+ },
+ {
+  "id": 232,
+  "para": "The cause is hidden. The effect is visible to all."
+ },
+ {
+  "id": 233,
+  "para": "A prudent question is one half of wisdom."
+ },
+ {
+  "id": 234,
+  "para": "The path to success is to take massive, determined action."
+ },
+ {
+  "id": 235,
+  "para": "I allow my intuition to lead my path."
+ },
+ {
+  "id": 236,
+  "para": "Nature takes away any faculty that is not used."
+ },
+ {
+  "id": 237,
+  "para": "If you wish to be a writer, write."
+ },
+ {
+  "id": 238,
+  "para": "There is no way to prosperity, prosperity is the way."
+ },
+ {
+  "id": 239,
+  "para": "Either you run the day or the day runs you."
+ },
+ {
+  "id": 240,
+  "para": "Better be ignorant of a matter than half know it."
+ },
+ {
+  "id": 241,
+  "para": "Follow your instincts. That is where true wisdom manifests itself."
+ },
+ {
+  "id": 242,
+  "para": "There never was a good knife made of bad steel."
+ },
+ {
+  "id": 243,
+  "para": "To accomplish great things, we must dream as well as act."
+ },
+ {
+  "id": 244,
+  "para": "Patience is the companion of wisdom."
+ },
+ {
+  "id": 245,
+  "para": "The mind is everything. What you think you become."
+ },
+ {
+  "id": 246,
+  "para": "To enjoy life, we must touch much of it lightly."
+ },
+ {
+  "id": 247,
+  "para": "To fly, we have to have resistance."
+ },
+ {
+  "id": 248,
+  "para": "What you see depends on what you're looking for."
+ },
+ {
+  "id": 249,
+  "para": "The heart has its reasons which reason knows not of."
+ },
+ {
+  "id": 250,
+  "para": "Be great in act, as you have been in thought."
+ },
+ {
+  "id": 251,
+  "para": "Imagination rules the world."
+ },
+ {
+  "id": 252,
+  "para": "Kind words do not cost much. Yet they accomplish much."
+ },
+ {
+  "id": 253,
+  "para": "There is no greater harm than that of time wasted."
+ },
+ {
+  "id": 254,
+  "para": "Intuition will tell the thinking mind where to look next."
+ },
+ {
+  "id": 255,
+  "para": "Worry gives a small thing a big shadow."
+ },
+ {
+  "id": 256,
+  "para": "Fears are nothing more than a state of mind."
+ },
+ {
+  "id": 257,
+  "para": "The journey of a thousand miles begins with one step."
+ },
+ {
+  "id": 258,
+  "para": "Efficiency is doing things right; effectiveness is doing the right things."
+ },
+ {
+  "id": 259,
+  "para": "Blaze with the fire that is never extinguished."
+ },
+ {
+  "id": 260,
+  "para": "Don't cry because it's over. Smile because it happened."
+ },
+ {
+  "id": 261,
+  "para": "No is easier to do. Yes is easier to say."
+ },
+ {
+  "id": 262,
+  "para": "To be wrong is nothing unless you continue to remember it."
+ },
+ {
+  "id": 263,
+  "para": "Yesterdays home runs don't win today's games."
+ },
+ {
+  "id": 264,
+  "para": "Silence is deep as Eternity, Speech is shallow as Time."
+ },
+ {
+  "id": 265,
+  "para": "Don't smother each other. No one can grow in the shade."
+ },
+ {
+  "id": 266,
+  "para": "An ant on the move does more than a dozing ox"
+ },
+ {
+  "id": 267,
+  "para": "You can't shake hands with a clenched fist."
+ },
+ {
+  "id": 268,
+  "para": "A good decision is based on knowledge and not on numbers."
+ },
+ {
+  "id": 269,
+  "para": "The cautious seldom err."
+ },
+ {
+  "id": 270,
+  "para": "If there is no struggle, there is no progress."
+ },
+ {
+  "id": 271,
+  "para": "Where there is great love, there are always miracles."
+ },
+ {
+  "id": 272,
+  "para": "Time you enjoy wasting, was not wasted."
+ },
+ {
+  "id": 273,
+  "para": "Every problem has a gift for you in its hands."
+ },
+ {
+  "id": 274,
+  "para": "Sadness flies away on the wings of time."
+ },
+ {
+  "id": 275,
+  "para": "I have often regretted my speech, never my silence."
+ },
+ {
+  "id": 276,
+  "para": "Never put off till tomorrow what you can do today."
+ },
+ {
+  "id": 277,
+  "para": "Minds are like parachutes. They only function when open."
+ },
+ {
+  "id": 278,
+  "para": "If a man does his best, what else is there?"
+ },
+ {
+  "id": 279,
+  "para": "The secret of success is constancy to purpose."
+ },
+ {
+  "id": 280,
+  "para": "Life is a progress, and not a station."
+ },
+ {
+  "id": 281,
+  "para": "All seasons are beautiful for the person who carries happiness within."
+ },
+ {
+  "id": 282,
+  "para": "To avoid criticism, do nothing, say nothing, be nothing."
+ },
+ {
+  "id": 283,
+  "para": "All things change; nothing perishes."
+ },
+ {
+  "id": 284,
+  "para": "Absence makes the heart grow fonder."
+ },
+ {
+  "id": 285,
+  "para": "Imagination is the highest kite one can fly."
+ },
+ {
+  "id": 286,
+  "para": "The beginning of knowledge is the discovery of something we do not understand."
+ },
+ {
+  "id": 287,
+  "para": "Love doesn't make the world go round, love is what makes the ride worthwhile."
+ },
+ {
+  "id": 288,
+  "para": "Whenever you have eliminated the impossible, whatever remains, however improbable, must be the truth."
+ },
+ {
+  "id": 289,
+  "para": "Good timber does not grow with ease; the stronger the wind, the stronger the trees."
+ },
+ {
+  "id": 290,
+  "para": "I believe that we are fundamentally the same and have the same basic potential."
+ },
+ {
+  "id": 291,
+  "para": "The winds and waves are always on the side of the ablest navigators."
+ },
+ {
+  "id": 292,
+  "para": "The future belongs to those who believe in the beauty of their dreams."
+ },
+ {
+  "id": 293,
+  "para": "To get something you never had, you have to do something you never did."
+ },
+ {
+  "id": 294,
+  "para": "Be thankful when you don't know something for it gives you the opportunity to learn."
+ },
+ {
+  "id": 295,
+  "para": "Strength does not come from physical capacity. It comes from an indomitable will."
+ },
+ {
+  "id": 296,
+  "para": "Each misfortune you encounter will carry in it the seed of tomorrows good luck."
+ },
+ {
+  "id": 297,
+  "para": "To forgive is to set a prisoner free and realize that prisoner was you."
+ },
+ {
+  "id": 298,
+  "para": "In separateness lies the world's great misery, in compassion lies the world's true strength."
+ },
+ {
+  "id": 299,
+  "para": "By believing passionately in something that does not yet exist, we create it."
+ },
+ {
+  "id": 300,
+  "para": "Letting go isn't the end of the world; it's the beginning of a new life."
+ },
+ {
+  "id": 301,
+  "para": "All the great performers I have worked with are fuelled by a personal dream."
+ },
+ {
+  "id": 302,
+  "para": "One of the advantages of being disorderly is that one is constantly making exciting discoveries."
+ },
+ {
+  "id": 303,
+  "para": "I never see what has been done; I only see what remains to be done."
+ },
+ {
+  "id": 304,
+  "para": "Begin at once to live and count each separate day as a separate life."
+ },
+ {
+  "id": 305,
+  "para": "If you don't know where you are going, you will probably end up somewhere else."
+ },
+ {
+  "id": 306,
+  "para": "It is not so important to know everything as to appreciate what we learn."
+ },
+ {
+  "id": 307,
+  "para": "The bird of paradise alights only upon the hand that does not grasp."
+ },
+ {
+  "id": 308,
+  "para": "Think as a wise man but communicate in the language of the people."
+ },
+ {
+  "id": 309,
+  "para": "Practice yourself, for heavens sake in little things, and then proceed to greater."
+ },
+ {
+  "id": 310,
+  "para": "If one does not know to which port is sailing, no wind is favorable."
+ },
+ {
+  "id": 311,
+  "para": "Our greatest glory is not in never failing but rising everytime we fall."
+ },
+ {
+  "id": 312,
+  "para": "Being right is highly overrated. Even a stopped clock is right twice a day."
+ },
+ {
+  "id": 313,
+  "para": "To be upset over what you don't have is to waste what you do have."
+ },
+ {
+  "id": 314,
+  "para": "If we did the things we are capable of, we would astound ourselves."
+ },
+ {
+  "id": 315,
+  "para": "Nothing in life is to be feared. It is only to be understood."
+ },
+ {
+  "id": 316,
+  "para": "Successful people ask better questions, and as a result, they get better answers."
+ },
+ {
+  "id": 317,
+  "para": "Love is not blind; it simply enables one to see things others fail to see."
+ },
+ {
+  "id": 318,
+  "para": "Life is a process. We are a process. The universe is a process."
+ },
+ {
+  "id": 319,
+  "para": "I think somehow we learn who we really are and then live with that decision."
+ },
+ {
+  "id": 320,
+  "para": "We learn what we have said from those who listen to our speaking."
+ },
+ {
+  "id": 321,
+  "para": "A little knowledge that acts is worth infinitely more than much knowledge that is idle."
+ },
+ {
+  "id": 322,
+  "para": "If you get up one more time than you fall, you will make it through."
+ },
+ {
+  "id": 323,
+  "para": "The doors we open and close each day decide the lives we live."
+ },
+ {
+  "id": 324,
+  "para": "The worst bankrupt in the world is the person who has lost his enthusiasm."
+ },
+ {
+  "id": 325,
+  "para": "Happiness comes when your work and words are of benefit to yourself and others."
+ },
+ {
+  "id": 326,
+  "para": "Don't focus on making the right decision, focus on making the decision the right one."
+ },
+ {
+  "id": 327,
+  "para": "Everything is perfect in the universe, even your desire to improve it."
+ },
+ {
+  "id": 328,
+  "para": "The universe is full of magical things, patiently waiting for our wits to grow sharper."
+ },
+ {
+  "id": 329,
+  "para": "Just as a candle cannot burn without fire, men cannot live without a spiritual life."
+ },
+ {
+  "id": 330,
+  "para": "A thing long expected takes the form of the unexpected when at last it comes."
+ },
+ {
+  "id": 331,
+  "para": "Action may not always bring happiness; but there is no happiness without action."
+ },
+ {
+  "id": 332,
+  "para": "I don't believe in failure. It is not failure if you enjoyed the process."
+ },
+ {
+  "id": 333,
+  "para": "What you do not want done to yourself, do not do to others."
+ },
+ {
+  "id": 334,
+  "para": "Short words are best and the old words when short are best of all."
+ },
+ {
+  "id": 335,
+  "para": "If you light a lamp for somebody, it will also brighten your path."
+ },
+ {
+  "id": 336,
+  "para": "I have done my best: that is about all the philosophy of living one needs."
+ },
+ {
+  "id": 337,
+  "para": "Through perseverance many people win success out of what seemed destined to be certain failure."
+ },
+ {
+  "id": 338,
+  "para": "Give thanks for the rain of life that propels us to reach new horizons."
+ },
+ {
+  "id": 339,
+  "para": "Love is just a word until someone comes along and gives it meaning."
+ },
+ {
+  "id": 340,
+  "para": "We all have problems. The way we solve them is what makes us different."
+ },
+ {
+  "id": 341,
+  "para": "The secret to a rich life is to have more beginnings than endings."
+ },
+ {
+  "id": 342,
+  "para": "It is only when the mind and character slumber that the dress can be seen."
+ },
+ {
+  "id": 343,
+  "para": "If you don't like something, change it. If you can't change it, change your attitude."
+ },
+ {
+  "id": 344,
+  "para": "Reviewing what you have learned and learning anew, you are fit to be a teacher."
+ },
+ {
+  "id": 345,
+  "para": "The world is a book, and those who do not travel read only a page."
+ },
+ {
+  "id": 346,
+  "para": "So long as a person is capable of self-renewal they are a living being."
+ },
+ {
+  "id": 347,
+  "para": "I'm not afraid of storms, for Im learning how to sail my ship."
+ },
+ {
+  "id": 348,
+  "para": "Think for yourselves and let others enjoy the privilege to do so too."
+ },
+ {
+  "id": 349,
+  "para": "How we spend our days is, of course, how we spend our lives."
+ },
+ {
+  "id": 350,
+  "para": "It has never been my object to record my dreams, just to realize them."
+ },
+ {
+  "id": 351,
+  "para": "The most complicated achievements of thought are possible without the assistance of consciousness."
+ },
+ {
+  "id": 352,
+  "para": "Be miserable. Or motivate yourself. Whatever has to be done, it's always your choice."
+ },
+ {
+  "id": 353,
+  "para": "Most great people have attained their greatest success just one step beyond their greatest failure."
+ },
+ {
+  "id": 354,
+  "para": "If you think you can, you can. And if you think you can't, you're right."
+ },
+ {
+  "id": 355,
+  "para": "Better to have loved and lost, than to have never loved at all."
+ },
+ {
+  "id": 356,
+  "para": "Everyone thinks of changing the world, but no one thinks of changing himself."
+ },
+ {
+  "id": 357,
+  "para": "The best way to pay for a lovely moment is to enjoy it."
+ },
+ {
+  "id": 358,
+  "para": "You have enemies? Good. That means you've stood up for something, sometime in your life."
+ },
+ {
+  "id": 359,
+  "para": "Slow down and everything you are chasing will come around and catch you."
+ },
+ {
+  "id": 360,
+  "para": "Your worst enemy cannot harm you as much as your own unguarded thoughts."
+ },
+ {
+  "id": 361,
+  "para": "I always wanted to be somebody, but I should have been more specific."
+ },
+ {
+  "id": 362,
+  "para": "Yeah we all shine on, like the moon, and the stars, and the sun."
+ },
+ {
+  "id": 363,
+  "para": "Knowledge is a process of piling up facts; wisdom lies in their simplification."
+ },
+ {
+  "id": 364,
+  "para": "Life is like riding a bicycle. To keep your balance you must keep moving."
+ },
+ {
+  "id": 365,
+  "para": "We should all be thankful for those people who rekindle the inner spirit."
+ },
+ {
+  "id": 366,
+  "para": "Opportunity is missed by most because it is dressed in overalls and looks like work."
+ },
+ {
+  "id": 367,
+  "para": "Feeling and longing are the motive forces behind all human endeavor and human creations."
+ },
+ {
+  "id": 368,
+  "para": "In the end we retain from our studies only that which we practically apply."
+ },
+ {
+  "id": 369,
+  "para": "If you correct your mind, the rest of your life will fall into place."
+ },
+ {
+  "id": 370,
+  "para": "The world makes way for the man who knows where he is going."
+ },
+ {
+  "id": 371,
+  "para": "When your desires are strong enough you will appear to possess superhuman powers to achieve."
+ },
+ {
+  "id": 372,
+  "para": "Patience and perseverance have a magical effect before which difficulties disappear and obstacles vanish."
+ },
+ {
+  "id": 373,
+  "para": "I cannot make my days longer so I strive to make them better."
+ },
+ {
+  "id": 374,
+  "para": "Tension is who you think you should be. Relaxation is who you are."
+ },
+ {
+  "id": 375,
+  "para": "Never bend your head. Always hold it high. Look the world right in the eye."
+ },
+ {
+  "id": 376,
+  "para": "One who gains strength by overcoming obstacles possesses the only strength which can overcome adversity."
+ },
+ {
+  "id": 377,
+  "para": "We cannot do everything at once, but we can do something at once."
+ },
+ {
+  "id": 378,
+  "para": "You have to do your own growing no matter how tall your grandfather was."
+ },
+ {
+  "id": 379,
+  "para": "Invent your world. Surround yourself with people, color, sounds, and work that nourish you."
+ },
+ {
+  "id": 380,
+  "para": "It is fatal to enter any war without the will to win it."
+ },
+ {
+  "id": 381,
+  "para": "Be what you are. This is the first step toward becoming better than you are."
+ },
+ {
+  "id": 382,
+  "para": "There is nothing in a caterpillar that tells you it's going to be a butterfly."
+ },
+ {
+  "id": 383,
+  "para": "Love and compassion open our own inner life, reducing stress, distrust and loneliness."
+ },
+ {
+  "id": 384,
+  "para": "Ideals are an imaginative understanding of that which is desirable in that which is possible."
+ },
+ {
+  "id": 385,
+  "para": "The superior man is satisfied and composed; the mean man is always full of distress."
+ },
+ {
+  "id": 386,
+  "para": "If you spend too much time thinking about a thing, you'll never get it done."
+ },
+ {
+  "id": 387,
+  "para": "The way is not in the sky. The way is in the heart."
+ },
+ {
+  "id": 388,
+  "para": "Most people are about as happy as they make up their minds to be"
+ },
+ {
+  "id": 389,
+  "para": "Three things cannot be long hidden: the sun, the moon, and the truth."
+ },
+ {
+  "id": 390,
+  "para": "More often than not, anger is actually an indication of weakness rather than of strength."
+ },
+ {
+  "id": 391,
+  "para": "Before you put on a frown, make absolutely sure there are no smiles available."
+ },
+ {
+  "id": 392,
+  "para": "A man of ability and the desire to accomplish something can do anything."
+ },
+ {
+  "id": 393,
+  "para": "You, yourself, as much as anybody in the entire universe, deserve your love and affection."
+ },
+ {
+  "id": 394,
+  "para": "It is not uncommon for people to spend their whole life waiting to start living."
+ },
+ {
+  "id": 395,
+  "para": "Don't be afraid to go out on a limb. That's where the fruit is."
+ },
+ {
+  "id": 396,
+  "para": "Wicked people are always surprised to find ability in those that are good."
+ },
+ {
+  "id": 397,
+  "para": "Life is so constructed that an event does not, cannot, will not, match the expectation."
+ },
+ {
+  "id": 398,
+  "para": "If you change the way you look at things, the things you look at change."
+ },
+ {
+  "id": 399,
+  "para": "No man can succeed in a line of endeavor which he does not like."
+ },
+ {
+  "id": 400,
+  "para": "You will not be punished for your anger, you will be punished by your anger."
+ },
+ {
+  "id": 401,
+  "para": "Don't judge each day by the harvest you reap but by the seeds you plant."
+ },
+ {
+  "id": 402,
+  "para": "They say that time changes things, but you actually have to change them yourself."
+ },
+ {
+  "id": 403,
+  "para": "Never apologize for showing feelings. When you do so, you apologize for the truth."
+ },
+ {
+  "id": 404,
+  "para": "The truth you believe and cling to makes you unavailable to hear anything new."
+ },
+ {
+  "id": 405,
+  "para": "Adversity has the effect of eliciting talents, which in prosperous circumstances would have lain dormant."
+ },
+ {
+  "id": 406,
+  "para": "If you spend your whole life waiting for the storm, you'll never enjoy the sunshine."
+ },
+ {
+  "id": 407,
+  "para": "The only limit to our realization of tomorrow will be our doubts of today."
+ },
+ {
+  "id": 408,
+  "para": "Every action of our lives touches on some chord that will vibrate in eternity."
+ },
+ {
+  "id": 409,
+  "para": "Shoot for the moon. Even if you miss, you'll land among the stars."
+ },
+ {
+  "id": 410,
+  "para": "It does not matter how slowly you go as long as you do not stop."
+ },
+ {
+  "id": 411,
+  "para": "Every day may not be good, but there's something good in every day."
+ },
+ {
+  "id": 412,
+  "para": "Most folks are about as happy as they make up their minds to be."
+ },
+ {
+  "id": 413,
+  "para": "If you would take, you must first give, this is the beginning of intelligence."
+ },
+ {
+  "id": 414,
+  "para": "Some people think it's holding that makes one strong, sometimes it's letting go."
+ },
+ {
+  "id": 415,
+  "para": "It is on our failures that we base a new and different and better success."
+ },
+ {
+  "id": 416,
+  "para": "Quality is never an accident; it is always the result of intelligent effort."
+ },
+ {
+  "id": 417,
+  "para": "To study and not think is a waste. To think and not study is dangerous."
+ },
+ {
+  "id": 418,
+  "para": "Life is a succession of lessons, which must be lived to be understood."
+ },
+ {
+  "id": 419,
+  "para": "Time changes everything except something within us which is always surprised by change."
+ },
+ {
+  "id": 420,
+  "para": "You are important enough to ask and you are blessed enough to receive back."
+ },
+ {
+  "id": 421,
+  "para": "If you cannot do great things, do small things in a great way."
+ },
+ {
+  "id": 422,
+  "para": "If you want your life to be more rewarding, you have to change the way you think."
+ },
+ {
+  "id": 423,
+  "para": "Transformation doesn't take place with a vacuum; instead, it occurs when we are indirectly and directly connected to all those around us."
+ },
+ {
+  "id": 424,
+  "para": "The only difference between your abilities and others is the ability to put yourself in their shoes and actually try."
+ },
+ {
+  "id": 425,
+  "para": "The free man is he who does not fear to go to the end of his thought."
+ },
+ {
+  "id": 426,
+  "para": "Great are they who see that spiritual is stronger than any material force, that thoughts rule the world."
+ },
+ {
+  "id": 427,
+  "para": "A life spent making mistakes is not only more honourable but more useful than a life spent in doing nothing."
+ },
+ {
+  "id": 428,
+  "para": "The wise man does not lay up his own treasures. The more he gives to others, the more he has for his own."
+ },
+ {
+  "id": 429,
+  "para": "Don't leave a stone unturned. It's always something, to know you have done the most you could."
+ },
+ {
+  "id": 430,
+  "para": "By going beyond your own problems and taking care of others, you gain inner strength, self-confidence, courage, and a greater sense of calm."
+ },
+ {
+  "id": 431,
+  "para": "We come to love not by finding a perfect person, but by learning to see an imperfect person perfectly."
+ },
+ {
+  "id": 432,
+  "para": "What lies behind us and what lies before us are tiny matters compared to what lies within us."
+ },
+ {
+  "id": 433,
+  "para": "There are things so deep and complex that only intuition can reach it in our stage of development as human beings."
+ },
+ {
+  "id": 434,
+  "para": "A little more persistence, a little more effort, and what seemed hopeless failure may turn to glorious success."
+ },
+ {
+  "id": 435,
+  "para": "There is no retirement for an artist, it's your way of living so there is no end to it."
+ },
+ {
+  "id": 436,
+  "para": "I will not be concerned at other men is not knowing me;I will be concerned at my own want of ability."
+ },
+ {
+  "id": 437,
+  "para": "Why worry about things you can't control when you can keep yourself busy controlling the things that depend on you?"
+ },
+ {
+  "id": 438,
+  "para": "When you are content to be simply yourself and don't compare or compete, everybody will respect you."
+ },
+ {
+  "id": 439,
+  "para": "Be not afraid of greatness: some are born great, some achieve greatness, and some have greatness thrust upon them."
+ },
+ {
+  "id": 440,
+  "para": "Success means having the courage, the determination, and the will to become the person you believe you were meant to be."
+ },
+ {
+  "id": 441,
+  "para": "Do you want to know who you are? Don't ask. Act! Action will delineate and define you."
+ },
+ {
+  "id": 442,
+  "para": "It is only with the heart that one can see rightly, what is essential is invisible to the eye."
+ },
+ {
+  "id": 443,
+  "para": "Let us be grateful to people who make us happy; they are the charming gardeners who make our souls blossom."
+ },
+ {
+  "id": 444,
+  "para": "Make the best use of what is in your power, and take the rest as it happens."
+ },
+ {
+  "id": 445,
+  "para": "The thoughts we choose to think are the tools we use to paint the canvas of our lives."
+ },
+ {
+  "id": 446,
+  "para": "No matter how carefully you plan your goals they will never be more that pipe dreams unless you pursue them with gusto."
+ },
+ {
+  "id": 447,
+  "para": "The reason most goals are not achieved is that we spend our time doing second things first."
+ },
+ {
+  "id": 448,
+  "para": "If your actions inspire others to dream more, learn more, do more and become more, you are a leader."
+ },
+ {
+  "id": 449,
+  "para": "I'm a great believer in luck and I find the harder I work, the more I have of it."
+ },
+ {
+  "id": 450,
+  "para": "Do not waste yourself in rejection, nor bark against the bad, but chant the beauty of the good."
+ },
+ {
+  "id": 451,
+  "para": "The person born with a talent they are meant to use will find their greatest happiness in using it."
+ },
+ {
+  "id": 452,
+  "para": "Good people are good because they've come to wisdom through failure. We get very little wisdom from success, you know."
+ },
+ {
+  "id": 453,
+  "para": "Your destiny isn't just fate; it is how you use your own developed abilities to get what you want."
+ },
+ {
+  "id": 454,
+  "para": "Iron rusts from disuse; water loses its purity from stagnation... even so does inaction sap the vigour of the mind."
+ },
+ {
+  "id": 455,
+  "para": "A subtle thought that is in error may yet give rise to fruitful inquiry that can establish truths of great value."
+ },
+ {
+  "id": 456,
+  "para": "Be glad of life because it gives you the chance to love, to work, to play, and to look up at the stars."
+ },
+ {
+  "id": 457,
+  "para": "You got to be careful if you don't know where you're going, because you might not get there."
+ },
+ {
+  "id": 458,
+  "para": "You can tell whether a man is clever by his answers. You can tell whether a man is wise by his questions."
+ },
+ {
+  "id": 459,
+  "para": "Life is a gift, and it offers us the privilege, opportunity, and responsibility to give something back by becoming more"
+ },
+ {
+  "id": 460,
+  "para": "You can't let praise or criticism get to you. It's a weakness to get caught up in either one."
+ },
+ {
+  "id": 461,
+  "para": "I will love the light for it shows me the way, yet I will endure the darkness because it shows me the stars."
+ },
+ {
+  "id": 462,
+  "para": "Our doubts are traitors and make us lose the good we often might win, by fearing to attempt."
+ },
+ {
+  "id": 463,
+  "para": "By nature man hates change; seldom will he quit his old home till it has actually fallen around his ears."
+ },
+ {
+  "id": 464,
+  "para": "Until you value yourself, you won't value your time. Until you value your time, you won't do anything with it."
+ },
+ {
+  "id": 465,
+  "para": "The minute you settle for less than you deserve, you get even less than you settled for."
+ },
+ {
+  "id": 466,
+  "para": "The highest stage in moral ure at which we can arrive is when we recognize that we ought to control our thoughts."
+ },
+ {
+  "id": 467,
+  "para": "It is better to take many small steps in the right direction than to make a great leap forward only to stumble backward."
+ },
+ {
+  "id": 468,
+  "para": "If we have a positive mental attitude, then even when surrounded by hostility, we shall not lack inner peace."
+ },
+ {
+  "id": 469,
+  "para": "There is only one success, to be able to spend your life in your own way."
+ },
+ {
+  "id": 470,
+  "para": "Promises are the uniquely human way of ordering the future, making it predictable and reliable to the extent that this is humanly possible."
+ },
+ {
+  "id": 471,
+  "para": "Appreciation is the highest form of prayer, for it acknowledges the presence of good wherever you shine the light of your thankful thoughts."
+ },
+ {
+  "id": 472,
+  "para": "There is only one corner of the universe you can be certain of improving, and that's your own self."
+ },
+ {
+  "id": 473,
+  "para": "You're not obligated to win. You're obligated to keep trying to do the best you can every day."
+ },
+ {
+  "id": 474,
+  "para": "Everyone can taste success when the going is easy, but few know how to taste victory when times get tough."
+ },
+ {
+  "id": 475,
+  "para": "Deep listening is miraculous for both listener and speaker.When someone receives us with open-hearted, non-judging, intensely interested listening, our spirits expand."
+ },
+ {
+  "id": 476,
+  "para": "You may be deceived if you trust too much, but you will live in torment if you don't trust enough."
+ },
+ {
+  "id": 477,
+  "para": "Great indeed is the sublimity of the Creative, to which all beings owe their beginning and which permeates all heaven."
+ },
+ {
+  "id": 478,
+  "para": "All that is necessary is to accept the impossible, do without the indispensable, and bear the intolerable."
+ },
+ {
+  "id": 479,
+  "para": "Choose a job you love, and you will never have to work a day in your life."
+ },
+ {
+  "id": 480,
+  "para": "You cannot find yourself by going into the past. You can find yourself by coming into the present."
+ },
+ {
+  "id": 481,
+  "para": "All our talents increase in the using, and the every faculty, both good and bad, strengthen by exercise."
+ },
+ {
+  "id": 482,
+  "para": "In order to live free and happily you must sacrifice boredom. It is not always an easy sacrifice."
+ },
+ {
+  "id": 483,
+  "para": "The fox has many tricks. The hedgehog has but one. But that is the best of all."
+ },
+ {
+  "id": 484,
+  "para": "Of course there is no formula for success except perhaps an unconditional acceptance of life and what it brings."
+ },
+ {
+  "id": 485,
+  "para": "Let me tell you the secret that has led me to my goal: my strength lies solely in my tenacity"
+ },
+ {
+  "id": 486,
+  "para": "Something opens our wings. Something makes boredom and hurt disappear. Someone fills the cup in front of us: We taste only sacredness."
+ },
+ {
+  "id": 487,
+  "para": "We must never forget that it is through our actions, words, and thoughts that we have a choice."
+ },
+ {
+  "id": 488,
+  "para": "We see things not as they are, but as we are. Our perception is shaped by our previous experiences."
+ },
+ {
+  "id": 489,
+  "para": "True silence is the rest of the mind; it is to the spirit what sleep is to the body, nourishment and refreshment."
+ },
+ {
+  "id": 490,
+  "para": "All our knowledge begins with the senses, proceeds then to the understanding, and ends with reason. There is nothing higher than reason."
+ },
+ {
+  "id": 491,
+  "para": "The thought manifests as the word. The word manifests as the deed. The deed develops into habit. And the habit hardens into character."
+ },
+ {
+  "id": 492,
+  "para": "As the rest of the world is walking out the door, your best friends are the ones walking in."
+ },
+ {
+  "id": 493,
+  "para": "Patience is a virtue but you will never ever accomplish anything if you don't exercise action over patience."
+ },
+ {
+  "id": 494,
+  "para": "Any of us can achieve virtue, if by virtue we merely mean the avoidance of the vices that do not attract us."
+ },
+ {
+  "id": 495,
+  "para": "If the single man plant himself indomitably on his instincts, and there abide, the huge world will come round to him."
+ },
+ {
+  "id": 496,
+  "para": "Money was never a big motivation for me, except as a way to keep score. The real excitement is playing the game."
+ },
+ {
+  "id": 497,
+  "para": "Friendship with oneself is all important because without it one cannot be friends with anybody else in the world."
+ },
+ {
+  "id": 498,
+  "para": "Peace is not something you wish for. It's something you make, something you do, something you are, and something you give away."
+ },
+ {
+  "id": 499,
+  "para": "A wise man can learn more from a foolish question than a fool can learn from a wise answer."
+ },
+ {
+  "id": 500,
+  "para": "Every man takes the limits of his own field of vision for the limits of the world."
+ },
+ {
+  "id": 501,
+  "para": "One does not discover new lands without consenting to lose sight of the shore for a very long time."
+ },
+ {
+  "id": 502,
+  "para": "What is new in the world? Nothing. What is old in the world? Nothing. Everything has always been and will always be."
+ },
+ {
+  "id": 503,
+  "para": "Genuine love should first be directed at oneself. if we do not love ourselves, how can we love others?"
+ },
+ {
+  "id": 504,
+  "para": "Life is like a sewer. What you get out of it depends on what you put into it."
+ },
+ {
+  "id": 505,
+  "para": "Notice that the stiffest tree is most easily cracked, while the bamboo or willow survives by bending with the wind."
+ },
+ {
+  "id": 506,
+  "para": "Learn all you can from the mistakes of others. You won't have time to make them all yourself."
+ },
+ {
+  "id": 507,
+  "para": "Judge nothing, you will be happy. Forgive everything, you will be happier. Love everything, you will be happiest."
+ },
+ {
+  "id": 508,
+  "para": "People are so constituted that everybody would rather undertake what they see others do, whether they have an aptitude for it or not."
+ },
+ {
+  "id": 509,
+  "para": "We are either progressing or retrograding all the while. There is no such thing as remaining stationary in this life."
+ },
+ {
+  "id": 510,
+  "para": "The possession of knowledge does not kill the sense of wonder and mystery. There is always more mystery."
+ },
+ {
+  "id": 511,
+  "para": "Everything that happens happens as it should, and if you observe carefully, you will find this to be so."
+ },
+ {
+  "id": 512,
+  "para": "What we think determines what happens to us, so if we want to change our lives, we need to stretch our minds."
+ },
+ {
+  "id": 513,
+  "para": "In a controversy the instant we feel anger we have already ceased striving for the truth, and have begun striving for ourselves."
+ },
+ {
+  "id": 514,
+  "para": "It is the greatest of all mistakes to do nothing because you can only do little, do what you can."
+ },
+ {
+  "id": 515,
+  "para": "When you see a man of worth, think of how you may emulate him. When you see one who is unworthy, examine yourself."
+ },
+ {
+  "id": 516,
+  "para": "Aerodynamically the bumblebee shouldn't be able to fly, but the bumblebee doesn't know that so it goes on flying anyway."
+ },
+ {
+  "id": 517,
+  "para": "Those who try to do something and fail are infinitely better than those who try nothing and succeed."
+ },
+ {
+  "id": 518,
+  "para": "Snowflakes are one of natures most fragile things, but just look what they can do when they stick together."
+ },
+ {
+  "id": 519,
+  "para": "The first step to getting the things you want out of life is this: decide what you want."
+ },
+ {
+  "id": 520,
+  "para": "Why compare yourself with others? No one in the entire world can do a better job of being you than you."
+ },
+ {
+  "id": 521,
+  "para": "Experience is not what happens to a man. It is what a man does with what happens to him."
+ },
+ {
+  "id": 522,
+  "para": "A good teacher is like a candle, it consumes itself to light the way for others."
+ },
+ {
+  "id": 523,
+  "para": "The only thing to do with good advice is to pass it on. It is never of any use to oneself."
+ },
+ {
+  "id": 524,
+  "para": "Life is not measured by the breaths we take, but by the moments that take our breath."
+ },
+ {
+  "id": 525,
+  "para": "The smallest flower is a thought, a life answering to some feature of the Great Whole, of whom they have a persistent intuition."
+ },
+ {
+  "id": 526,
+  "para": "Consider how hard it is to change yourself and you'll understand what little chance you have in trying to change others."
+ },
+ {
+  "id": 527,
+  "para": "If you'll not settle for anything less than your best, you will be amazed at what you can accomplish in your lives."
+ },
+ {
+  "id": 528,
+  "para": "What lies behind us and what lies before us are small matters compared to what lies within us."
+ },
+ {
+  "id": 529,
+  "para": "With the realization of ones own potential and self-confidence in ones ability, one can build a better world."
+ },
+ {
+  "id": 530,
+  "para": "There is nothing like returning to a place that remains unchanged to find the ways in which you yourself have altered."
+ },
+ {
+  "id": 531,
+  "para": "Forget about all the reasons why something may not work. You only need to find one good reason why it will."
+ },
+ {
+  "id": 532,
+  "para": "It is the mark of an educated mind to be able to entertain a thought without accepting it."
+ },
+ {
+  "id": 533,
+  "para": "Love is never lost. If not reciprocated, it will flow back and soften and purify the heart."
+ },
+ {
+  "id": 534,
+  "para": "We all live with the objective of being happy; our lives are all different and yet the same."
+ },
+ {
+  "id": 535,
+  "para": "Many people think of prosperity that concerns money only to forget that true prosperity is of the mind."
+ },
+ {
+  "id": 536,
+  "para": "To be beautiful means to be yourself. You don't need to be accepted by others. You need to accept yourself."
+ },
+ {
+  "id": 537,
+  "para": "Do not overrate what you have received, nor envy others. He who envies others does not obtain peace of mind."
+ },
+ {
+  "id": 538,
+  "para": "It is very easy to forgive others their mistakes; it takes more grit to forgive them for having witnessed your own."
+ },
+ {
+  "id": 539,
+  "para": "Bodily exercise, when compulsory, does no harm to the body; but knowledge which is acquired under compulsion obtains no hold on the mind."
+ },
+ {
+  "id": 540,
+  "para": "Always be yourself, express yourself, have faith in yourself, do not go out and look for a successful personality and duplicate it."
+ },
+ {
+  "id": 541,
+  "para": "Let us revere, let us worship, but erect and open-eyed, the highest, not the lowest; the future, not the past!"
+ },
+ {
+  "id": 542,
+  "para": "Every time you smile at someone, it is an action of love, a gift to that person, a beautiful thing."
+ },
+ {
+  "id": 543,
+  "para": "Silences make the real conversations between friends. Not the saying but the never needing to say is what counts."
+ },
+ {
+  "id": 544,
+  "para": "The key to transforming our hearts and minds is to have an understanding of how our thoughts and emotions work."
+ },
+ {
+  "id": 545,
+  "para": "If you must tell me your opinions, tell me what you believe in. I have plenty of douts of my own."
+ },
+ {
+  "id": 546,
+  "para": "Chance is always powerful. Let your hook be always cast; in the pool where you least expect it, there will be a fish."
+ },
+ {
+  "id": 547,
+  "para": "I seek constantly to improve my manners and graces, for they are the sugar to which all are attracted."
+ },
+ {
+  "id": 548,
+  "para": "We never understand how little we need in this world until we know the loss of it."
+ },
+ {
+  "id": 549,
+  "para": "The real measure of your wealth is how much youd be worth if you lost all your money."
+ },
+ {
+  "id": 550,
+  "para": "To keep the body in good health is a duty... otherwise we shall not be able to keep our mind strong and clear."
+ },
+ {
+  "id": 551,
+  "para": "Take no thought of who is right or wrong or who is better than. Be not for or against."
+ },
+ {
+  "id": 552,
+  "para": "I am a man of fixed and unbending principles, the first of which is to be flexible at all times."
+ },
+ {
+  "id": 553,
+  "para": "Today, give a stranger a smile without waiting for it may be the joy they need to have a great day."
+ },
+ {
+  "id": 554,
+  "para": "The moment one gives close attention to anything, even a blade of grass, it becomes a mysterious, awesome, indescribably magnificent world in itself."
+ },
+ {
+  "id": 555,
+  "para": "At the center of your being you have the answer; you know who you are and you know what you want."
+ },
+ {
+  "id": 556,
+  "para": "How wonderful that we have met with a paradox. Now we have some hope of making progress."
+ },
+ {
+  "id": 557,
+  "para": "Everyone is a genius at least once a year. A real genius has his original ideas closer together."
+ },
+ {
+  "id": 558,
+  "para": "Dreams pass into the reality of action. From the actions stems the dream again; and this interdependence produces the highest form of living."
+ },
+ {
+  "id": 559,
+  "para": "Without leaps of imagination, or dreaming, we lose the excitement of possibilities. Dreaming, after all, is a form of planning."
+ },
+ {
+  "id": 560,
+  "para": "Sadness may be part of life but there is no need to let it dominate your entire life."
+ },
+ {
+  "id": 561,
+  "para": "Keeping a little ahead of conditions is one of the secrets of business, the trailer seldom goes far."
+ },
+ {
+  "id": 562,
+  "para": "Nature gave us one tongue and two ears so we could hear twice as much as we speak."
+ },
+ {
+  "id": 563,
+  "para": "Don't wait for your feelings to change to take the action. Take the action and your feelings will change."
+ },
+ {
+  "id": 564,
+  "para": "You are always free to change your mind and choose a different future, or a different past."
+ },
+ {
+  "id": 565,
+  "para": "You were not born a winner, and you were not born a loser. You are what you make yourself be."
+ },
+ {
+  "id": 566,
+  "para": "Cherish your visions and your dreams as they are the children of your soul, the blueprints of your ultimate achievements."
+ },
+ {
+  "id": 567,
+  "para": "Cherish your visions and your dreams as they are the children of your soul; the blueprints of your ultimate achievements."
+ },
+ {
+  "id": 568,
+  "para": "To be what we are, and to become what we are capable of becoming, is the only end of life."
+ },
+ {
+  "id": 569,
+  "para": "The road leading to a goal does not separate you from the destination; it is essentially a part of it."
+ },
+ {
+  "id": 570,
+  "para": "Take things as they are. Punch when you have to punch. Kick when you have to kick."
+ },
+ {
+  "id": 571,
+  "para": "I believe that a simple and unassuming manner of life is best for everyone, best both for the body and the mind."
+ },
+ {
+  "id": 572,
+  "para": "Though no one can go back and make a brand new start, anyone can start from now and make a brand new ending."
+ },
+ {
+  "id": 573,
+  "para": "Mind is everything: muscle, pieces of rubber. All that I am, I am because of my mind."
+ },
+ {
+  "id": 574,
+  "para": "How wonderful it is that nobody need wait a single moment before starting to improve the world."
+ },
+ {
+  "id": 575,
+  "para": "A friend is someone who understands your past, believes in your future, and accepts you just the way you are."
+ },
+ {
+  "id": 576,
+  "para": "It is one of the blessings of old friends that you can afford to be stupid with them."
+ },
+ {
+  "id": 577,
+  "para": "He that never changes his opinions, never corrects his mistakes, and will never be wiser on the morrow than he is today."
+ },
+ {
+  "id": 578,
+  "para": "Give me six hours to chop down a tree and I will spend the first four sharpening the axe."
+ },
+ {
+  "id": 579,
+  "para": "One must be fond of people and trust them if one is not to make a mess of life."
+ },
+ {
+  "id": 580,
+  "para": "We cannot change our memories, but we can change their meaning and the power they have over us."
+ },
+ {
+  "id": 581,
+  "para": "Being in humaneness is good. If we select other goodness and thus are far apart from humaneness, how can we be the wise?"
+ },
+ {
+  "id": 582,
+  "para": "To give hope to someone occurs when you teach them how to use the tools to do it for themselves."
+ },
+ {
+  "id": 583,
+  "para": "Id rather regret the things that I have done than the things that I have not done."
+ },
+ {
+  "id": 584,
+  "para": "The past has no power to stop you from being present now. Only your grievance about the past can do that."
+ },
+ {
+  "id": 585,
+  "para": "If the stars should appear but one night every thousand years how man would marvel and adore."
+ },
+ {
+  "id": 586,
+  "para": "There are two kinds of failures: those who thought and never did, and those who did and never thought."
+ },
+ {
+  "id": 587,
+  "para": "I'm not interested in age. People who tell me their age are silly. You're as old as you feel."
+ },
+ {
+  "id": 588,
+  "para": "I find hope in the darkest of days, and focus in the brightest. I do not judge the universe."
+ },
+ {
+  "id": 589,
+  "para": "When it is obvious that the goals cannot be reached, don't adjust the goals, adjust the action steps."
+ },
+ {
+  "id": 590,
+  "para": "Our virtues and our failings are inseparable, like force and matter. When they separate, man is no more."
+ },
+ {
+  "id": 591,
+  "para": "Blessed is the person who is too busy to worry in the daytime, and too sleepy to worry at night."
+ },
+ {
+  "id": 592,
+  "para": "He can who thinks he can, and he can't who thinks he can't. This is an inexorable, indisputable law."
+ },
+ {
+  "id": 593,
+  "para": "These days people seek knowledge, not wisdom. Knowledge is of the past, wisdom is of the future."
+ },
+ {
+  "id": 594,
+  "para": "One secret of success in life is for a man to be ready for his opportunity when it comes."
+ },
+ {
+  "id": 595,
+  "para": "People take different roads seeking fulfilment and happiness. Just because theyre not on your road doesn't mean they've gotten lost."
+ },
+ {
+  "id": 596,
+  "para": "The shoe that fits one person pinches another; there is no recipe for living that suits all cases."
+ },
+ {
+  "id": 597,
+  "para": "There are only two mistakes one can make along the road to truth; not going all the way, and not starting."
+ },
+ {
+  "id": 598,
+  "para": "Very little is needed to make a happy life; it is all within yourself, in your way of thinking."
+ },
+ {
+  "id": 599,
+  "para": "Giving up doesn't always mean you are weak. Sometimes it means that you are strong enough to let go."
+ },
+ {
+  "id": 600,
+  "para": "Treat people as if they were what they ought to be and you help them to become what they are capable of being."
+ },
+ {
+  "id": 601,
+  "para": "The most precious gift we can offer anyone is our attention. When mindfulness embraces those we love, they will bloom like flowers."
+ },
+ {
+  "id": 602,
+  "para": "If you focus on results, you will never change. If you focus on change, you will get results."
+ },
+ {
+  "id": 603,
+  "para": "I would maintain that thanks are the highest form of thought, and that gratitude is happiness doubled by wonder."
+ },
+ {
+  "id": 604,
+  "para": "There are two primary choices in life: to accept conditions as they exist, or accept the responsibility for changing them."
+ },
+ {
+  "id": 605,
+  "para": "All difficult things have their origin in that which is easy, and great things in that which is small."
+ },
+ {
+  "id": 606,
+  "para": "You can be what you want to be. You have the power within and we will help you always."
+ },
+ {
+  "id": 607,
+  "para": "To speak gratitude is courteous and pleasant, to enact gratitude is generous and noble, but to live gratitude is to touch Heaven."
+ },
+ {
+  "id": 608,
+  "para": "Wisdom is the reward you get for a lifetime of listening when you'd have preferred to talk."
+ },
+ {
+  "id": 609,
+  "para": "The greatest pleasure I know is to do a good action by stealth, and to have it found out by accident."
+ },
+ {
+  "id": 610,
+  "para": "When one tugs at a single thing in nature, he finds it attached to the rest of the world."
+ },
+ {
+  "id": 611,
+  "para": "Courage is what it takes to stand up and speak; courage is also what it takes to sit down and listen."
+ },
+ {
+  "id": 612,
+  "para": "The most beautiful things in the world cannot be seen or even touched. They must be felt with the heart."
+ },
+ {
+  "id": 613,
+  "para": "To live a pure unselfish life, one must count nothing as ones own in the midst of abundance."
+ },
+ {
+  "id": 614,
+  "para": "Many of life's failures are people who did not realize how close they were to success when they gave up."
+ },
+ {
+  "id": 615,
+  "para": "When we seek to discover the best in others, we somehow bring out the best in ourselves."
+ },
+ {
+  "id": 616,
+  "para": "If you accept the expectations of others, especially negative ones, then you never will change the outcome."
+ },
+ {
+  "id": 617,
+  "para": "A man may fulfil the object of his existence by asking a question he cannot answer, and attempting a task he cannot achieve."
+ },
+ {
+  "id": 618,
+  "para": "I am not bothered by the fact that I am unknown. I am bothered when I do not know others."
+ },
+ {
+  "id": 619,
+  "para": "He is a wise man who does not grieve for the things which he has not, but rejoices for those which he has."
+ },
+ {
+  "id": 620,
+  "para": "I am always doing that which I cannot do, in order that I may learn how to do it."
+ },
+ {
+  "id": 621,
+  "para": "If you're walking down the right path and you're willing to keep walking, eventually you'll make progress."
+ },
+ {
+  "id": 622,
+  "para": "The world is round and the place which may seem like the end may also be the beginning."
+ },
+ {
+  "id": 623,
+  "para": "Never miss an opportunity to make others happy, even if you have to leave them alone in order to do it."
+ },
+ {
+  "id": 624,
+  "para": "Give it all you've got because you never know if there's going to be a next time."
+ },
+ {
+  "id": 625,
+  "para": "You have to take it as it happens, but you should try to make it happen the way you want to take it."
+ },
+ {
+  "id": 626,
+  "para": "Nothing is predestined: The obstacles of your past can become the gateways that lead to new beginnings."
+ },
+ {
+  "id": 627,
+  "para": "Im not in this world to live up to your expectations and you're not in this world to live up to mine."
+ },
+ {
+  "id": 628,
+  "para": "Sometimes your joy is the source of your smile, but sometimes your smile can be the source of your joy."
+ },
+ {
+  "id": 629,
+  "para": "I can't imagine a person becoming a success who doesn't give this game of life everything hes got."
+ },
+ {
+  "id": 630,
+  "para": "The greatest way to live with honor in this world is to be what we pretend to be."
+ },
+ {
+  "id": 631,
+  "para": "The conditions of conquest are always easy. We have but to toil awhile, endure awhile, believe always, and never turn back."
+ },
+ {
+  "id": 632,
+  "para": "The grand essentials of happiness are: something to do, something to love, and something to hope for."
+ },
+ {
+  "id": 633,
+  "para": "By living deeply in the present moment we can understand the past better and we can prepare for a better future."
+ },
+ {
+  "id": 634,
+  "para": "Do not be too timid and squeamish about your reactions. All life is an experiment. The more experiments you make the better."
+ },
+ {
+  "id": 635,
+  "para": "Do not go where the path may lead, go instead where there is no path and leave a trail."
+ },
+ {
+  "id": 636,
+  "para": "There is no duty we so underrate as the duty of being happy. By being happy we sow anonymous benefits upon the world."
+ },
+ {
+  "id": 637,
+  "para": "Edison failed 10,000 times before he made the electric light. Do not be discouraged if you fail a few times."
+ },
+ {
+  "id": 638,
+  "para": "Yesterday is history. Tomorrow is a mystery. And today? Today is a gift that's why they call it the present."
+ },
+ {
+  "id": 639,
+  "para": "The only way to tell the truth is to speak with kindness. Only the words of a loving man can be heard."
+ },
+ {
+  "id": 640,
+  "para": "The greatest good you can do for another is not just to share your riches but to reveal to him his own."
+ },
+ {
+  "id": 641,
+  "para": "You can only grow if you're willing to feel awkward and uncomfortable when you try something new."
+ },
+ {
+  "id": 642,
+  "para": "To free us from the expectations of others, to give us back to ourselves, there lies the great, singular power of self-respect."
+ },
+ {
+  "id": 643,
+  "para": "It is more important to know where you are going than to get there quickly. Do not mistake activity for achievement."
+ },
+ {
+  "id": 644,
+  "para": "When you don't know what you believe, everything becomes an argument. Everything is debatable. But when you stand for something, decisions are obvious."
+ },
+ {
+  "id": 645,
+  "para": "Intuition is the supra-logic that cuts out all the routine processes of thought and leaps straight from the problem to the answer."
+ },
+ {
+  "id": 646,
+  "para": "The thing always happens that you really believe in; and the belief in a thing makes it happen."
+ },
+ {
+  "id": 647,
+  "para": "A true friend is the most precious of all possessions and the one we take the least thought about acquiring."
+ },
+ {
+  "id": 648,
+  "para": "There is only one way to happiness and that is to cease worrying about things which are beyond the power of our will."
+ },
+ {
+  "id": 649,
+  "para": "Appreciation can make a day, even change a life. Your willingness to put it into words is all that is necessary."
+ },
+ {
+  "id": 650,
+  "para": "Every sixty seconds you spend angry, upset or mad, is a full minute of happiness you'll never get back."
+ },
+ {
+  "id": 651,
+  "para": "This world, after all our science and sciences, is still a miracle; wonderful, inscrutable, magical and more, to whosoever will think of it."
+ },
+ {
+  "id": 652,
+  "para": "Every great mistake has a halfway moment, a split second when it can be recalled and perhaps remedied."
+ },
+ {
+  "id": 653,
+  "para": "You can adopt the attitude there is nothing you can do, or you can see the challenge as your call to action."
+ },
+ {
+  "id": 654,
+  "para": "The happiness of a man in this life does not consist in the absence but in the mastery of his passions."
+ },
+ {
+  "id": 655,
+  "para": "Never doubt that a small group of thoughtful, committed people can change the world. Indeed. It is the only thing that ever has."
+ },
+ {
+  "id": 656,
+  "para": "Let your hook always be cast; in the pool where you least expect it, there will be a fish."
+ },
+ {
+  "id": 657,
+  "para": "You get peace of mind not by thinking about it or imagining it, but by quietening and relaxing the restless mind."
+ },
+ {
+  "id": 658,
+  "para": "Your friends will know you better in the first minute you meet than your acquaintances will know you in a thousand years."
+ },
+ {
+  "id": 659,
+  "para": "When you begin to touch your heart or let your heart be touched, you begin to discover that it's bottomless."
+ },
+ {
+  "id": 660,
+  "para": "If you love someone, set them free. If they come back they're yours; if they don't they never were."
+ },
+ {
+  "id": 661,
+  "para": "Wisdom is knowing what to do next; Skill is knowing how ot do it, and Virtue is doing it."
+ },
+ {
+  "id": 662,
+  "para": "Bad things are not the worst things that can happen to us. Nothing is the worst thing that can happen to us!"
+ },
+ {
+  "id": 663,
+  "para": "No valid plans for the future can be made by those who have no capacity for living now."
+ },
+ {
+  "id": 664,
+  "para": "The aim of life is self-development. To realize ones nature perfectly, that is what each of us is here for."
+ },
+ {
+  "id": 665,
+  "para": "To accomplish great things, we must not only act, but also dream; not only plan, but also believe."
+ },
+ {
+  "id": 666,
+  "para": "The first requisite for success is the ability to apply your physical and mental energies to one problem incessantly without growing weary."
+ },
+ {
+  "id": 667,
+  "para": "If we could learn to like ourselves, even a little, maybe our cruelties and angers might melt away."
+ },
+ {
+  "id": 668,
+  "para": "If we are facing in the right direction, all we have to do is keep on walking."
+ },
+ {
+  "id": 669,
+  "para": "Remember always that you not only have the right to be an individual, you have an obligation to be one."
+ },
+ {
+  "id": 670,
+  "para": "There are two primary choices in life: to accept conditions as they exist, or accept responsibility for changing them."
+ },
+ {
+  "id": 671,
+  "para": "If you seek truth you will not seek victory by dishonourable means, and if you find truth you will become invincible."
+ },
+ {
+  "id": 672,
+  "para": "Through meditation and by giving full attention to one thing at a time, we can learn to direct attention where we choose."
+ },
+ {
+  "id": 673,
+  "para": "We could never learn to be brave and patient if there were only joy in the world."
+ },
+ {
+  "id": 674,
+  "para": "If it is not right do not do it; if it is not true do not say it."
+ },
+ {
+  "id": 675,
+  "para": "The truth of the matter is that you always know the right thing to do. The hard part is doing it."
+ },
+ {
+  "id": 676,
+  "para": "Some people thrive on huge, dramatic change. Some people prefer the slow and steady route. Do what's right for you."
+ },
+ {
+  "id": 677,
+  "para": "Man is equally incapable of seeing the nothingness from which he emerges and the infinity in which he is engulfed."
+ },
+ {
+  "id": 678,
+  "para": "Arrogance and rudeness are training wheels on the bicycle of life, for weak people who cannot keep their balance without them."
+ },
+ {
+  "id": 679,
+  "para": "If you are patient in one moment of anger, you will escape one hundred days of sorrow."
+ },
+ {
+  "id": 680,
+  "para": "When you have got an elephant by the hind legs and he is trying to run away, it's best to let him run."
+ },
+ {
+  "id": 681,
+  "para": "Courage is not about taking risks unknowingly but putting your own being in front of challenges that others may not be able to."
+ },
+ {
+  "id": 682,
+  "para": "Can miles truly separate you from friends... If you want to be with someone you love, aren't you already there?"
+ },
+ {
+  "id": 683,
+  "para": "The poor man is not he who is without a cent, but he who is without a dream."
+ },
+ {
+  "id": 684,
+  "para": "The greatest good you can do for another is not just share your riches, but reveal to them their own."
+ },
+ {
+  "id": 685,
+  "para": "Do not dwell in the past, do not dream of the future, concentrate the mind on the present moment."
+ },
+ {
+  "id": 686,
+  "para": "Peace of mind is not the absence of conflict from life, but the ability to cope with it."
+ },
+ {
+  "id": 687,
+  "para": "Face your deficiencies and acknowledge them; but do not let them master you. Let them teach you patience, sweetness, insight."
+ },
+ {
+  "id": 688,
+  "para": "Change is the law of life. And those who look only to the past or present are certain to miss the future."
+ },
+ {
+  "id": 689,
+  "para": "You have power over your mind, not outside events. Realize this, and you will find strength."
+ },
+ {
+  "id": 690,
+  "para": "Let me tell you the secret that has led me to my goal: my strength lies solely in my tenacity."
+ },
+ {
+  "id": 691,
+  "para": "We are what we think. All that we are arises with our thoughts. With our thoughts, we make the world."
+ },
+ {
+  "id": 692,
+  "para": "He that respects himself is safe from others; he wears a coat of mail that none can pierce."
+ },
+ {
+  "id": 693,
+  "para": "I cannot always control what goes on outside. But I can always control what goes on inside."
+ },
+ {
+  "id": 694,
+  "para": "What matters is the value we've created in our lives, the people we've made happy and how much we've grown as people."
+ },
+ {
+  "id": 695,
+  "para": "When you are offended at any man's fault, turn to yourself and study your own failings. Then you will forget your anger."
+ },
+ {
+  "id": 696,
+  "para": "Everyone has been made for some particular work, and the desire for that work has been put in every heart."
+ },
+ {
+  "id": 697,
+  "para": "Take time to deliberate, but when the time for action has arrived, stop thinking and go in."
+ },
+ {
+  "id": 698,
+  "para": "With realization of ones own potential and self-confidence in ones ability, one can build a better world."
+ },
+ {
+  "id": 699,
+  "para": "Happiness is not in the mere possession of money; it lies in the joy of achievement, in the thrill of creative effort."
+ },
+ {
+  "id": 700,
+  "para": "You cannot make yourself feel something you do not feel, but you can make yourself do right in spite of your feelings."
+ },
+ {
+  "id": 701,
+  "para": "Those who are blessed with the most talent don't necessarily outperform everyone else. It's the people with follow-through who excel."
+ },
+ {
+  "id": 702,
+  "para": "Try not to become a man of success, but rather try to become a man of value."
+ },
+ {
+  "id": 703,
+  "para": "Men of perverse opinion do not know the excellence of what is in their hands, till some one dash it from them."
+ },
+ {
+  "id": 704,
+  "para": "It is not enough to have a good mind; the main thing is to use it well."
+ },
+ {
+  "id": 705,
+  "para": "Responsibility is not inherited, it is a choice that everyone needs to make at some point in their life."
+ },
+ {
+  "id": 706,
+  "para": "Never do things others can do and will do, if there are things others cannot do or will not do."
+ },
+ {
+  "id": 707,
+  "para": "I can't change the direction of the wind, but I can adjust my sails to always reach my destination."
+ },
+ {
+  "id": 708,
+  "para": "People of mediocre ability sometimes achieve outstanding success because they don't know when to quit. Most men succeed because they are determined to."
+ },
+ {
+  "id": 709,
+  "para": "A fine quotation is a diamond on the finger of a man of wit, and a pebble in the hand of a fool."
+ },
+ {
+  "id": 710,
+  "para": "Life's challenges are not supposed to paralyse you, they're supposed to help you discover who you are."
+ },
+ {
+  "id": 711,
+  "para": "The greatest way to live with honour in this world is to be what we pretend to be."
+ },
+ {
+  "id": 712,
+  "para": "To exist is to change, to change is to mature, to mature is to go on creating oneself endlessly."
+ },
+ {
+  "id": 713,
+  "para": "Try not to become a man of success but rather try to become a man of value."
+ },
+ {
+  "id": 714,
+  "para": "You can't create in a vacuum. Life gives you the material and dreams can propel new beginnings."
+ },
+ {
+  "id": 715,
+  "para": "Your work is to discover your world and then with all your heart give yourself to it."
+ },
+ {
+  "id": 716,
+  "para": "The person who lives life fully, glowing with life's energy, is the person who lives a successful life."
+ },
+ {
+  "id": 717,
+  "para": "Don't turn away from possible futures before you're certain you don't have anything to learn from them."
+ },
+ {
+  "id": 718,
+  "para": "A successful person is one who can lay a firm foundation with the bricks that others throw at him or her."
+ },
+ {
+  "id": 719,
+  "para": "All that we are is the result of what we have thought. The mind is everything. What we think we become."
+ },
+ {
+  "id": 720,
+  "para": "Work while you have the light. You are responsible for the talent that has been entrusted to you."
+ },
+ {
+  "id": 721,
+  "para": "How far that little candle throws its beams! So shines a good deed in a naughty world."
+ },
+ {
+  "id": 722,
+  "para": "Every adversity, every failure, every heartache carries with it the seed of an equal or greater benefit."
+ },
+ {
+  "id": 723,
+  "para": "It is in your moments of decision that your destiny is shaped."
+ },
+ {
+  "id": 724,
+  "para": "An obstacle may be either a stepping stone or a stumbling block."
+ },
+ {
+  "id": 725,
+  "para": "The pain passes, but the beauty remains."
+ },
+ {
+  "id": 726,
+  "para": "All I can say about life is, Oh God, enjoy it!"
+ },
+ {
+  "id": 727,
+  "para": "Creativity comes from trust. Trust your instincts. And never hope more than you work."
+ },
+ {
+  "id": 728,
+  "para": "Your outlook on life is a direct reflection on how much you like yourself."
+ },
+ {
+  "id": 729,
+  "para": "I have just three things to teach: simplicity, patience, compassion. These three are your greatest treasures."
+ },
+ {
+  "id": 730,
+  "para": "You won't skid if you stay in a rut."
+ },
+ {
+  "id": 731,
+  "para": "You block your dream when you allow your fear to grow bigger than your faith."
+ },
+ {
+  "id": 732,
+  "para": "Happiness depends upon ourselves."
+ },
+ {
+  "id": 733,
+  "para": "Wherever a man turns he can find someone who needs him."
+ },
+ {
+  "id": 734,
+  "para": "If one is lucky, a solitary fantasy can totally transform one million realities."
+ },
+ {
+  "id": 735,
+  "para": "Never idealize others. They will never live up to your expectations."
+ },
+ {
+  "id": 736,
+  "para": "When you realize there is nothing lacking, the whole world belongs to you."
+ },
+ {
+  "id": 737,
+  "para": "Happiness is not something ready made. It comes from your own actions."
+ },
+ {
+  "id": 738,
+  "para": "Meaning is not what you start with but what you end up with."
+ },
+ {
+  "id": 739,
+  "para": "No one has ever become poor by giving."
+ },
+ {
+  "id": 740,
+  "para": "Be faithful in small things because it is in them that your strength lies."
+ },
+ {
+  "id": 741,
+  "para": "All is flux; nothing stays still."
+ },
+ {
+  "id": 742,
+  "para": "He who is fixed to a star does not change his mind."
+ },
+ {
+  "id": 743,
+  "para": "He who lives in harmony with himself lives in harmony with the universe."
+ },
+ {
+  "id": 744,
+  "para": "Ignorant men don't know what good they hold in their hands until they've flung it away."
+ },
+ {
+  "id": 745,
+  "para": "When the solution is simple, God is answering."
+ },
+ {
+  "id": 746,
+  "para": "All achievements, all earned riches, have their beginning in an idea."
+ },
+ {
+  "id": 747,
+  "para": "Do not turn back when you are just at the goal."
+ },
+ {
+  "id": 748,
+  "para": "You can't trust without risk but neither can you live in a cocoon."
+ },
+ {
+  "id": 749,
+  "para": "All perceiving is also thinking, all reasoning is also intuition, all observation is also invention."
+ },
+ {
+  "id": 750,
+  "para": "Error is discipline through which we advance."
+ },
+ {
+  "id": 751,
+  "para": "The truth is always exciting. Speak it, then. Life is dull without it."
+ },
+ {
+  "id": 752,
+  "para": "The superior man is modest in his speech, but exceeds in his actions."
+ },
+ {
+  "id": 753,
+  "para": "The longer we dwell on our misfortunes, the greater is their power to harm us."
+ },
+ {
+  "id": 754,
+  "para": "Those who will play with cats must expect to be scratched."
+ },
+ {
+  "id": 755,
+  "para": "I've never seen a smiling face that was not beautiful."
+ },
+ {
+  "id": 756,
+  "para": "In all things of nature there is something of the marvellous."
+ },
+ {
+  "id": 757,
+  "para": "The universe is transformation; our life is what our thoughts make it."
+ },
+ {
+  "id": 758,
+  "para": "Memory is the mother of all wisdom."
+ },
+ {
+  "id": 759,
+  "para": "Silence is the true friend that never betrays."
+ },
+ {
+  "id": 760,
+  "para": "You might well remember that nothing can bring you success but yourself."
+ },
+ {
+  "id": 761,
+  "para": "Watch the little things; a small leak will sink a great ship."
+ },
+ {
+  "id": 762,
+  "para": "God has given you one face, and you make yourself another."
+ },
+ {
+  "id": 763,
+  "para": "To be wronged is nothing unless you continue to remember it."
+ },
+ {
+  "id": 764,
+  "para": "Kindness is the greatest wisdom."
+ },
+ {
+  "id": 765,
+  "para": "Action will remove the doubts that theory cannot solve."
+ },
+ {
+  "id": 766,
+  "para": "Don't miss all the beautiful colors of the rainbow looking for that pot of gold."
+ },
+ {
+  "id": 767,
+  "para": "Your big opportunity may be right where you are now."
+ },
+ {
+  "id": 768,
+  "para": "People who say it cannot be done should not interrupt those who are doing it."
+ },
+ {
+  "id": 769,
+  "para": "The day you decide to do it is your lucky day."
+ },
+ {
+  "id": 770,
+  "para": "We must not say every mistake is a foolish one."
+ },
+ {
+  "id": 771,
+  "para": "Accept challenges, so that you may feel the exhilaration of victory."
+ },
+ {
+  "id": 772,
+  "para": "It is better to understand a little than to misunderstand a lot."
+ },
+ {
+  "id": 773,
+  "para": "You don't drown by falling in water. You drown by staying there."
+ },
+ {
+  "id": 774,
+  "para": "Never be afraid to try, remember... Amateurs built the ark, Professionals built the Titanic."
+ },
+ {
+  "id": 775,
+  "para": "Correction does much, but encouragement does more."
+ },
+ {
+  "id": 776,
+  "para": "Know, first, who you are, and then adorn yourself accordingly."
+ },
+ {
+  "id": 777,
+  "para": "The biggest adventure you can ever take is to live the life of your dreams."
+ },
+ {
+  "id": 778,
+  "para": "Life is 10% what happens to you and 90% how you react to it."
+ },
+ {
+  "id": 779,
+  "para": "To want to be what one can be is purpose in life."
+ },
+ {
+  "id": 780,
+  "para": "Remember that sometimes not getting what you want is a wonderful stroke of luck."
+ },
+ {
+  "id": 781,
+  "para": "History will be kind to me for I intend to write it."
+ },
+ {
+  "id": 782,
+  "para": "Our lives are a sum total of the choices we have made."
+ },
+ {
+  "id": 783,
+  "para": "Time stays long enough for anyone who will use it."
+ },
+ {
+  "id": 784,
+  "para": "Never tell me the sky's the limit when there are footprints on the moon."
+ },
+ {
+  "id": 785,
+  "para": "You must welcome change as the rule but not as your ruler."
+ },
+ {
+  "id": 786,
+  "para": "Give whatever you are doing and whoever you are with the gift of your attention."
+ },
+ {
+  "id": 787,
+  "para": "Always be smarter than the people who hire you."
+ },
+ {
+  "id": 788,
+  "para": "Formula for success: under promise and over deliver."
+ },
+ {
+  "id": 789,
+  "para": "The eye sees only what the mind is prepared to comprehend."
+ },
+ {
+  "id": 790,
+  "para": "People seldom notice old clothes if you wear a big smile."
+ },
+ {
+  "id": 791,
+  "para": "The more light you allow within you, the brighter the world you live in will be."
+ },
+ {
+  "id": 792,
+  "para": "Nothing diminishes anxiety faster than action."
+ },
+ {
+  "id": 793,
+  "para": "Man cannot discover new oceans unless he has the courage to lose sight of the shore."
+ },
+ {
+  "id": 794,
+  "para": "Everything that irritates us about others can lead us to an understanding about ourselves."
+ },
+ {
+  "id": 795,
+  "para": "Can you imagine what I would do if I could do all I can?"
+ },
+ {
+  "id": 796,
+  "para": "Ignorance never settle a question."
+ },
+ {
+  "id": 797,
+  "para": "The awareness of our own strength makes us modest."
+ },
+ {
+  "id": 798,
+  "para": "They must often change, who would be constant in happiness or wisdom."
+ },
+ {
+  "id": 799,
+  "para": "There are no failures. Just experiences and your reactions to them."
+ },
+ {
+  "id": 800,
+  "para": "Your future depends on many things, but mostly on you."
+ },
+ {
+  "id": 801,
+  "para": "Fear grows in darkness; if you think theres a bogeyman around, turn on the light."
+ },
+ {
+  "id": 802,
+  "para": "The most important point is to accept yourself and stand on your two feet."
+ },
+ {
+  "id": 803,
+  "para": "Do not expect the world to look bright, if you habitually wear gray-brown glasses."
+ },
+ {
+  "id": 804,
+  "para": "As long as your going to be thinking anyway, think big."
+ },
+ {
+  "id": 805,
+  "para": "Without some goals and some efforts to reach it, no man can live."
+ },
+ {
+  "id": 806,
+  "para": "He who obtains has little. He who scatters has much."
+ },
+ {
+  "id": 807,
+  "para": "Myths which are believed in tend to become true."
+ },
+ {
+  "id": 808,
+  "para": "The foot feels the foot when it feels the ground."
+ },
+ {
+  "id": 809,
+  "para": "Not what we have but what we enjoy constitutes our abundance."
+ },
+ {
+  "id": 810,
+  "para": "It is never too late to be what you might have been."
+ },
+ {
+  "id": 811,
+  "para": "The beginning is always today."
+ },
+ {
+  "id": 812,
+  "para": "In the long run we get no more than we have been willing to risk giving."
+ },
+ {
+  "id": 813,
+  "para": "Self-trust is the first secret of success."
+ },
+ {
+  "id": 814,
+  "para": "Don't look back. Something might be gaining on you."
+ },
+ {
+  "id": 815,
+  "para": "Look back over the past, with its changing empires that rose and fell, and you can foresee the future, too."
+ },
+ {
+  "id": 816,
+  "para": "A life spent making mistakes is not only more honourable, but more useful than a life spent doing nothing."
+ },
+ {
+  "id": 817,
+  "para": "Men are disturbed not by things, but by the view which they take of them."
+ },
+ {
+  "id": 818,
+  "para": "Imagination disposes of everything; it creates beauty, justice, and happiness, which are everything in this world."
+ },
+ {
+  "id": 819,
+  "para": "Happiness is a Swedish sunset, it is there for all, but most of us look the other way and lose it."
+ },
+ {
+  "id": 820,
+  "para": "A smile is a light in the window of your face to show your heart is at home."
+ },
+ {
+  "id": 821,
+  "para": "Look forward to spring as a time when you can start to see what nature has to offer once again."
+ },
+ {
+  "id": 822,
+  "para": "Trust your own instinct. Your mistakes might as well be your own, instead of someone elses."
+ },
+ {
+  "id": 823,
+  "para": "The least movement is of importance to all nature. The entire ocean is affected by a pebble."
+ },
+ {
+  "id": 824,
+  "para": "I am always doing that which I can not do, in order that I may learn how to do it."
+ },
+ {
+  "id": 825,
+  "para": "Men in general judge more from appearances than from reality. All men have eyes, but few have the gift of penetration."
+ },
+ {
+  "id": 826,
+  "para": "You may only be someone in the world, but to someone else, you may be the world."
+ },
+ {
+  "id": 827,
+  "para": "Every artist dips his brush in his own soul, and paints his own nature into his pictures."
+ },
+ {
+  "id": 828,
+  "para": "If you take each challenge one step at a time, with faith in every footstep, your strength and understanding will increase."
+ },
+ {
+  "id": 829,
+  "para": "Happiness cannot be travelled to, owned, earned, worn or consumed. Happiness is the spiritual experience of living every minute with love, grace and gratitude."
+ },
+ {
+  "id": 830,
+  "para": "Everyone should carefully observe which way his heart draws him, and then choose that way with all his strength."
+ },
+ {
+  "id": 831,
+  "para": "When we quit thinking primarily about ourselves and our own self-preservation, we undergo a truly heroic transformation of consciousness."
+ },
+ {
+  "id": 832,
+  "para": "Do not give your attention to what others do or fail to do; give it to what you do or fail to do."
+ },
+ {
+  "id": 833,
+  "para": "Follow effective action with quiet reflection. From the quiet reflection will come even more effective action."
+ },
+ {
+  "id": 834,
+  "para": "Life's challenges are not supposed to paralyze you, they're supposed to help you discover who you are."
+ },
+ {
+  "id": 835,
+  "para": "There is one thing you have got to learn about our movement. Three people are better than no people."
+ },
+ {
+  "id": 836,
+  "para": "Happiness is a perfume you cannot pour on others without getting a few drops on yourself."
+ },
+ {
+  "id": 837,
+  "para": "It is not the mistake that has the most power, instead, it is learning from the mistake to advance your own attributes."
+ },
+ {
+  "id": 838,
+  "para": "The amount of happiness that you have depends on the amount of freedom you have in your heart."
+ },
+ {
+  "id": 839,
+  "para": "Your vision will become clear only when you look into your heart. Who looks outside, dreams. Who looks inside, awakens."
+ },
+ {
+  "id": 840,
+  "para": "Yesterday is history. Tomorrow is a mystery. And today? Today is a gift. That is why we call it the present."
+ },
+ {
+  "id": 841,
+  "para": "The way we communicate with others and with ourselves ultimately determines the quality of our lives."
+ },
+ {
+  "id": 842,
+  "para": "Sometimes it is better to lose and do the right thing than to win and do the wrong thing."
+ },
+ {
+  "id": 843,
+  "para": "Let us always meet each other with smile, for the smile is the beginning of love."
+ },
+ {
+  "id": 844,
+  "para": "A bend in the road is not the end of the road...unless you fail to make the turn."
+ },
+ {
+  "id": 845,
+  "para": "We are what we repeatedly do. Excellence, then, is not an act, but a habit."
+ },
+ {
+  "id": 846,
+  "para": "Living at risk is jumping off the cliff and building your wings on the way down."
+ },
+ {
+  "id": 847,
+  "para": "In the depth of winter, I finally learned that there was within me an invincible summer."
+ },
+ {
+  "id": 848,
+  "para": "Wit lies in recognizing the resemblance among things which differ and the difference between things which are alike."
+ },
+ {
+  "id": 849,
+  "para": "A failure is a man who has blundered but is not capable of cashing in on the experience."
+ },
+ {
+  "id": 850,
+  "para": "I cannot give you the formula for success, but I can give you the formula for failure: which is: Try to please everybody."
+ },
+ {
+  "id": 851,
+  "para": "One who asks a question is a fool for five minutes; one who does not ask a question remains a fool forever."
+ },
+ {
+  "id": 852,
+  "para": "The power of intuitive understanding will protect you from harm until the end of your days."
+ },
+ {
+  "id": 853,
+  "para": "The best thing about the future is that it only comes one day at a time."
+ },
+ {
+  "id": 854,
+  "para": "We have two ears and one mouth so that we can listen twice as much as we speak."
+ },
+ {
+  "id": 855,
+  "para": "Fear of failure is one attitude that will keep you at the same point in your life."
+ },
+ {
+  "id": 856,
+  "para": "Friends are those rare people who ask how we are and then wait to hear the answer."
+ },
+ {
+  "id": 857,
+  "para": "If we learn to open our hearts, anyone, including the people who drive us crazy, can be our teacher."
+ },
+ {
+  "id": 858,
+  "para": "People grow through experience if they meet life honestly and courageously. This is how character is built."
+ },
+ {
+  "id": 859,
+  "para": "A hero is no braver than an ordinary man, but he is braver five minutes longer."
+ },
+ {
+  "id": 860,
+  "para": "While we try to teach our children all about life, our children teach us what life is all about."
+ },
+ {
+  "id": 861,
+  "para": "When you dance, your purpose is not to get to a certain place on the floor. It's to enjoy each step along the way."
+ },
+ {
+  "id": 862,
+  "para": "Genuine love should first be directed at oneself, if we do not love ourselves, how can we love others?"
+ },
+ {
+  "id": 863,
+  "para": "The Creator has not given you a longing to do that which you have no ability to do."
+ },
+ {
+  "id": 864,
+  "para": "It's so simple to be wise. Just think of something stupid to say and then don't say it."
+ },
+ {
+  "id": 865,
+  "para": "Consider that not only do negative thoughts and emotions destroy our experience of peace, they also undermine our health."
+ },
+ {
+  "id": 866,
+  "para": "Until you make peace with who you are, you will never be content with what you have."
+ },
+ {
+  "id": 867,
+  "para": "No one saves us but ourselves. No one can and no one may. We ourselves must walk the path."
+ },
+ {
+  "id": 868,
+  "para": "The moment one gives close attention to anything, it becomes a mysterious, awesome, indescribably magnificent world in itself."
+ },
+ {
+  "id": 869,
+  "para": "Happiness is when what you think, what you say, and what you do are in harmony."
+ },
+ {
+  "id": 870,
+  "para": "The greatest antidote to insecurity and the sense of fear is compassion, it brings one back to the basis of one's inner strength"
+ },
+ {
+  "id": 871,
+  "para": "Courage is the discovery that you may not win, and trying when you know you can lose."
+ },
+ {
+  "id": 872,
+  "para": "To be thoughtful and kind only takes a few seconds compared to the timeless hurt caused by one rude gesture."
+ },
+ {
+  "id": 873,
+  "para": "The purpose of learning is growth, and our minds, unlike our bodies, can continue growing as we continue to live."
+ },
+ {
+  "id": 874,
+  "para": "When you realize how perfect everything is you will tilt your head back and laugh at the sky."
+ },
+ {
+  "id": 875,
+  "para": "For every failure, there's an alternative course of action. You just have to find it. When you come to a roadblock, take a detour."
+ },
+ {
+  "id": 876,
+  "para": "It is surprising what a man can do when he has to, and how little most men will do when they don't have to."
+ },
+ {
+  "id": 877,
+  "para": "To be aware of a single shortcoming in oneself is more useful than to be aware of a thousand in someone else."
+ },
+ {
+  "id": 878,
+  "para": "Nobody made a greater mistake than he who did nothing because he could do only a little."
+ },
+ {
+  "id": 879,
+  "para": "Constant kindness can accomplish much. As the sun makes ice melt, kindness causes misunderstanding, mistrust, and hostility to evaporate."
+ },
+ {
+  "id": 880,
+  "para": "The greatest minds are capable of the greatest vices as well as of the greatest virtues."
+ },
+ {
+  "id": 881,
+  "para": "A man should look for what is, and not for what he thinks should be."
+ },
+ {
+  "id": 882,
+  "para": "Difficulties are meant to rouse, not discourage. The human spirit is to grow strong by conflict."
+ },
+ {
+  "id": 883,
+  "para": "If you have no respect for your own values how can you be worthy of respect from others."
+ },
+ {
+  "id": 884,
+  "para": "Some people are always grumbling because roses have thorns; I am thankful that thorns have roses."
+ },
+ {
+  "id": 885,
+  "para": "To choose what is difficult all ones days, as if it were easy, that is faith."
+ },
+ {
+  "id": 886,
+  "para": "Ability is what you're capable of doing. Motivation determines what you do.Attitude determines how well you do it."
+ },
+ {
+  "id": 887,
+  "para": "Do not be embarrassed by your mistakes. Nothing can teach us better than our understanding of them. This is one of the best ways of self-education."
+ },
+ {
+  "id": 888,
+  "para": "Thousands of candles can be lighted from a single candle, and the life of the candle will not be shortened. Happiness never decreases by being shared."
+ },
+ {
+  "id": 889,
+  "para": "I care not so much what I am to others as what I am to myself. I will be rich by myself, and not by borrowing."
+ },
+ {
+  "id": 890,
+  "para": "Know that although in the eternal scheme of things you are small, you are also unique and irreplaceable, as are all your fellow humans everywhere in the world."
+ },
+ {
+  "id": 891,
+  "para": "To do all that one is able to do, is to be a man; to do all that one would like to do, is to be a god."
+ },
+ {
+  "id": 892,
+  "para": "If you let go a little, you will have a little peace. If you let go a lot, you will have a lot of peace."
+ },
+ {
+  "id": 893,
+  "para": "There is no need for temples, no need for complicated philosophies. My brain and my heart are my temples; my philosophy is kindness."
+ },
+ {
+  "id": 894,
+  "para": "The spirit, the will to win, and the will to excel, are the things that endure. These qualities are so much more important than the events that occur."
+ },
+ {
+  "id": 895,
+  "para": "Man is not sum of what he has already, but rather the sum of what he does not yet have, of what he could have."
+ },
+ {
+  "id": 896,
+  "para": "Don't believe what your eyes are telling you. All they show is limitation. Look with your understanding, find out what you already know, and you'll see the way to fly."
+ },
+ {
+  "id": 897,
+  "para": "I believe that we are solely responsible for our choices, and we have to accept the consequences of every deed, word, and thought throughout our lifetime."
+ },
+ {
+  "id": 898,
+  "para": "Wishes can be your best avenue of getting what you want when you turn wishes into action. Action moves your wish to the forefront from thought to reality."
+ },
+ {
+  "id": 899,
+  "para": "To understand the heart and mind of a person, look not at what he has already achieved, but at what he aspires to do."
+ },
+ {
+  "id": 900,
+  "para": "I am of the opinion that my life belongs to the community, and as long as I live it is my privilege to do for it whatever I can."
+ },
+ {
+  "id": 901,
+  "para": "Imagination is more important than knowledge. For while knowledge defines all we currently know and understand, imagination points to all we might yet discover and create."
+ },
+ {
+  "id": 902,
+  "para": "When you see a good person, think of becoming like him. When you see someone not so good, reflect on your own weak points."
+ },
+ {
+  "id": 903,
+  "para": "If one is estranged from oneself, then one is estranged from others too. If one is out of touch with oneself, then one cannot touch others."
+ },
+ {
+  "id": 904,
+  "para": "Most of the important things in the world have been accomplished by people who have kept on trying when there seemed to be no hope at all."
+ },
+ {
+  "id": 905,
+  "para": "You may say Im a dreamer, but Im not the only one, I hope someday you will join us, and the world will live as one."
+ },
+ {
+  "id": 906,
+  "para": "Happiness is as a butterfly which, when pursued, is always beyond our grasp, but which if you will sit down quietly, may alight upon you."
+ },
+ {
+  "id": 907,
+  "para": "He who experiences the unity of life sees his own Self in all beings, and all beings in his own Self, and looks on everything with an impartial eye."
+ },
+ {
+  "id": 908,
+  "para": "In the sky, there is no distinction of east and west; people create distinctions out of their own minds and then believe them to be true."
+ },
+ {
+  "id": 909,
+  "para": "You cannot change anything in your life with intention alone, which can become a watered-down, occasional hope that you'll get to tomorrow. Intention without action is useless."
+ },
+ {
+  "id": 910,
+  "para": "Before you can inspire with emotion, you must be swamped with it yourself. Before you can move their tears, your own must flow. To convince them, you must yourself believe."
+ },
+ {
+  "id": 911,
+  "para": "The greatest discovery of our generation is that human beings can alter their lives by altering their attitudes of mind. As you think, so shall you be."
+ },
+ {
+  "id": 912,
+  "para": "If one advances confidently in the direction of his dream, and endeavours to live the life which he had imagines, he will meet with a success unexpected in common hours."
+ },
+ {
+  "id": 913,
+  "para": "The secret of joy in work is contained in one word, excellence. To know how to do something well is to enjoy it."
+ },
+ {
+  "id": 914,
+  "para": "When you meet someone better than yourself, turn your thoughts to becoming his equal. When you meet someone not as good as you are, look within and examine your own self."
+ },
+ {
+  "id": 915,
+  "para": "We must overcome the notion that we must be regular. It robs you of the chance to be extraordinary and leads you to the mediocre."
+ },
+ {
+  "id": 916,
+  "para": "Most of our obstacles would melt away if, instead of cowering before them, we should make up our minds to walk boldly through them."
+ },
+ {
+  "id": 917,
+  "para": "Everything can be taken from a man but ... the last of the human freedoms, to choose ones attitude in any given set of circumstances, to choose ones own way."
+ },
+ {
+  "id": 918,
+  "para": "It is better to have enough ideas for some of them to be wrong, than to be always right by having no ideas at all."
+ },
+ {
+  "id": 919,
+  "para": "Character is like a tree and reputation like a shadow. The shadow is what we think of it; the tree is the real thing."
+ },
+ {
+  "id": 920,
+  "para": "By letting it go it all gets done. The world is won by those who let it go. But when you try and try. The world is beyond the winning."
+ },
+ {
+  "id": 921,
+  "para": "I am like a falling star who has finally found her place next to another in a lovely constellation, where we will sparkle in the heavens forever."
+ },
+ {
+  "id": 922,
+  "para": "Not every difficult and dangerous thing is suitable for training, but only that which is conducive to success in achieving the object of our effort."
+ },
+ {
+  "id": 923,
+  "para": "We are not animals. We are not a product of what has happened to us in our past. We have the power of choice."
+ },
+ {
+  "id": 924,
+  "para": "The most dangerous way to lose time is not to spend it having fun, but to spend it doing fake work. When you spend time having fun, you know you're being self-indulgent."
+ },
+ {
+  "id": 925,
+  "para": "Thousands of candles can be lit from a single, and the life of the candle will not be shortened. Happiness never decreases by being shared."
+ },
+ {
+  "id": 926,
+  "para": "A lot of times people look at the negative side of what they feel they can't do. I always look on the positive side of what I can do."
+ },
+ {
+  "id": 927,
+  "para": "Without passion man is a mere latent force and possibility, like the flint which awaits the shock of the iron before it can give forth its spark."
+ },
+ {
+  "id": 928,
+  "para": "Love at first sight is easy to understand; its when two people have been looking at each other for a lifetime that it becomes a miracle."
+ },
+ {
+  "id": 929,
+  "para": "With courage you will dare to take risks, have the strength to be compassionate, and the wisdom to be humble. Courage is the foundation of integrity."
+ },
+ {
+  "id": 930,
+  "para": "The right way is not always the popular and easy way. Standing for right when it is unpopular is a true test of moral character."
+ },
+ {
+  "id": 931,
+  "para": "I prefer to be true to myself, even at the hazard of incurring the ridicule of others, rather than to be false, and to incur my own abhorrence."
+ },
+ {
+  "id": 932,
+  "para": "No pessimist ever discovered the secrets of the stars, or sailed to an uncharted land, or opened a new heaven to the human spirit."
+ },
+ {
+  "id": 933,
+  "para": "When you arise in the morning, think of what a precious privilege it is to be alive, to breathe, to think, to enjoy, to love."
+ },
+ {
+  "id": 934,
+  "para": "Character cannot be developed in ease and quiet. Only through experience of trial and suffering can the soul be strengthened, vision cleared, ambition inspired, and success achieved."
+ },
+ {
+  "id": 935,
+  "para": "Although there may be tragedy in your life, there's always a possibility to triumph. It doesn't matter who you are, where you come from. The ability to triumph begins with you. Always."
+ },
+ {
+  "id": 936,
+  "para": "You must train your intuition, you must trust the small voice inside you which tells you exactly what to say, what to decide."
+ },
+ {
+  "id": 937,
+  "para": "Accept the things to which fate binds you, and love the people with whom fate brings you together, but do so with all your heart."
+ },
+ {
+  "id": 938,
+  "para": "Let us resolve to be masters, not the victims, of our history, controlling our own destiny without giving way to blind suspicions and emotions."
+ },
+ {
+  "id": 939,
+  "para": "Nothing in life is to be feared, it is only to be understood. Now is the time to understand more, so that we may fear less."
+ },
+ {
+  "id": 940,
+  "para": "Parents can only give good advice or put them on the right paths, but the final forming of a persons character lies in their own hands."
+ },
+ {
+  "id": 941,
+  "para": "Adversity isn't set against you to fail; adversity is a way to build your character so that you can succeed over and over again through perseverance."
+ },
+ {
+  "id": 942,
+  "para": "If you break your neck, if you have nothing to eat, if your house is on fire, then you got a problem. Everything else is inconvenience."
+ },
+ {
+  "id": 943,
+  "para": "Success is not the key to happiness. Happiness is the key to success. If you love what you are doing, you will be successful."
+ },
+ {
+  "id": 944,
+  "para": "If A is success in life, then A equals x plus y plus z. Work is x; y is play; and z is keeping your mouth shut."
+ },
+ {
+  "id": 945,
+  "para": "My advice to you is not to inquire why or whither, but just enjoy your ice cream while its on your plate, that's my philosophy."
+ },
+ {
+  "id": 946,
+  "para": "Conflict is the gadfly of thought. It stirs us to observation and memory. It instigates to invention. It shocks us out of sheeplike passivity, and sets us at noting and contriving."
+ },
+ {
+  "id": 947,
+  "para": "He who conquers others is strong; He who conquers himself is mighty."
+ },
+ {
+  "id": 948,
+  "para": "Anything you really want, you can attain, if you really go after it."
+ },
+ {
+  "id": 949,
+  "para": "Arriving at one point is the starting point to another."
+ },
+ {
+  "id": 950,
+  "para": "The foolish man seeks happiness in the distance, the wise grows it under his feet."
+ },
+ {
+  "id": 951,
+  "para": "The greatest part of our happiness depends on our dispositions, not our circumstances."
+ },
+ {
+  "id": 952,
+  "para": "It is only possible to live happily ever after on a day to day basis."
+ },
+ {
+  "id": 953,
+  "para": "A man sees in the world what he carries in his heart."
+ },
+ {
+  "id": 954,
+  "para": "Action may not always bring happiness, but there is no happiness without action."
+ },
+ {
+  "id": 955,
+  "para": "Believe deep down in your heart that you're destined to do great things."
+ },
+ {
+  "id": 956,
+  "para": "Sooner or later, those who win are those who think they can."
+ },
+ {
+  "id": 957,
+  "para": "The only limit to your impact is your imagination and commitment."
+ },
+ {
+  "id": 958,
+  "para": "You are special, you are unique, you are the best!"
+ },
+ {
+  "id": 959,
+  "para": "Four steps to achievement: Plan purposefully. Prepare prayerfully. Proceed positively. Pursue persistently."
+ },
+ {
+  "id": 960,
+  "para": "To know oneself is to study oneself in action with another person."
+ },
+ {
+  "id": 961,
+  "para": "We must not allow ourselves to become like the system we oppose."
+ },
+ {
+  "id": 962,
+  "para": "Smile, breathe and go slowly."
+ },
+ {
+  "id": 963,
+  "para": "Reality is merely an illusion, albeit a very persistent one."
+ },
+ {
+  "id": 964,
+  "para": "When you come to the end of your rope, tie a knot and hang on."
+ },
+ {
+  "id": 965,
+  "para": "Always be mindful of the kindness and not the faults of others."
+ },
+ {
+  "id": 966,
+  "para": "Everything that irritates us about others can lead us to an understanding of ourselves."
+ },
+ {
+  "id": 967,
+  "para": "When fate hands us a lemon, lets try to make lemonade."
+ },
+ {
+  "id": 968,
+  "para": "The weak can never forgive. Forgiveness is the attribute of the strong."
+ },
+ {
+  "id": 969,
+  "para": "A man is great by deeds, not by birth."
+ },
+ {
+  "id": 970,
+  "para": "Success is getting what you want. Happiness is wanting what you get."
+ },
+ {
+  "id": 971,
+  "para": "Put your future in good hands, your own."
+ },
+ {
+  "id": 972,
+  "para": "Truth isn't all about what actually happens but more about how what has happened is interpreted."
+ },
+ {
+  "id": 973,
+  "para": "A good rest is half the work."
+ },
+ {
+  "id": 974,
+  "para": "Don't judge each day by the harvest you reap but by the seeds that you plant."
+ },
+ {
+  "id": 975,
+  "para": "Small opportunities are often the beginning of great enterprises."
+ },
+ {
+  "id": 976,
+  "para": "To be tested is good. The challenged life may be the best therapist."
+ },
+ {
+  "id": 977,
+  "para": "Take heed: you do not find what you do not seek."
+ },
+ {
+  "id": 978,
+  "para": "Happiness is the reward we get for living to the highest right we know."
+ },
+ {
+  "id": 979,
+  "para": "Be slow of tongue and quick of eye."
+ },
+ {
+  "id": 980,
+  "para": "Freedom is not worth having if it does not connote freedom to err."
+ },
+ {
+  "id": 981,
+  "para": "I have always thought the actions of men the best interpreters of their thoughts."
+ },
+ {
+  "id": 982,
+  "para": "To dare is to lose ones footing momentarily. To not dare is to lose oneself."
+ },
+ {
+  "id": 983,
+  "para": "No day in which you learn something is a complete loss."
+ },
+ {
+  "id": 984,
+  "para": "Peace cannot be kept by force. It can only be achieved by understanding."
+ },
+ {
+  "id": 985,
+  "para": "Real success is finding your lifework in the work that you love."
+ },
+ {
+  "id": 986,
+  "para": "Better than a thousand hollow words, is one word that brings peace."
+ },
+ {
+  "id": 987,
+  "para": "All the flowers of all the tomorrows are in the seeds of today."
+ },
+ {
+  "id": 988,
+  "para": "Your sacred space is where you can find yourself again and again."
+ },
+ {
+  "id": 989,
+  "para": "As you think, so shall you become."
+ },
+ {
+  "id": 990,
+  "para": "In seed time learn, in harvest teach, in winter enjoy."
+ },
+ {
+  "id": 991,
+  "para": "Happiness does not come from having much, but from being attached to little."
+ },
+ {
+  "id": 992,
+  "para": "Every gift from a friend is a wish for your happiness."
+ },
+ {
+  "id": 993,
+  "para": "Go put your creed into the deed. Nor speak with double tongue."
+ },
+ {
+  "id": 994,
+  "para": "The wisest men follow their own direction."
+ },
+ {
+  "id": 995,
+  "para": "Hope arouses, as nothing else can arouse, a passion for the possible."
+ },
+ {
+  "id": 996,
+  "para": "Everything has beauty, but not everyone sees it."
+ },
+ {
+  "id": 997,
+  "para": "Nothing ever goes away until it has taught us what we need to know."
+ },
+ {
+  "id": 998,
+  "para": "When you learn, teach. When you get, give."
+ },
+ {
+  "id": 999,
+  "para": "Only when we are no longer afraid do we begin to live."
+ },
+ {
+  "id": 1000,
+  "para": "If you smile when no one else is around, you really mean it."
+ },
+ {
+  "id": 1001,
+  "para": "Love is the only force capable of transforming an enemy into friend."
+ },
+ {
+  "id": 1002,
+  "para": "In all chaos there is a cosmos, in all disorder a secret order."
+ },
+ {
+  "id": 1003,
+  "para": "A man is not where he lives but where he loves."
+ },
+ {
+  "id": 1004,
+  "para": "The price of greatness is responsibility."
+ },
+ {
+  "id": 1005,
+  "para": "Decision is a risk rooted in the courage of being free."
+ },
+ {
+  "id": 1006,
+  "para": "Your mind will answer most questions if you learn to relax and wait for the answer."
+ },
+ {
+  "id": 1007,
+  "para": "The world doesn't happen to you it happens from you."
+ },
+ {
+  "id": 1008,
+  "para": "We cannot solve our problems with the same thinking we used when we created them."
+ },
+ {
+  "id": 1009,
+  "para": "More powerful than the will to win is the courage to begin."
+ },
+ {
+  "id": 1010,
+  "para": "Learning is finding out what you already know."
+ },
+ {
+  "id": 1011,
+  "para": "Saying thank you is more than good manners. It is good spirituality."
+ },
+ {
+  "id": 1012,
+  "para": "Silence is a source of great strength."
+ },
+ {
+  "id": 1013,
+  "para": "Joy is the best makeup."
+ },
+ {
+  "id": 1014,
+  "para": "There is no great genius without some touch of madness."
+ },
+ {
+  "id": 1015,
+  "para": "A jug fills drop by drop."
+ },
+ {
+  "id": 1016,
+  "para": "Until you make peace with who you are, you'll never be content with what you have."
+ },
+ {
+  "id": 1017,
+  "para": "We aim above the mark to hit the mark."
+ },
+ {
+  "id": 1018,
+  "para": "Being angry never solves anything."
+ },
+ {
+  "id": 1019,
+  "para": "All men who have achieved great things have been great dreamers."
+ },
+ {
+  "id": 1020,
+  "para": "Mediocrity knows nothing higher than itself, but talent instantly recognizes genius."
+ },
+ {
+  "id": 1021,
+  "para": "Where all think alike, no one thinks very much."
+ },
+ {
+  "id": 1022,
+  "para": "Everything that exists is in a manner the seed of that which will be."
+ },
+ {
+  "id": 1023,
+  "para": "Be less curious about people and more curious about ideas."
+ },
+ {
+  "id": 1024,
+  "para": "The heart has eyes which the brain knows nothing of."
+ },
+ {
+  "id": 1025,
+  "para": "Only those who dare to fail greatly can ever achieve greatly."
+ },
+ {
+  "id": 1026,
+  "para": "Lose an hour in the morning, and you will spend all day looking for it."
+ },
+ {
+  "id": 1027,
+  "para": "Mistakes are always forgivable, if one has the courage to admit them."
+ },
+ {
+  "id": 1028,
+  "para": "Go to your bosom: Knock there, and ask your heart what it doth know."
+ },
+ {
+  "id": 1029,
+  "para": "Happiness mainly comes from our own attitude, rather than from external factors."
+ },
+ {
+  "id": 1030,
+  "para": "If you do not change direction, you may end up where you are heading."
+ },
+ {
+  "id": 1031,
+  "para": "What we see is mainly what we look for."
+ },
+ {
+  "id": 1032,
+  "para": "Stay away from what might have been and look at what will be."
+ },
+ {
+  "id": 1033,
+  "para": "Act as if what you do makes a difference. It does."
+ },
+ {
+  "id": 1034,
+  "para": "Passion creates the desire for more and action fuelled by passion creates a future."
+ },
+ {
+  "id": 1035,
+  "para": "Do good by stealth, and blush to find it fame."
+ },
+ {
+  "id": 1036,
+  "para": "Opportunity often comes disguised in the form of misfortune, or temporary defeat."
+ },
+ {
+  "id": 1037,
+  "para": "Don't talk about what you have done or what you are going to do."
+ },
+ {
+  "id": 1038,
+  "para": "Most powerful is he who has himself in his own power."
+ },
+ {
+  "id": 1039,
+  "para": "We don't stop playing because we grow old; we grow old because we stop playing."
+ },
+ {
+  "id": 1040,
+  "para": "Experience can only be gained by doing not by thinking or dreaming."
+ },
+ {
+  "id": 1041,
+  "para": "Always tell the truth. That way, you don't have to remember what you said."
+ },
+ {
+  "id": 1042,
+  "para": "From wonder into wonder existence opens."
+ },
+ {
+  "id": 1043,
+  "para": "He who fears being conquered is sure of defeat."
+ },
+ {
+  "id": 1044,
+  "para": "Life is what happens while you are making other plans."
+ },
+ {
+  "id": 1045,
+  "para": "Doing what you love is the cornerstone of having abundance in your life."
+ },
+ {
+  "id": 1046,
+  "para": "Kindness is the golden chain by which society is bound together."
+ },
+ {
+  "id": 1047,
+  "para": "You need chaos in your soul to give birth to a dancing star."
+ },
+ {
+  "id": 1048,
+  "para": "It can't be spring if your heart is filled with past failures."
+ },
+ {
+  "id": 1049,
+  "para": "No yesterdays are ever wasted for those who give themselves to today."
+ },
+ {
+  "id": 1050,
+  "para": "There are no failures, just experiences and your reactions to them."
+ },
+ {
+  "id": 1051,
+  "para": "Action is the foundational key to all success."
+ },
+ {
+  "id": 1052,
+  "para": "What is necessary to change a person is to change his awareness of himself."
+ },
+ {
+  "id": 1053,
+  "para": "Positive thinking will let you do everything better than negative thinking will."
+ },
+ {
+  "id": 1054,
+  "para": "We shall never know all the good that a simple smile can do."
+ },
+ {
+  "id": 1055,
+  "para": "Nothing is so strong as gentleness. Nothing is so gentle as real strength."
+ },
+ {
+  "id": 1056,
+  "para": "Imagination is not a talent of some men but is the health of every man."
+ },
+ {
+  "id": 1057,
+  "para": "We must embrace pain and burn it as fuel for our journey."
+ },
+ {
+  "id": 1058,
+  "para": "Don't wait for people to be friendly. Show them how."
+ },
+ {
+  "id": 1059,
+  "para": "A gem cannot be polished without friction, nor a man perfected without trials."
+ },
+ {
+  "id": 1060,
+  "para": "Each day can be one of triumph if you keep up your interests."
+ },
+ {
+  "id": 1061,
+  "para": "The place to improve the world is first in one's own heart and head and hands."
+ },
+ {
+  "id": 1062,
+  "para": "The pessimist sees difficulty in every opportunity. The optimist sees the opportunity in every difficulty."
+ },
+ {
+  "id": 1063,
+  "para": "Winners have simply formed the habit of doing things losers don't like to do."
+ },
+ {
+  "id": 1064,
+  "para": "Nature is a mutable cloud which is always and never the same."
+ },
+ {
+  "id": 1065,
+  "para": "Life is what you make of it. Always has been, always will be."
+ },
+ {
+  "id": 1066,
+  "para": "Worry often gives a small thing a big shadow."
+ },
+ {
+  "id": 1067,
+  "para": "I want you to be everything that's you, deep at the center of your being."
+ },
+ {
+  "id": 1068,
+  "para": "We know what we are, but know not what we may be."
+ },
+ {
+  "id": 1069,
+  "para": "Freedom is what you do with what's been done to you."
+ },
+ {
+  "id": 1070,
+  "para": "The truth which has made us free will in the end make us glad also."
+ },
+ {
+  "id": 1071,
+  "para": "He who has imagination without learning has wings but no feet."
+ },
+ {
+  "id": 1072,
+  "para": "Whoso loves, believes the impossible."
+ },
+ {
+  "id": 1073,
+  "para": "It isn't where you come from, it's where you're going that counts."
+ },
+ {
+  "id": 1074,
+  "para": "The greatest obstacle to connecting with our joy is resentment."
+ },
+ {
+  "id": 1075,
+  "para": "When anger use your energy to do something productive."
+ },
+ {
+  "id": 1076,
+  "para": "We are all something, but none of us are everything."
+ },
+ {
+  "id": 1077,
+  "para": "If you can't explain it simply, you don't understand it well enough."
+ },
+ {
+  "id": 1078,
+  "para": "He who lives in harmony with himself lives in harmony with the world."
+ },
+ {
+  "id": 1079,
+  "para": "He who knows himself is enlightened."
+ },
+ {
+  "id": 1080,
+  "para": "Build a better mousetrap and the world will beat a path to your door."
+ },
+ {
+  "id": 1081,
+  "para": "As our case is new, we must think and act anew."
+ },
+ {
+  "id": 1082,
+  "para": "If you can't feed a hundred people, then feed just one."
+ },
+ {
+  "id": 1083,
+  "para": "In three words I can sum up everything Ive learned about life: it goes on."
+ },
+ {
+  "id": 1084,
+  "para": "Don't let today's disappointments cast a shadow on tomorrow's dreams."
+ },
+ {
+  "id": 1085,
+  "para": "You always succeed in producing a result."
+ },
+ {
+  "id": 1086,
+  "para": "Everything you are against weakens you. Everything you are for empowers you."
+ },
+ {
+  "id": 1087,
+  "para": "As we risk ourselves, we grow. Each new experience is a risk."
+ },
+ {
+  "id": 1088,
+  "para": "Who we are never changes. Who we think we are does."
+ },
+ {
+  "id": 1089,
+  "para": "The final proof of greatness lies in being able to endure criticism without resentment."
+ },
+ {
+  "id": 1090,
+  "para": "An invasion of armies can be resisted, but not an idea whose time has come."
+ },
+ {
+  "id": 1091,
+  "para": "Never let lack of money interfere with having fun."
+ },
+ {
+  "id": 1092,
+  "para": "Excellence is not a skill. It is an attitude."
+ },
+ {
+  "id": 1093,
+  "para": "People may doubt what you say, but they will believe what you do."
+ },
+ {
+  "id": 1094,
+  "para": "The most formidable weapon against errors of every kind is reason."
+ },
+ {
+  "id": 1095,
+  "para": "It's important to know that words don't move mountains. Work, exacting work moves mountains."
+ },
+ {
+  "id": 1096,
+  "para": "Beware of missing chances; otherwise it may be altogether too late some day."
+ },
+ {
+  "id": 1097,
+  "para": "You only lose what you cling to."
+ },
+ {
+  "id": 1098,
+  "para": "Life is a succession of moments. To live each one is to succeed."
+ },
+ {
+  "id": 1099,
+  "para": "Most of the shadows of life are caused by standing in our own sunshine."
+ },
+ {
+  "id": 1100,
+  "para": "Good actions give strength to ourselves and inspire good actions in others."
+ },
+ {
+  "id": 1101,
+  "para": "I know but one freedom and that is the freedom of the mind."
+ },
+ {
+  "id": 1102,
+  "para": "In the middle of every difficulty lies opportunity."
+ },
+ {
+  "id": 1103,
+  "para": "Every human being is the author of his own health or disease."
+ },
+ {
+  "id": 1104,
+  "para": "When in doubt, tell the truth."
+ },
+ {
+  "id": 1105,
+  "para": "Every great advance in science has issued from a new audacity of the imagination."
+ },
+ {
+  "id": 1106,
+  "para": "The ladder of success is never crowded at the top."
+ },
+ {
+  "id": 1107,
+  "para": "He who has health has hope, and he who has hope has everything."
+ },
+ {
+  "id": 1108,
+  "para": "All great achievements require time."
+ },
+ {
+  "id": 1109,
+  "para": "No person is your friend who demands your silence, or denies your right to grow."
+ },
+ {
+  "id": 1110,
+  "para": "Impossibilities are merely things which we have not yet learned."
+ },
+ {
+  "id": 1111,
+  "para": "Vision without action is a daydream. Action without vision is a nightmare."
+ },
+ {
+  "id": 1112,
+  "para": "The Superior Man is aware of Righteousness, the inferior man is aware of advantage."
+ },
+ {
+  "id": 1113,
+  "para": "He who angers you conquers you."
+ },
+ {
+  "id": 1114,
+  "para": "I never worry about action, but only inaction."
+ },
+ {
+  "id": 1115,
+  "para": "No man is free who is not master of himself."
+ },
+ {
+  "id": 1116,
+  "para": "Those that know, do. Those that understand, teach."
+ },
+ {
+  "id": 1117,
+  "para": "If we are not fully ourselves, truly in the present moment, we miss everything."
+ },
+ {
+  "id": 1118,
+  "para": "No act of kindness, no matter how small, is ever wasted."
+ },
+ {
+  "id": 1119,
+  "para": "Every man is a volume if you know how to read him."
+ },
+ {
+  "id": 1120,
+  "para": "The difficulties of life are intended to make us better, not bitter."
+ },
+ {
+  "id": 1121,
+  "para": "Quality means doing it right when no one is looking."
+ },
+ {
+  "id": 1122,
+  "para": "Change your words. Change your world."
+ },
+ {
+  "id": 1123,
+  "para": "Great acts are made up of small deeds."
+ },
+ {
+  "id": 1124,
+  "para": "The odds of hitting your target go up dramatically when you aim at it."
+ },
+ {
+  "id": 1125,
+  "para": "Open minds lead to open doors."
+ },
+ {
+  "id": 1126,
+  "para": "They can do all because they think they can."
+ },
+ {
+  "id": 1127,
+  "para": "You have to think anyway, so why not think big?"
+ },
+ {
+  "id": 1128,
+  "para": "On every thorn, delightful wisdom grows, In every rill a sweet instruction flows."
+ },
+ {
+  "id": 1129,
+  "para": "Your body is precious. It is our vehicle for awakening. Treat it with care."
+ },
+ {
+  "id": 1130,
+  "para": "The one who always loses, is the only person who gets the reward."
+ },
+ {
+  "id": 1131,
+  "para": "The future is completely open, and we are writing it moment to moment."
+ },
+ {
+  "id": 1132,
+  "para": "Each time we face a fear, we gain strength, courage, and confidence in the doing."
+ },
+ {
+  "id": 1133,
+  "para": "Ask yourself the secret of your success. Listen to your answer, and practice it."
+ },
+ {
+  "id": 1134,
+  "para": "Don't frown because you never know who is falling in love with your smile."
+ },
+ {
+  "id": 1135,
+  "para": "Trust your hunches. They're usually based on facts filed away just below the conscious level."
+ },
+ {
+  "id": 1136,
+  "para": "Nothing is at last sacred but the integrity of your own mind."
+ },
+ {
+  "id": 1137,
+  "para": "Listen to your intuition. It will tell you everything you need to know."
+ },
+ {
+  "id": 1138,
+  "para": "The personal life deeply lived always expands into truths beyond itself."
+ },
+ {
+  "id": 1139,
+  "para": "Whenever something negative happens to you, there is a deep lesson concealed within it."
+ },
+ {
+  "id": 1140,
+  "para": "What is not started today is never finished tomorrow."
+ },
+ {
+  "id": 1141,
+  "para": "Our kindness may be the most persuasive argument for that which we believe."
+ },
+ {
+  "id": 1142,
+  "para": "Chaos is inherent in all compounded things. Strive on with diligence."
+ },
+ {
+  "id": 1143,
+  "para": "Be sure you put your feet in the right place, then stand firm."
+ },
+ {
+  "id": 1144,
+  "para": "Nothing great was ever achieved without enthusiasm."
+ },
+ {
+  "id": 1145,
+  "para": "The meaning I picked, the one that changed my life: Overcome fear, behold wonder."
+ },
+ {
+  "id": 1146,
+  "para": "Know how to listen, and you will profit even from those who talk badly."
+ },
+ {
+  "id": 1147,
+  "para": "A man is not old as long as he is seeking something."
+ },
+ {
+  "id": 1148,
+  "para": "The time you think you're missing, misses you too."
+ },
+ {
+  "id": 1149,
+  "para": "Life is not measured by the breaths you take, but by its breathtaking moments."
+ },
+ {
+  "id": 1150,
+  "para": "Much wisdom often goes with fewer words."
+ },
+ {
+  "id": 1151,
+  "para": "If you love life, don't waste time, for time is what life is made up of."
+ },
+ {
+  "id": 1152,
+  "para": "Imagination is the living power and prime agent of all human perception."
+ },
+ {
+  "id": 1153,
+  "para": "It is impossible to feel grateful and depressed in the same moment."
+ },
+ {
+  "id": 1154,
+  "para": "Progress always involves risks. You can't steal second base and keep your foot on first."
+ },
+ {
+  "id": 1155,
+  "para": "Liberty, taking the word in its concrete sense, consists in the ability to choose."
+ },
+ {
+  "id": 1156,
+  "para": "A thing well said will be wit in all languages."
+ },
+ {
+  "id": 1157,
+  "para": "Always do your best. What you plant now, you will harvest later."
+ },
+ {
+  "id": 1158,
+  "para": "My mama always said: life's like a box of chocolate, you never know what you gonna get."
+ },
+ {
+  "id": 1159,
+  "para": "We are the leaves of one branch, the drops of one sea, the flowers of one garden."
+ },
+ {
+  "id": 1160,
+  "para": "If you come to a fork in the road, take it."
+ },
+ {
+  "id": 1161,
+  "para": "It is not only for what we do that we are held responsible, but also for what we do not do."
+ },
+ {
+  "id": 1162,
+  "para": "Nobody can do everything, but everybody can do something."
+ },
+ {
+  "id": 1163,
+  "para": "The world has the habit of making room for the man whose actions show that he knows where he is going."
+ },
+ {
+  "id": 1164,
+  "para": "You cannot step twice into the same river, for other waters are continually flowing in."
+ },
+ {
+  "id": 1165,
+  "para": "Excellence is to do a common thing in an uncommon way."
+ },
+ {
+  "id": 1166,
+  "para": "No matter how hard the past, you can always begin again."
+ },
+ {
+  "id": 1167,
+  "para": "I begin with an idea and then it becomes something else."
+ },
+ {
+  "id": 1168,
+  "para": "Whoever is happy will make others happy, too."
+ },
+ {
+  "id": 1169,
+  "para": "Your work is to discover your work and then with all your heart to give yourself to it."
+ },
+ {
+  "id": 1170,
+  "para": "It's not what happens to you, but how you react to it that matters."
+ },
+ {
+  "id": 1171,
+  "para": "Take it easy, but take it."
+ },
+ {
+  "id": 1172,
+  "para": "Never apologize for showing feeling. When you do so, you apologize for truth."
+ },
+ {
+  "id": 1173,
+  "para": "Take rest; a field that has rested gives a bountiful crop."
+ },
+ {
+  "id": 1174,
+  "para": "Age does not protect you from love. But love, to some extent, protects you from age."
+ },
+ {
+  "id": 1175,
+  "para": "Do what you can. Want what you have. Be who you are."
+ },
+ {
+  "id": 1176,
+  "para": "There are people who have money and people who are rich."
+ },
+ {
+  "id": 1177,
+  "para": "Why worry about tomorrow, when today is all we have?"
+ },
+ {
+  "id": 1178,
+  "para": "Speak when you are angry and you will make the best speech you will ever regret."
+ },
+ {
+  "id": 1179,
+  "para": "Things do not change, we change."
+ },
+ {
+  "id": 1180,
+  "para": "The exercise of an extraordinary gift is the supremest pleasure in life."
+ },
+ {
+  "id": 1181,
+  "para": "Sometimes the most important thing in a whole day is the rest we take between two deep breaths."
+ },
+ {
+  "id": 1182,
+  "para": "Forgiveness is choosing to love. It is the first skill of self-giving love."
+ },
+ {
+  "id": 1183,
+  "para": "To ensure good health: eat lightly, breathe deeply, live moderately, cultivate cheerfulness, and maintain an interest in life."
+ },
+ {
+  "id": 1184,
+  "para": "Most smiles are started by another smile."
+ },
+ {
+  "id": 1185,
+  "para": "Nothing is softer or more flexible than water, yet nothing can resist it."
+ },
+ {
+  "id": 1186,
+  "para": "It is difficult to achieve a spirit of genuine cooperation as long as people remain indifferent to the feelings and happiness of others."
+ },
+ {
+  "id": 1187,
+  "para": "Experience keeps a dear school, but fools will learn in no other."
+ },
+ {
+  "id": 1188,
+  "para": "We can only be said to be alive in those moments when our hearts are conscious of our treasures."
+ },
+ {
+  "id": 1189,
+  "para": "Fine words and an insinuating appearance are seldom associated with true virtue"
+ },
+ {
+  "id": 1190,
+  "para": "We do not quit playing because we grow old, we grow old because we quit playing."
+ },
+ {
+  "id": 1191,
+  "para": "You can't choose up sides on a round world."
+ },
+ {
+  "id": 1192,
+  "para": "Kindness is the language which the deaf can hear and the blind can see."
+ },
+ {
+  "id": 1193,
+  "para": "I may not know everything, but everything is not known yet anyway."
+ },
+ {
+  "id": 1194,
+  "para": "If we could see the miracle of a single flower clearly, our whole life would change."
+ },
+ {
+  "id": 1195,
+  "para": "Without this playing with fantasy no creative work has ever yet come to birth. The debt we owe to the play of the imagination is incalculable."
+ },
+ {
+  "id": 1196,
+  "para": "You cannot travel the path until you have become the path itself."
+ },
+ {
+  "id": 1197,
+  "para": "Keep your eyes on the stars and your feet on the ground."
+ },
+ {
+  "id": 1198,
+  "para": "I am not afraid of tomorrow, for I have seen yesterday and I love today."
+ },
+ {
+  "id": 1199,
+  "para": "Limitations live only in our minds. But if we use our imaginations, our possibilities become limitless."
+ },
+ {
+  "id": 1200,
+  "para": "When you lose, don't lose the lesson."
+ },
+ {
+  "id": 1201,
+  "para": "If you want a thing done well, do it yourself."
+ },
+ {
+  "id": 1202,
+  "para": "The greatest barrier to success is the fear of failure."
+ },
+ {
+  "id": 1203,
+  "para": "Sunshine is delicious, rain is refreshing, wind braces us up, snow is exhilarating; there is really no such thing as bad weather, only different kinds of good weather."
+ },
+ {
+  "id": 1204,
+  "para": "If you aren't going all the way, why go at all?"
+ },
+ {
+  "id": 1205,
+  "para": "Our greatest glory is not in never falling, but in rising every time we fall."
+ },
+ {
+  "id": 1206,
+  "para": "The beginning of wisdom is found in doubting; by doubting we come to the question, and by seeking we may come upon the truth."
+ },
+ {
+  "id": 1207,
+  "para": "If I could reach up and hold a star for every time you've made me smile, the entire evening sky would be in the palm of my hand."
+ },
+ {
+  "id": 1208,
+  "para": "We are shaped by our thoughts; we become what we think. When the mind is pure, joy follows like a shadow that never leaves."
+ },
+ {
+  "id": 1209,
+  "para": "Stay committed to your decisions, but stay flexible in your approach."
+ },
+ {
+  "id": 1210,
+  "para": "An optimist is a person who sees a green light everywhere, while the pessimist sees only the red spotlight... The truly wise person is colour-blind."
+ },
+ {
+  "id": 1211,
+  "para": "What separates the winners from the losers is how a person reacts to each new twist of fate."
+ },
+ {
+  "id": 1212,
+  "para": "Each man has his own vocation; his talent is his call. There is one direction in which all space is open to him."
+ },
+ {
+  "id": 1213,
+  "para": "Just as a flower, which seems beautiful has color but no perfume, so are the fruitless words of a man who speaks them but does them not."
+ },
+ {
+  "id": 1214,
+  "para": "To change ones life, start immediately, do it flamboyantly, no exceptions."
+ },
+ {
+  "id": 1215,
+  "para": "As we express our gratitude, we must never forget that the highest appreciation is not to utter words, but to live by them."
+ },
+ {
+  "id": 1216,
+  "para": "The world cares very little about what a man or woman knows; it is what a man or woman is able to do that counts."
+ },
+ {
+  "id": 1217,
+  "para": "The steeper the mountain the harder the climb the better the view from the finishing line"
+ },
+ {
+  "id": 1218,
+  "para": "Aim for success, not perfection. Never give up your right to be wrong, because then you will lose the ability to learn new things and move forward with your life."
+ },
+ {
+  "id": 1219,
+  "para": "When I let go of what I am, I become what I might be."
+ },
+ {
+  "id": 1220,
+  "para": "Transformation does not start with some one else changing you; transformation is an inner self reworking of what you are now to what you will be."
+ },
+ {
+  "id": 1221,
+  "para": "Time is not a measure the length of a day or month or year but more a measure of what you have accomplished."
+ },
+ {
+  "id": 1222,
+  "para": "Wherever a man may happen to turn, whatever a man may undertake, he will always end up by returning to the path which nature has marked out for him."
+ },
+ {
+  "id": 1223,
+  "para": "Holding on to anger is like grasping a hot coal with the intent of throwing it at someone else; you are the one who gets burned."
+ },
+ {
+  "id": 1224,
+  "para": "When there is no enemy within, the enemies outside cannot hurt you."
+ },
+ {
+  "id": 1225,
+  "para": "He who controls others may be powerful, but he who has mastered himself is mightier still."
+ },
+ {
+  "id": 1226,
+  "para": "There is no scarcity of opportunity to make a living at what you love; theres only scarcity of resolve to make it happen."
+ },
+ {
+  "id": 1227,
+  "para": "Neither a lofty degree of intelligence nor imagination nor both together go to the making of genius. Love, love, love, that is the soul of genius."
+ },
+ {
+  "id": 1228,
+  "para": "The happy and efficient people in this world are those who accept trouble as a normal detail of human life and resolve to capitalize it when it comes along."
+ },
+ {
+  "id": 1229,
+  "para": "As an organizer I start from where the world is, as it is, not as I would like it to be."
+ },
+ {
+  "id": 1230,
+  "para": "You are the only person on Earth who can use your ability."
+ },
+ {
+  "id": 1231,
+  "para": "Don't let what you can't do stop you from doing what you can do."
+ },
+ {
+  "id": 1232,
+  "para": "Complaining doesn't change a thing only taking action does."
+ },
+ {
+  "id": 1233,
+  "para": "Life a culmination of the past, an awareness of the present, an indication of the future beyond knowledge, the quality that gives a touch of divinity to matter."
+ },
+ {
+  "id": 1234,
+  "para": "Enjoy the little things, for one day you may look back and realize they were the big things."
+ },
+ {
+  "id": 1235,
+  "para": "With every experience, you alone are painting your own canvas, thought by thought, choice by choice."
+ },
+ {
+  "id": 1236,
+  "para": "Let the beauty of what you love be what you do."
+ },
+ {
+  "id": 1237,
+  "para": "The world turns aside to let any man pass who knows where he is going."
+ },
+ {
+  "id": 1238,
+  "para": "Beauty is not in the face; beauty is a light in the heart."
+ },
+ {
+  "id": 1239,
+  "para": "A day of worry is more exhausting than a day of work."
+ },
+ {
+  "id": 1240,
+  "para": "Truth, and goodness, and beauty are but different faces of the same all."
+ },
+ {
+  "id": 1241,
+  "para": "To be great is to be misunderstood."
+ },
+ {
+  "id": 1242,
+  "para": "Trust only movement. Life happens at the level of events, not of words. Trust movement."
+ },
+ {
+  "id": 1243,
+  "para": "Never, never, never give up."
+ },
+ {
+  "id": 1244,
+  "para": "The most decisive actions of our life... are most often unconsidered actions."
+ },
+ {
+  "id": 1245,
+  "para": "As we grow as unique persons, we learn to respect the uniqueness of others."
+ },
+ {
+  "id": 1246,
+  "para": "Failure doesn't mean you are a failure it just means you haven't succeeded yet."
+ },
+ {
+  "id": 1247,
+  "para": "It is the quality of our work which will please God, not the quantity."
+ },
+ {
+  "id": 1248,
+  "para": "Try and fail, but don't fail to try."
+ },
+ {
+  "id": 1249,
+  "para": "First say to yourself what you would be; and then do what you have to do."
+ },
+ {
+  "id": 1250,
+  "para": "Through pride we are ever deceiving ourselves. But deep down below the surface of the average conscience a still, small voice says to us, Something is out of tune."
+ },
+ {
+  "id": 1251,
+  "para": "Keep silence for the most part, and speak only when you must, and then briefly."
+ },
+ {
+  "id": 1252,
+  "para": "Fear not for the future, weep not for the past."
+ },
+ {
+  "id": 1253,
+  "para": "We are Divine enough to ask and we are important enough to receive."
+ },
+ {
+  "id": 1254,
+  "para": "If you kick a stone in anger, you'll hurt your own foot."
+ },
+ {
+  "id": 1255,
+  "para": "To see things in the seed, that is genius."
+ },
+ {
+  "id": 1256,
+  "para": "The happiness that is genuinely satisfying is accompanied by the fullest exercise of our faculties and the fullest realization of the world in which we live."
+ },
+ {
+  "id": 1257,
+  "para": "Human beings, who are almost unique in having the ability to learn from the experience of others, are also remarkable for their apparent disinclination to do so."
+ },
+ {
+  "id": 1258,
+  "para": "Make the most of yourself, for that is all there is of you."
+ },
+ {
+  "id": 1259,
+  "para": "The universe is made of stories, not atoms."
+ },
+ {
+  "id": 1260,
+  "para": "Respect should be earned by actions, and not acquired by years."
+ },
+ {
+  "id": 1261,
+  "para": "I hear and I forget. I see and I remember. I do and I understand."
+ },
+ {
+  "id": 1262,
+  "para": "The trouble with most people is that they think with their hopes or fears or wishes rather than with their minds."
+ },
+ {
+  "id": 1263,
+  "para": "A lot of people give up just before theyre about to make it. You know you never know when that next obstacle is going to be the last one."
+ },
+ {
+  "id": 1264,
+  "para": "Sometimes the biggest act of courage is a small one."
+ },
+ {
+  "id": 1265,
+  "para": "People are not lazy. They simply have impotent goals, that is, goals that do not inspire them."
+ },
+ {
+  "id": 1266,
+  "para": "You do not become good by trying to be good, but by finding the goodness that is already within you."
+ },
+ {
+  "id": 1267,
+  "para": "Waste no more time arguing about what a good man should be. Be one."
+ },
+ {
+  "id": 1268,
+  "para": "Happiness often sneaks in through a door you didn't know you left open."
+ },
+ {
+  "id": 1269,
+  "para": "There are basically two types of people. People who accomplish things, and people who claim to have accomplished things. The first group is less crowded."
+ },
+ {
+  "id": 1270,
+  "para": "The things that one most wants to do are the things that are probably most worth doing."
+ },
+ {
+  "id": 1271,
+  "para": "Always bear in mind that your own resolution to succeed is more important than any one thing."
+ },
+ {
+  "id": 1272,
+  "para": "Setting an example is not the main means of influencing another, it is the only means."
+ },
+ {
+  "id": 1273,
+  "para": "Chaos and Order are not enemies, only opposites."
+ },
+ {
+  "id": 1274,
+  "para": "Perseverance is a great element of success. If you only knock long enough and loud enough at the gate, you are sure to wake up somebody."
+ },
+ {
+  "id": 1275,
+  "para": "Only through our connectedness to others can we really know and enhance the self. And only through working on the self can we begin to enhance our connectedness to others."
+ },
+ {
+  "id": 1276,
+  "para": "He who deliberates fully before taking a step will spend his entire life on one leg."
+ },
+ {
+  "id": 1277,
+  "para": "Peace begins with a smile."
+ },
+ {
+  "id": 1278,
+  "para": "Be your own hero, it's cheaper than a movie ticket."
+ },
+ {
+  "id": 1279,
+  "para": "Turn your face toward the sun and the shadows will fall behind you."
+ },
+ {
+  "id": 1280,
+  "para": "Things turn out best for those who make the best of the way things turn out."
+ },
+ {
+  "id": 1281,
+  "para": "Were here for a reason. I believe a bit of the reason is to throw little torches out to lead people through the dark."
+ },
+ {
+  "id": 1282,
+  "para": "To effectively communicate, we must realize that we are all different in the way we perceive the world and use this understanding as a guide to our communication with others."
+ },
+ {
+  "id": 1283,
+  "para": "Ability will never catch up with the demand for it."
+ },
+ {
+  "id": 1284,
+  "para": "Never say there is nothing beautiful in the world any more. There is always something to make you wonder in the shape of a tree, the trembling of a leaf."
+ },
+ {
+  "id": 1285,
+  "para": "Intuition is the very force or activity of the soul in its experience through whatever has been the experience of the soul itself."
+ },
+ {
+  "id": 1286,
+  "para": "Setting goals is the first step in turning the invisible into the visible."
+ },
+ {
+  "id": 1287,
+  "para": "Courage is not the absence of fear, but simply moving on with dignity despite that fear."
+ },
+ {
+  "id": 1288,
+  "para": "All truths are easy to understand once they are discovered; the point is to discover them."
+ },
+ {
+  "id": 1289,
+  "para": "The smallest act of kindness is worth more than the grandest intention."
+ },
+ {
+  "id": 1290,
+  "para": "We know from science that nothing in the universe exists as an isolated or independent entity."
+ },
+ {
+  "id": 1291,
+  "para": "Everything in the universe goes by indirection. There are no straight lines."
+ },
+ {
+  "id": 1292,
+  "para": "What do we live for, if it is not to make life less difficult for each other?"
+ },
+ {
+  "id": 1293,
+  "para": "When we feel love and kindness toward others, it not only makes others feel loved and cared for, but it helps us also to develop inner happiness and peace."
+ },
+ {
+  "id": 1294,
+  "para": "We may encounter many defeats but we must not be defeated."
+ },
+ {
+  "id": 1295,
+  "para": "Every person, all the events of your life are there because you have drawn them there. What you choose to do with them is up to you."
+ },
+ {
+  "id": 1296,
+  "para": "Logic will get you from A to B. Imagination will take you everywhere."
+ },
+ {
+  "id": 1297,
+  "para": "Our deepest wishes are whispers of our authentic selves. We must learn to respect them. We must learn to listen."
+ },
+ {
+  "id": 1298,
+  "para": "The world is but a canvas to the imagination."
+ },
+ {
+  "id": 1299,
+  "para": "Thats the risk you take if you change: that people you've been involved with won't like the new you. But other people who do will come along."
+ },
+ {
+  "id": 1300,
+  "para": "To be happy is to be able to become aware of oneself without fright."
+ },
+ {
+  "id": 1301,
+  "para": "Strength to carry on despite the odds means you have faith in your own abilities and know how."
+ },
+ {
+  "id": 1302,
+  "para": "Make the most of yourself for that is all there is of you."
+ },
+ {
+  "id": 1303,
+  "para": "Be gentle first with yourself if you wish to be gentle with others."
+ },
+ {
+  "id": 1304,
+  "para": "A man who doesn't trust himself can never really trust anyone else."
+ },
+ {
+  "id": 1305,
+  "para": "We make our own fortunes and we call them fate."
+ },
+ {
+  "id": 1306,
+  "para": "Leaders aren't born they are made. And they are made just like anything else, through hard work. And that's the price well have to pay to achieve that goal, or any goal."
+ },
+ {
+  "id": 1307,
+  "para": "It takes courage to grow up and become who you really are."
+ },
+ {
+  "id": 1308,
+  "para": "Always seek out the seed of triumph in every adversity."
+ },
+ {
+  "id": 1309,
+  "para": "Rather than wishing for change, you first must be prepared to change."
+ },
+ {
+  "id": 1310,
+  "para": "I do not believe in a fate that falls on men however they act; but I do believe in a fate that falls on them unless they act."
+ },
+ {
+  "id": 1311,
+  "para": "Fame usually comes to those who are thinking about something else."
+ },
+ {
+  "id": 1312,
+  "para": "First comes thought; then organization of that thought, into ideas and plans; then transformation of those plans into reality. The beginning, as you will observe, is in your imagination."
+ },
+ {
+  "id": 1313,
+  "para": "The superior man acts before he speaks, and afterwards speaks according to his action."
+ },
+ {
+  "id": 1314,
+  "para": "A single conversation across the table with a wise person is worth a months study of books."
+ },
+ {
+  "id": 1315,
+  "para": "The difference between what we do and what we are capable of doing would suffice to solve most of the worlds problems."
+ },
+ {
+  "id": 1316,
+  "para": "You can never cross the ocean unless you have the courage to lose sight of the shore."
+ },
+ {
+  "id": 1317,
+  "para": "Work for something because it is good, not just because it stands a chance to succeed."
+ },
+ {
+  "id": 1318,
+  "para": "Knowledge rests not upon truth alone, but upon error also."
+ },
+ {
+  "id": 1319,
+  "para": "Make it a rule of life never to regret and never to look back. Regret is an appalling waste of energy; you can't build on it; it's only for wallowing in."
+ },
+ {
+  "id": 1320,
+  "para": "Never regret. If it's good, it's wonderful. If it's bad, it's experience."
+ },
+ {
+  "id": 1321,
+  "para": "When deeds and words are in accord, the whole world is transformed."
+ },
+ {
+  "id": 1322,
+  "para": "Kind words can be short and easy to speak but their echoes are truly endless."
+ },
+ {
+  "id": 1323,
+  "para": "For everything that lives is holy, life delights in life."
+ },
+ {
+  "id": 1324,
+  "para": "The most important thing is transforming our minds, for a new way of thinking, a new outlook: we should strive to develop a new inner world."
+ },
+ {
+  "id": 1325,
+  "para": "Our passion is our strength."
+ },
+ {
+  "id": 1326,
+  "para": "In rivers, the water that you touch is the last of what has passed and the first of that which comes; so with present time."
+ },
+ {
+  "id": 1327,
+  "para": "Spring is a time for rebirth and the fulfilment of new life."
+ },
+ {
+  "id": 1328,
+  "para": "There is nothing happens to any person but what was in his power to go through with."
+ },
+ {
+  "id": 1329,
+  "para": "There are two ways to slide easily through life: to believe everything or to doubt everything; both ways save us from thinking."
+ },
+ {
+  "id": 1330,
+  "para": "The art of progress is to preserve order amid change, and to preserve change amid order."
+ },
+ {
+  "id": 1331,
+  "para": "We make a living by what we get, but we make a life by what we give."
+ },
+ {
+  "id": 1332,
+  "para": "If you want to study yourself, look into the hearts of other people. If you want to study other people, look into your own heart."
+ },
+ {
+  "id": 1333,
+  "para": "Maxim for life: You get treated in life the way you teach people to treat you."
+ },
+ {
+  "id": 1334,
+  "para": "The first duty of a human being is to assume the right functional relationship to society, more briefly, to find your real job, and do it."
+ },
+ {
+  "id": 1335,
+  "para": "The key to growth is the introduction of higher dimensions of consciousness into our awareness."
+ },
+ {
+  "id": 1336,
+  "para": "Thought is the blossom; language the bud; action the fruit behind it."
+ },
+ {
+  "id": 1337,
+  "para": "True happiness means forging a strong spirit that is undefeated, no matter how trying our circumstances."
+ },
+ {
+  "id": 1338,
+  "para": "There is nothing so useless as doing efficiently that which should not be done at all."
+ },
+ {
+  "id": 1339,
+  "para": "I have been impressed with the urgency of doing. Knowing is not enough; we must apply. Being willing is not enough; we must do."
+ },
+ {
+  "id": 1340,
+  "para": "All the world is a stage, And all the men and women merely players.They have their exits and entrances; Each man in his time plays many parts."
+ },
+ {
+  "id": 1341,
+  "para": "As we are liberated from our own fear, our presence automatically liberates others."
+ },
+ {
+  "id": 1342,
+  "para": "The most successful people are those who are good at plan B."
+ },
+ {
+  "id": 1343,
+  "para": "Criticism is something you can easily avoid by saying nothing, doing nothing, and being nothing."
+ },
+ {
+  "id": 1344,
+  "para": "To fly as fast as thought, you must begin by knowing that you have already arrived."
+ },
+ {
+  "id": 1345,
+  "para": "Obstacles are those things you see when you take your eyes off the goal."
+ },
+ {
+  "id": 1346,
+  "para": "The greatest danger for most of us is not that our aim is too high and we miss it, but that it is too low and we reach it."
+ },
+ {
+  "id": 1347,
+  "para": "Great ideas often receive violent opposition from mediocre minds."
+ },
+ {
+  "id": 1348,
+  "para": "We can change our lives. We can do, have, and be exactly what we wish."
+ },
+ {
+  "id": 1349,
+  "para": "You are the only person on earth who can use your ability."
+ },
+ {
+  "id": 1350,
+  "para": "Neither genius, fame, nor love show the greatness of the soul. Only kindness can do that."
+ },
+ {
+  "id": 1351,
+  "para": "The least of things with a meaning is worth more in life than the greatest of things without it."
+ },
+ {
+  "id": 1352,
+  "para": "The noblest worship is to make yourself as good and as just as you can."
+ },
+ {
+  "id": 1353,
+  "para": "Though no one can go back and make a brand new start, anyone can start from not and make a brand new ending."
+ },
+ {
+  "id": 1354,
+  "para": "A dream is your creative vision for your life in the future. You must break out of your current comfort zone and become comfortable with the unfamiliar and the unknown."
+ },
+ {
+  "id": 1355,
+  "para": "Don't think of it as failure. Think of it as time-released success."
+ },
+ {
+  "id": 1356,
+  "para": "We are what we repeatedly do. Excellence, then, is not an act but a habit."
+ },
+ {
+  "id": 1357,
+  "para": "I walk slowly, but I never walk backward."
+ },
+ {
+  "id": 1358,
+  "para": "Divide each difficulty into as many parts as is feasible and necessary to resolve it."
+ },
+ {
+  "id": 1359,
+  "para": "The best place to find a helping hand is at the end of your own arm."
+ },
+ {
+  "id": 1360,
+  "para": "We know the truth, not only by the reason, but by the heart."
+ },
+ {
+  "id": 1361,
+  "para": "We choose our joys and sorrows long before we experience them."
+ },
+ {
+  "id": 1362,
+  "para": "Anybody can make history. Only a great man can write it."
+ },
+ {
+  "id": 1363,
+  "para": "If I know what love is, it is because of you."
+ },
+ {
+  "id": 1364,
+  "para": "Allow the world to live as it chooses, and allow yourself to live as you choose."
+ },
+ {
+  "id": 1365,
+  "para": "Focusing your life solely on making a buck shows a poverty of ambition. It asks too little of yourself. And it will leave you unfulfilled."
+ },
+ {
+  "id": 1366,
+  "para": "Compassion and happiness are not a sign of weakness but a sign of strength."
+ },
+ {
+  "id": 1367,
+  "para": "It is common sense to take a method and try it. If it fails, admit it frankly and try another. But above all, try something."
+ },
+ {
+  "id": 1368,
+  "para": "Be here now. Be someplace else later. Is that so complicated?"
+ },
+ {
+  "id": 1369,
+  "para": "To be able to give away riches is mandatory if you wish to possess them. This is the only way that you will be truly rich."
+ },
+ {
+  "id": 1370,
+  "para": "Learning without reflection is a waste, reflection without learning is dangerous."
+ },
+ {
+  "id": 1371,
+  "para": "Don't fear failure so much that you refuse to try new things. The saddest summary of life contains three descriptions: could have, might have, and should have."
+ },
+ {
+  "id": 1372,
+  "para": "All fixed set patterns are incapable of adaptability or pliability. The truth is outside of all fixed patterns."
+ },
+ {
+  "id": 1373,
+  "para": "I don't believe in failure. It's not failure if you enjoyed the process."
+ },
+ {
+  "id": 1374,
+  "para": "The best and most beautiful things in the world cannot be seen, nor touched... but are felt in the heart."
+ },
+ {
+  "id": 1375,
+  "para": "Success in business requires training and discipline and hard work. But if you're not frightened by these things, the opportunities are just as great today as they ever were."
+ },
+ {
+  "id": 1376,
+  "para": "The man who trusts men will make fewer mistakes than he who distrusts them."
+ },
+ {
+  "id": 1377,
+  "para": "The less effort, the faster and more powerful you will be."
+ },
+ {
+  "id": 1378,
+  "para": "We must be as courteous to a man as we are to a picture, which we are willing to give the advantage of a good light."
+ },
+ {
+  "id": 1379,
+  "para": "The dream was always running ahead of me. To catch up, to live for a moment in unison with it, that was the miracle."
+ },
+ {
+  "id": 1380,
+  "para": "The cure for boredom is curiosity. There is no cure for curiosity."
+ },
+ {
+  "id": 1381,
+  "para": "We can do no great things, only small things with great love."
+ },
+ {
+  "id": 1382,
+  "para": "Be like the flower, turn your face to the sun."
+ },
+ {
+  "id": 1383,
+  "para": "Remembering a wrong is like carrying a burden on the mind."
+ },
+ {
+  "id": 1384,
+  "para": "The foolish man seeks happiness in the distance; the wise grows it under his feet."
+ },
+ {
+  "id": 1385,
+  "para": "Gratitude is the fairest blossom which springs from the soul."
+ },
+ {
+  "id": 1386,
+  "para": "If you look into your own heart, and you find nothing wrong there, what is there to worry about? What is there to fear?"
+ },
+ {
+  "id": 1387,
+  "para": "You cannot have what you do not want."
+ },
+ {
+  "id": 1388,
+  "para": "Do not follow where the path may lead. Go, instead, where there is no path and leave a trail."
+ },
+ {
+  "id": 1389,
+  "para": "It is not fair to ask of others what you are unwilling to do yourself."
+ },
+ {
+  "id": 1390,
+  "para": "Knowing your own darkness is the best method for dealing with the darknesses of other people."
+ },
+ {
+  "id": 1391,
+  "para": "The best thing in every noble dream is the dreamer..."
+ },
+ {
+  "id": 1392,
+  "para": "Weve got to have a dream if we are going to make a dream come true."
+ },
+ {
+  "id": 1393,
+  "para": "If you want things to be different, perhaps the answer is to become different yourself."
+ },
+ {
+  "id": 1394,
+  "para": "There is nothing impossible to him who will try."
+ },
+ {
+  "id": 1395,
+  "para": "Kindness is more important than wisdom, and the recognition of this is the beginning of wisdom."
+ },
+ {
+  "id": 1396,
+  "para": "Every great dream begins with a dreamer. Always remember, you have within you the strength, the patience, and the passion to reach for the stars to change the world."
+ },
+ {
+  "id": 1397,
+  "para": "The only real failure in life is not to be true to the best one knows."
+ },
+ {
+  "id": 1398,
+  "para": "Anyone who doesn't take truth seriously in small matters cannot be trusted in large ones either."
+ },
+ {
+  "id": 1399,
+  "para": "Change will not come if we wait for some other person or some other time. We are the ones weve been waiting for. We are the change that we seek."
+ },
+ {
+  "id": 1400,
+  "para": "Those who cannot learn from history are doomed to repeat it."
+ },
+ {
+  "id": 1401,
+  "para": "The trick is in what one emphasizes. We either make ourselves miserable, or we make ourselves happy. The amount of work is the same."
+ },
+ {
+  "id": 1402,
+  "para": "Things that were hard to bear are sweet to remember."
+ },
+ {
+  "id": 1403,
+  "para": "Three things in human life are important. The first is to be kind. The second is to be kind. The third is to be kind."
+ },
+ {
+  "id": 1404,
+  "para": "However many holy words you read, However many you speak, What good will they do you If you do not act on upon them?"
+ },
+ {
+  "id": 1405,
+  "para": "They can conquer who believe they can."
+ },
+ {
+  "id": 1406,
+  "para": "Learn to listen. Opportunity could be knocking at your door very softly."
+ },
+ {
+  "id": 1407,
+  "para": "All action results from thought, so it is thoughts that matter."
+ },
+ {
+  "id": 1408,
+  "para": "There are only two ways to live your life. One is as though nothing is a miracle. The other is as though everything is a miracle."
+ },
+ {
+  "id": 1409,
+  "para": "I love my past. I love my present. Im not ashamed of what Ive had, and Im not sad because I have it no longer."
+ },
+ {
+  "id": 1410,
+  "para": "Prejudice is a burden that confuses the past, threatens the future and renders the present inaccessible."
+ },
+ {
+  "id": 1411,
+  "para": "Just as much as we see in others we have in ourselves."
+ },
+ {
+  "id": 1412,
+  "para": "Prosperity depends more on wanting what you have than having what you want."
+ },
+ {
+  "id": 1413,
+  "para": "How many cares one loses when one decides not to be something but to be someone."
+ },
+ {
+  "id": 1414,
+  "para": "He who knows, does not speak. He who speaks, does not know."
+ },
+ {
+  "id": 1415,
+  "para": "We cannot direct the wind but we can adjust the sails."
+ },
+ {
+  "id": 1416,
+  "para": "One may say the eternal mystery of the world is its comprehensibility."
+ },
+ {
+  "id": 1417,
+  "para": "The self is not something ready-made, but something in continuous formation through choice of action."
+ },
+ {
+  "id": 1418,
+  "para": "Our greatness lies not so much in being able to remake the world as being able to remake ourselves."
+ },
+ {
+  "id": 1419,
+  "para": "Moments of complete apathy are the best for new creations."
+ },
+ {
+  "id": 1420,
+  "para": "The only real mistake is the one from which we learn nothing."
+ },
+ {
+  "id": 1421,
+  "para": "To dream of the person you would like to be is to waste the person you are."
+ },
+ {
+  "id": 1422,
+  "para": "The important thing is this: to be able at any moment to sacrifice what we are for what we could become."
+ },
+ {
+  "id": 1423,
+  "para": "Gratitude is not only the greatest of virtues, but the paren't of all the others."
+ },
+ {
+  "id": 1424,
+  "para": "It is never too late. Even if you are going to die tomorrow, keep yourself straight and clear and be a happy human being today."
+ },
+ {
+  "id": 1425,
+  "para": "Respect is not something that you can ask for, buy or borrow. Respect is what you earn from each person no matter their background or status."
+ },
+ {
+  "id": 1426,
+  "para": "Things do not change; we change."
+ },
+ {
+  "id": 1427,
+  "para": "We must learn our limits. We are all something, but none of us are everything."
+ },
+ {
+  "id": 1428,
+  "para": "Learn wisdom from the ways of a seedling. A seedling which is never hardened off through stressful situations will never become a strong productive plant."
+ },
+ {
+  "id": 1429,
+  "para": "We are all faced with a series of great opportunities brilliantly disguised as impossible situations."
+ },
+ {
+  "id": 1430,
+  "para": "All men have a sweetness in their life. That is what helps them go on. It is towards that they turn when they feel too worn out."
+ },
+ {
+  "id": 1431,
+  "para": "Be a good listener. Your ears will never get you in trouble."
+ },
+ {
+  "id": 1432,
+  "para": "Meditation brings wisdom; lack of mediation leaves ignorance. Know well what leads you forward and what hold you back, and choose the path that leads to wisdom."
+ },
+ {
+  "id": 1433,
+  "para": "You learn to speak by speaking, to study by studying, to run by running, to work by working; in just the same way, you learn to love by loving."
+ },
+ {
+  "id": 1434,
+  "para": "To listen well is as powerful a means of communication and influence as to talk well."
+ },
+ {
+  "id": 1435,
+  "para": "There is only one happiness in life, to love and be loved."
+ },
+ {
+  "id": 1436,
+  "para": "Live through feeling and you will live through love. For feeling is the language of the soul, and feeling is truth."
+ },
+ {
+  "id": 1437,
+  "para": "Kindness in words creates confidence. Kindness in thinking creates profoundness. Kindness in giving creates love."
+ },
+ {
+  "id": 1438,
+  "para": "Reason and free inquiry are the only effectual agents against error."
+ },
+ {
+  "id": 1439,
+  "para": "The best cure for the body is a quiet mind."
+ },
+ {
+  "id": 1440,
+  "para": "See the positive side, the potential, and make an effort."
+ },
+ {
+  "id": 1441,
+  "para": "By accepting yourself and being fully what you are, your presence can make others happy."
+ },
+ {
+  "id": 1442,
+  "para": "Never deny a diagnosis, but do deny the negative verdict that may go with it."
+ },
+ {
+  "id": 1443,
+  "para": "The really unhappy person is the one who leaves undone what they can do, and starts doing what they don't understand; no wonder they come to grief."
+ },
+ {
+  "id": 1444,
+  "para": "You cannot be lonely if you like the person you're alone with."
+ },
+ {
+  "id": 1445,
+  "para": "I do not believe in a fate that falls on men however they act; but I do believe in a fate that falls on man unless they act."
+ },
+ {
+  "id": 1446,
+  "para": "If you propose to speak, always ask yourself, is it true, is it necessary, is it kind."
+ },
+ {
+  "id": 1447,
+  "para": "Risk more than others think is safe. Care more than others think is wise. Dream more than others think is practical.Expect more than others think is possible."
+ },
+ {
+  "id": 1448,
+  "para": "Failure will never overtake me if my determination to succeed is strong enough."
+ },
+ {
+  "id": 1449,
+  "para": "Let go of your attachment to being right, and suddenly your mind is more open. You're able to benefit from the unique viewpoints of others, without being crippled by your own judgement."
+ },
+ {
+  "id": 1450,
+  "para": "Wrinkles should merely indicate where smiles have been."
+ },
+ {
+  "id": 1451,
+  "para": "Your attitude, not your aptitude, will determine your altitude."
+ },
+ {
+  "id": 1452,
+  "para": "Let yourself be silently drawn by the stronger pull of what you really love."
+ },
+ {
+  "id": 1453,
+  "para": "I gave my life to become the person I am right now. Was it worth it?"
+ },
+ {
+  "id": 1454,
+  "para": "Give thanks for a little and you will find a lot."
+ },
+ {
+  "id": 1455,
+  "para": "Your ability to learn faster than your competition is your only sustainable competitive advantage."
+ },
+ {
+  "id": 1456,
+  "para": "Forgiveness does not change the past, but it does enlarge the future."
+ },
+ {
+  "id": 1457,
+  "para": "Let the future tell the truth, and evaluate each one according to his work and accomplishments. The present is theirs; the future, for which I have really worked, is mine."
+ },
+ {
+  "id": 1458,
+  "para": "Moral excellence comes about as a result of habit. We become just by doing just acts, temperate by doing temperate acts, brave by doing brave acts."
+ },
+ {
+  "id": 1459,
+  "para": "The deepest craving of human nature is the need to be appreciated."
+ },
+ {
+  "id": 1460,
+  "para": "Love does not consist of gazing at each other, but in looking together in the same direction."
+ },
+ {
+  "id": 1461,
+  "para": "We have committed the Golden Rule to memory; let us now commit it to life."
+ },
+ {
+  "id": 1462,
+  "para": "It is with words as with sunbeams. The more they are condensed, the deeper they burn."
+ },
+ {
+  "id": 1463,
+  "para": "When people are like each other they tend to like each other."
+ },
+ {
+  "id": 1464,
+  "para": "Sincerity is the way of Heaven. The attainment of sincerity is the way of men."
+ },
+ {
+  "id": 1465,
+  "para": "Be the change that you want to see in the world."
+ },
+ {
+  "id": 1466,
+  "para": "The more you care, the stronger you can be."
+ },
+ {
+  "id": 1467,
+  "para": "Lots of people want to ride with you in the limo, but what you want is someone who will take the bus with you when the limo breaks down."
+ },
+ {
+  "id": 1468,
+  "para": "Just trust yourself, then you will know how to live."
+ },
+ {
+  "id": 1469,
+  "para": "To be fully alive, fully human, and completely awake is to be continually thrown out of the nest."
+ },
+ {
+  "id": 1470,
+  "para": "If you don't design your own life plan, chances are you'll fall into someone else's plan. And guess what they have planned for you? Not much."
+ },
+ {
+  "id": 1471,
+  "para": "It all depends on how we look at things, and not how they are in themselves."
+ },
+ {
+  "id": 1472,
+  "para": "Giving up doesn't always mean you are weak; sometimes it means that you are strong enough to let go."
+ },
+ {
+  "id": 1473,
+  "para": "To climb steep hills requires a slow pace at first."
+ },
+ {
+  "id": 1474,
+  "para": "An idea that is developed and put into action is more important than an idea that exists only as an idea."
+ },
+ {
+  "id": 1475,
+  "para": "It is not the possession of truth, but the success which attends the seeking after it, that enriches the seeker and brings happiness to him."
+ },
+ {
+  "id": 1476,
+  "para": "Truth is generally the best vindication against slander."
+ },
+ {
+  "id": 1477,
+  "para": "To follow, without halt, one aim: There is the secret of success."
+ },
+ {
+  "id": 1478,
+  "para": "And as we let our own light shine, we unconsciously give other people permission to do the same."
+ },
+ {
+  "id": 1479,
+  "para": "What is a weed? A plant whose virtues have not yet been discovered."
+ },
+ {
+  "id": 1480,
+  "para": "Belief consists in accepting the affirmations of the soul; Unbelief, in denying them."
+ },
+ {
+  "id": 1481,
+  "para": "Many people have gone further than they thought they could because someone else thought they could."
+ },
+ {
+  "id": 1482,
+  "para": "We read the world wrong and say that it deceives us."
+ },
+ {
+  "id": 1483,
+  "para": "If only wed stop trying to be happy wed have a pretty good time."
+ },
+ {
+  "id": 1484,
+  "para": "You must do the things you think you cannot do."
+ },
+ {
+  "id": 1485,
+  "para": "Be yourself; everyone else is already taken."
+ },
+ {
+  "id": 1486,
+  "para": "The mark of your ignorance is the depth of your belief in injustice and tragedy. What the caterpillar calls the end of the world, the Master calls the butterfly."
+ },
+ {
+  "id": 1487,
+  "para": "I am glad that I paid so little attention to good advice; had I abided by it I might have been saved from some of my most valuable mistakes."
+ },
+ {
+  "id": 1488,
+  "para": "Most folks are as happy as they make up their minds to be."
+ },
+ {
+  "id": 1489,
+  "para": "Love is the master key that opens the gates of happiness."
+ },
+ {
+  "id": 1490,
+  "para": "The person who makes a success of living is the one who see his goal steadily and aims for it unswervingly. That is dedication."
+ },
+ {
+  "id": 1491,
+  "para": "My reputation grows with every failure."
+ },
+ {
+  "id": 1492,
+  "para": "Good thoughts are no better than good dreams, unless they be executed."
+ },
+ {
+  "id": 1493,
+  "para": "Happiness does not come about only due to external circumstances; it mainly derives from inner attitudes."
+ },
+ {
+  "id": 1494,
+  "para": "However many holy words you read, however many you speak, what good will they do you if you do not act on upon them?"
+ },
+ {
+  "id": 1495,
+  "para": "For success, attitude is equally as important as ability."
+ },
+ {
+  "id": 1496,
+  "para": "If you are going to achieve excellence in big things, you develop the habit in little matters. Excellence is not an exception, it is a prevailing attitude."
+ },
+ {
+  "id": 1497,
+  "para": "A person who never made a mistake never tried anything new."
+ },
+ {
+  "id": 1498,
+  "para": "Better than a thousand hollow words is one word that brings peace."
+ },
+ {
+  "id": 1499,
+  "para": "The possibilities are numerous once we decide to act and not react."
+ },
+ {
+  "id": 1500,
+  "para": "Almost everything comes from nothing."
+ },
+ {
+  "id": 1501,
+  "para": "Sometimes by losing a battle you find a new way to win the war."
+ },
+ {
+  "id": 1502,
+  "para": "Listen to what you know instead of what you fear."
+ },
+ {
+  "id": 1503,
+  "para": "It is easier to live through someone else than to become complete yourself."
+ },
+ {
+  "id": 1504,
+  "para": "If you're in a bad situation, don't worry it'll change. If you're in a good situation, don't worry it'll change."
+ },
+ {
+  "id": 1505,
+  "para": "Remember that failure is an event, not a person."
+ },
+ {
+  "id": 1506,
+  "para": "Don't settle for a relationship that won't let you be yourself."
+ },
+ {
+  "id": 1507,
+  "para": "What the caterpillar calls the end of the world, the master calls a butterfly."
+ },
+ {
+  "id": 1508,
+  "para": "Instead of saying that man is the creature of circumstance, it would be nearer the mark to say that man is the architect of circumstance."
+ },
+ {
+  "id": 1509,
+  "para": "If you do what you've always done, you'll get what youve always gotten."
+ },
+ {
+  "id": 1510,
+  "para": "Do not wait for leaders; do it alone, person to person."
+ },
+ {
+  "id": 1511,
+  "para": "Knowledge has three degrees, opinion, science, illumination. The means or instrument of the first is sense; of the second, dialectic; of the third, intuition."
+ },
+ {
+  "id": 1512,
+  "para": "Love vanquishes time. To lovers, a moment can be eternity, eternity can be the tick of a clock."
+ },
+ {
+  "id": 1513,
+  "para": "We never live; we are always in the expectation of living."
+ },
+ {
+  "id": 1514,
+  "para": "Think like a man of action; act like a man of thought."
+ },
+ {
+  "id": 1515,
+  "para": "You can complain because roses have thorns, or you can rejoice because thorns have roses."
+ },
+ {
+  "id": 1516,
+  "para": "There is not one big cosmic meaning for all, there is only the meaning we each give to our life."
+ },
+ {
+  "id": 1517,
+  "para": "A leader is best when people barely know he exists, when his work is done, his aim fulfilled, they will say: we did it ourselves."
+ },
+ {
+  "id": 1518,
+  "para": "Time you enjoyed wasting was not wasted."
+ },
+ {
+  "id": 1519,
+  "para": "You will never be happy if you continue to search for what happiness consists of. You will never live if you are looking for the meaning of life."
+ },
+ {
+  "id": 1520,
+  "para": "Genuine sincerity opens people's hearts, while manipulation causes them to close."
+ },
+ {
+  "id": 1521,
+  "para": "To give ones self earnestly to the duties due to men, and, while respecting spiritual beings, to keep aloof from them, may be called wisdom."
+ },
+ {
+  "id": 1522,
+  "para": "A man's dreams are an index to his greatness."
+ },
+ {
+  "id": 1523,
+  "para": "This is the final test of a gentleman: his respect for those who can be of no possible value to him."
+ },
+ {
+  "id": 1524,
+  "para": "You teach best what you most need to learn."
+ },
+ {
+  "id": 1525,
+  "para": "Continuous effort, not strength or intelligence, is the key to unlocking our potential."
+ },
+ {
+  "id": 1526,
+  "para": "Obstacles are those frightful things you see when you take your eyes off your goal."
+ },
+ {
+  "id": 1527,
+  "para": "Go for it now. The future is promised to no one."
+ },
+ {
+  "id": 1528,
+  "para": "Never tell a young person that anything cannot be done. God may have been waiting centuries for someone ignorant enough of the impossible to do that very thing."
+ },
+ {
+  "id": 1529,
+  "para": "Bold is not the act of foolishness but the attribute and inner strength to act when others will not so as to move forward not backward."
+ },
+ {
+  "id": 1530,
+  "para": "If we look at the world with a love of life, the world will reveal its beauty to us."
+ },
+ {
+  "id": 1531,
+  "para": "In skating over thin ice our safety is in our speed."
+ },
+ {
+  "id": 1532,
+  "para": "When you discover your mission, you will feel its demand. It will fill you with enthusiasm and a burning desire to get to work on it."
+ },
+ {
+  "id": 1533,
+  "para": "Never promise more than you can perform."
+ },
+ {
+  "id": 1534,
+  "para": "If you don't go after what you want, you'll never have it. If you don't ask, the answer is always no. If you don't step forward, you're always in the same place."
+ },
+ {
+  "id": 1535,
+  "para": "I can't believe that God put us on this earth to be ordinary."
+ },
+ {
+  "id": 1536,
+  "para": "There are no limitations to the mind except those we acknowledge."
+ },
+ {
+  "id": 1537,
+  "para": "It is through science that we prove, but through intuition that we discover."
+ },
+ {
+  "id": 1538,
+  "para": "Don't be dismayed by good-byes. A farewell is necessary before you can meet again. And meeting again, after moments or lifetimes, is certain for those who are friends."
+ },
+ {
+  "id": 1539,
+  "para": "If someone in your life talked to you the way you talk to yourself, you would have left them long ago."
+ },
+ {
+  "id": 1540,
+  "para": "The cosmos is neither moral or immoral; only people are. He who would move the world must first move himself."
+ },
+ {
+  "id": 1541,
+  "para": "If you lose today, win tomorrow. In this never-ending spirit of challenge is the heart of a victor."
+ },
+ {
+  "id": 1542,
+  "para": "There is a way that nature speaks, that land speaks. Most of the time we are simply not patient enough, quiet enough, to pay attention to the story."
+ },
+ {
+  "id": 1543,
+  "para": "I cannot say whether things will get better if we change; what I can say is they must change if they are to get better."
+ },
+ {
+  "id": 1544,
+  "para": "The greater part of human pain is unnecessary. It is self-created as long as the unobserved mind runs your life."
+ },
+ {
+  "id": 1545,
+  "para": "Blessed is the man who expects nothing, for he shall never be disappointed."
+ },
+ {
+  "id": 1546,
+  "para": "He who knows others is wise. He who knows himself is enlightened."
+ },
+ {
+  "id": 1547,
+  "para": "The best way to predict your future is to create it."
+ },
+ {
+  "id": 1548,
+  "para": "A garden is always a series of losses set against a few triumphs, like life itself."
+ },
+ {
+  "id": 1549,
+  "para": "If facts are the seeds that later produce knowledge and wisdom, then the emotions and the impressions of the senses are the fertile soil in which the seeds must grow."
+ },
+ {
+  "id": 1550,
+  "para": "Never mistake motion for action."
+ },
+ {
+  "id": 1551,
+  "para": "One needs something to believe in, something for which one can have whole-hearted enthusiasm. One needs to feel that ones life has meaning, that one is needed in this world."
+ },
+ {
+  "id": 1552,
+  "para": "One who is too insistent on his own views, finds few to agree with him."
+ },
+ {
+  "id": 1553,
+  "para": "Translation is the paradigm, the exemplar of all writing. It is translation that demonstrates most vividly the yearning for transformation that underlies every act involving speech, that supremely human gift."
+ },
+ {
+  "id": 1554,
+  "para": "Meditation is the dissolution of thoughts in eternal awareness or Pure consciousness without objectification, knowing without thinking, merging finitude in infinity."
+ },
+ {
+  "id": 1555,
+  "para": "The reasonable man adapts himself to the world; the unreasonable man persists in trying to adapt the world to himself. Therefore, all progress depends on the unreasonable man."
+ },
+ {
+  "id": 1556,
+  "para": "Good instincts usually tell you what to do long before your head has figured it out."
+ },
+ {
+  "id": 1557,
+  "para": "It isn't what happens to us that causes us to suffer; it's what we say to ourselves about what happens."
+ },
+ {
+  "id": 1558,
+  "para": "Those who dream by day are cognizant of many things which escape those who dream only by night."
+ },
+ {
+  "id": 1559,
+  "para": "We cannot hold a torch to light another's path without brightening our own."
+ },
+ {
+  "id": 1560,
+  "para": "You are never given a wish without also being given the power to make it come true. You may have to work for it, however."
+ },
+ {
+  "id": 1561,
+  "para": "Kind words can be short and easy to speak, but their echoes are truly endless."
+ },
+ {
+  "id": 1562,
+  "para": "Count your joys instead of your woes. Count your friends instead of your foes."
+ },
+ {
+  "id": 1563,
+  "para": "Dreams come true. Without that possibility, nature would not incite us to have them."
+ },
+ {
+  "id": 1564,
+  "para": "Staying in one place is the best path to be taken over and surpassed by many."
+ },
+ {
+  "id": 1565,
+  "para": "Imagination will often carry us to worlds that never were. But without it we go nowhere."
+ },
+ {
+  "id": 1566,
+  "para": "When one door of happiness closes, another opens; but often we look so long at the closed door that we do not see the one which has been opened for us."
+ },
+ {
+  "id": 1567,
+  "para": "A leader or a man of action in a crisis almost always acts subconsciously and then thinks of the reasons for his action."
+ },
+ {
+  "id": 1568,
+  "para": "I have no special talent. I am only passionately curious."
+ },
+ {
+  "id": 1569,
+  "para": "I endeavour to be wise when I cannot be merry, easy when I cannot be glad, content with what cannot be mended and patient when there is no redress."
+ },
+ {
+  "id": 1570,
+  "para": "The height of your accomplishments will equal the depth of your convictions."
+ },
+ {
+  "id": 1571,
+  "para": "If I am not for myself, who will be for me? If I am not for others, what am I? And if not now, when?"
+ },
+ {
+  "id": 1572,
+  "para": "When I dare to be powerful, to use my strength in the service of my vision, then it becomes less and less important whether I am afraid."
+ },
+ {
+  "id": 1573,
+  "para": "All great men are gifted with intuition. They know without reasoning or analysis, what they need to know."
+ },
+ {
+  "id": 1574,
+  "para": "To get the full value of joy you must have someone to divide it with."
+ },
+ {
+  "id": 1575,
+  "para": "Sometimes our fate resembles a fruit tree in winter. Who would think that those branches would turn green again and blossom, but we hope it, we know it."
+ },
+ {
+  "id": 1576,
+  "para": "We lost because we told ourselves we lost."
+ },
+ {
+  "id": 1577,
+  "para": "Success is determined by those whom prove the impossible, possible."
+ },
+ {
+  "id": 1578,
+  "para": "Good advice is always certain to be ignored, but that's no reason not to give it."
+ },
+ {
+  "id": 1579,
+  "para": "The winner ain't the one with the fastest car it's the one who refuses to lose."
+ },
+ {
+  "id": 1580,
+  "para": "Spirituality can be severed from both vicious sectarianism and thoughtless banalities. Spirituality, I have come to see, is nothing less than the thoughtful love of life."
+ },
+ {
+  "id": 1581,
+  "para": "No one has a finer command of language than the person who keeps his mouth shut."
+ },
+ {
+  "id": 1582,
+  "para": "The only person who never makes mistakes is the person who never does anything."
+ },
+ {
+  "id": 1583,
+  "para": "Life is what happens to you while you're busy making other plans."
+ },
+ {
+  "id": 1584,
+  "para": "Discovery consists of seeing what everybody has seen and thinking what nobody else has thought."
+ },
+ {
+  "id": 1585,
+  "para": "If you have knowledge, let others light their candles in it."
+ },
+ {
+  "id": 1586,
+  "para": "It is impossible for a man to learn what he thinks he already knows."
+ },
+ {
+  "id": 1587,
+  "para": "If you find yourself in a hole, the first thing to do is stop digging."
+ },
+ {
+  "id": 1588,
+  "para": "To make no mistakes is not in the power of man; but from their errors and mistakes the wise and good learn wisdom for the future."
+ },
+ {
+  "id": 1589,
+  "para": "I think you can have moderate success by copying something else, but if you really want to knock it out of the park, you have to do something different and take chances."
+ },
+ {
+  "id": 1590,
+  "para": "Everything we hear is an opinion, not a fact. Everything we see is a perspective, not the truth."
+ },
+ {
+  "id": 1591,
+  "para": "Six essential qualities that are the key to success: Sincerity, personal integrity, humility, courtesy, wisdom, charity."
+ },
+ {
+  "id": 1592,
+  "para": "I have an everyday religion that works for me. Love yourself first, and everything else falls into line."
+ },
+ {
+  "id": 1593,
+  "para": "Flow with whatever is happening and let your mind be free. Stay centred by accepting whatever you are doing. This is the ultimate."
+ },
+ {
+  "id": 1594,
+  "para": "Nothing could be worse than the fear that one had given up too soon, and left one unexpended effort that might have saved the world."
+ },
+ {
+  "id": 1595,
+  "para": "The energy of the mind is the essence of life."
+ },
+ {
+  "id": 1596,
+  "para": "Begin, be bold, and venture to be wise."
+ },
+ {
+  "id": 1597,
+  "para": "Give a man a fish and you feed him for a day. Teach him how to fish and you feed him for a lifetime."
+ },
+ {
+  "id": 1598,
+  "para": "A wise man will make more opportunities than he finds."
+ },
+ {
+  "id": 1599,
+  "para": "Slow down and enjoy life. It's not only the scenery you miss by going too fast, you also miss the sense of where you are going and why."
+ },
+ {
+  "id": 1600,
+  "para": "Miracles come in moments. Be ready and willing."
+ },
+ {
+  "id": 1601,
+  "para": "Numberless are the worlds wonders, but none more wonderful than man."
+ },
+ {
+  "id": 1602,
+  "para": "So is cheerfulness, or a good temper, the more it is spent, the more remains."
+ },
+ {
+  "id": 1603,
+  "para": "The true way to render ourselves happy is to love our work and find in it our pleasure."
+ },
+ {
+  "id": 1604,
+  "para": "When you judge another, you do not define them, you define yourself."
+ },
+ {
+  "id": 1605,
+  "para": "Argue for your limitations, and sure enough they're yours."
+ },
+ {
+  "id": 1606,
+  "para": "He who wishes to secure the good of others, has already secured his own."
+ },
+ {
+  "id": 1607,
+  "para": "Wise men talk because they have something to say; fools, because they have to say something."
+ },
+ {
+  "id": 1608,
+  "para": "Life is really simple, but we insist on making it complicated."
+ },
+ {
+  "id": 1609,
+  "para": "The future is an opaque mirror. Anyone who tries to look into it sees nothing but the dim outlines of an old and worried face."
+ },
+ {
+  "id": 1610,
+  "para": "Everything that irritates us about others can lead us to a better understanding of ourselves."
+ },
+ {
+  "id": 1611,
+  "para": "Beware of the half truth. You may have gotten hold of the wrong half."
+ },
+ {
+  "id": 1612,
+  "para": "The greatest mistake you can make in life is to be continually fearing you will make one."
+ },
+ {
+  "id": 1613,
+  "para": "I have never been hurt by anything I didn't say."
+ },
+ {
+  "id": 1614,
+  "para": "Be not angry that you cannot make others as you wish them to be, since you cannot make yourself as you wish to be."
+ },
+ {
+  "id": 1615,
+  "para": "Adversity causes some men to break, others to break records."
+ },
+ {
+  "id": 1616,
+  "para": "An invincible determination can accomplish almost anything and in this lies the great distinction between great men and little men."
+ },
+ {
+  "id": 1617,
+  "para": "The industrial landscape is already littered with remains of once successful companies that could not adapt their strategic vision to altered conditions of competition."
+ },
+ {
+  "id": 1618,
+  "para": "Example has more followers than reason."
+ },
+ {
+  "id": 1619,
+  "para": "One that desires to excel should endeavour in those things that are in themselves most excellent."
+ },
+ {
+  "id": 1620,
+  "para": "If you have made mistakes, there is always another chance for you. You may have a fresh start any moment you choose."
+ },
+ {
+  "id": 1621,
+  "para": "The only Zen you find on the tops of mountains is the Zen you bring up there."
+ },
+ {
+  "id": 1622,
+  "para": "Gratitude is riches. Complaint is poverty."
+ },
+ {
+  "id": 1623,
+  "para": "Strong people make as many mistakes as weak people. Difference is that strong people admit their mistakes, laugh at them, learn from them. That is how they become strong."
+ },
+ {
+  "id": 1624,
+  "para": "To know your purpose is to live a life of direction, and in that direction is found peace and tranquillity."
+ },
+ {
+  "id": 1625,
+  "para": "You can stand tall without standing on someone. You can be a victor without having victims."
+ },
+ {
+  "id": 1626,
+  "para": "Bad times have a scientific value. These are occasions a good learner would not miss."
+ },
+ {
+  "id": 1627,
+  "para": "It's not who you are that holds you back, it's who you think you're not."
+ },
+ {
+  "id": 1628,
+  "para": "All children are artists. The problem is how to remain an artist once he grows up."
+ },
+ {
+  "id": 1629,
+  "para": "Either I will find a way, or I will make one."
+ },
+ {
+  "id": 1630,
+  "para": "He who knows that enough is enough will always have enough."
+ },
+ {
+  "id": 1631,
+  "para": "The only way to have a friend is to be one."
+ },
+ {
+  "id": 1632,
+  "para": "If we had no winter, the spring would not be so pleasant; if we did not sometimes taste of adversity, prosperity would not be so welcome."
+ },
+ {
+  "id": 1633,
+  "para": "Joy is what happens to us when we allow ourselves to recognize how good things really are."
+ },
+ {
+  "id": 1634,
+  "para": "Your vision will become clear only when you can look into your own heart. Who looks outside, dreams; who looks inside, awakes."
+ },
+ {
+  "id": 1635,
+  "para": "There is never enough time to do everything, but there is always enough time to do the most important thing."
+ },
+ {
+  "id": 1636,
+  "para": "You really can change the world if you care enough."
+ },
+ {
+  "id": 1637,
+  "para": "What you are is what you have been. What you'll be is what you do now."
+ },
+ {
+  "id": 1638,
+  "para": "Our lives are the only meaningful expression of what we believe and in Whom we believe. And the only real wealth, for any of us, lies in our faith."
+ },
+ {
+  "id": 1639,
+  "para": "There surely is in human nature an inherent propensity to extract all the good out of all the evil."
+ },
+ {
+  "id": 1640,
+  "para": "Music in the soul can be heard by the universe."
+ },
+ {
+  "id": 1641,
+  "para": "What we see depends mainly on what we look for."
+ },
+ {
+  "id": 1642,
+  "para": "To hell with circumstances; I create opportunities."
+ },
+ {
+  "id": 1643,
+  "para": "The truest greatness lies in being kind, the truest wisdom in a happy mind."
+ },
+ {
+  "id": 1644,
+  "para": "An ounce of emotion is equal to a ton of facts."
+ },
+ {
+  "id": 1645,
+  "para": "We need to find the courage to say NO to the things and people that are not serving us if we want to rediscover ourselves and live our lives with authenticity."
+ },
+ {
+  "id": 1646,
+  "para": "Great is the art of beginning, but greater is the art of ending."
+ },
+ {
+  "id": 1647,
+  "para": "Simply put, you believer that things or people make you unhappy, but this is not accurate. You make yourself unhappy."
+ },
+ {
+  "id": 1648,
+  "para": "Nothing will work unless you do."
+ },
+ {
+  "id": 1649,
+  "para": "Our ability to achieve happiness and success depends on the strength of our wings."
+ },
+ {
+  "id": 1650,
+  "para": "To go against the dominant thinking of your friends, of most of the people you see every day, is perhaps the most difficult act of heroism you can perform."
+ },
+ {
+  "id": 1651,
+  "para": "Gratitude makes sense of our past, brings peace for today, and creates a vision for tomorrow."
+ },
+ {
+  "id": 1652,
+  "para": "Into each life rain must fall but rain can be the giver of life and it is all in your attitude that makes rain produce sunshine."
+ },
+ {
+  "id": 1653,
+  "para": "We are all inclined to judge ourselves by our ideals; others, by their acts."
+ },
+ {
+  "id": 1654,
+  "para": "Nothing is a waste of time if you use the experience wisely."
+ },
+ {
+  "id": 1655,
+  "para": "If one way be better than another, that you may be sure is natures way."
+ },
+ {
+  "id": 1656,
+  "para": "Here is one quality that one must possess to win, and that is definiteness of purpose, the knowledge of what one wants, and a burning desire to possess it."
+ },
+ {
+  "id": 1657,
+  "para": "It is not in the stars to hold our destiny but in ourselves."
+ },
+ {
+  "id": 1658,
+  "para": "Using the power of decision gives you the capacity to get past any excuse to change any and every part of your life in an instant."
+ },
+ {
+  "id": 1659,
+  "para": "I will prepare and some day my chance will come."
+ }
 ]
