@@ -26,8 +26,11 @@ Now its in condition when you can see it working without above undone features
 **Install packages**
 
 - cd to folder and run `npm Install`
+- Run `npm link` **(!important)**
 
-**commands**
+# commands
 
-- `node index.js -h` to see help
-- `node index.js s -p` to start practice mode.
+**Run as a npm package**
+
+- `typerace -h` to see help
+- `typerace s -p` to start practice mode.

@@ -26,10 +26,6 @@ stdout.on('resize', () => {
 // Generating a random paragraph
 const random = Math.floor((Math.random() * para.length))
 const quote = para[random].para
-// displaying the quote
-stdout.write(quote)
-// Moving cursor to start
-stdout.cursorTo(0)
 
 /**
 * @function keypress
@@ -39,6 +35,7 @@ stdout.cursorTo(0)
 
 function keypress (chunk, key) {
   if (key.ctrl && key.name === 'c') {
+    stdout.write('\n')
     process.exit()
   }
   if (key && key.name === 'backspace') {
@@ -55,6 +52,10 @@ function keypress (chunk, key) {
 */
 
 function updateColor () {
+  // Clearing the terminal for double time error
+
+  stdout.write('\u001B[2J\u001B[0;0f')
+
   let updatedString = color(quote, stringTyped)
   updatedString += quote.slice(stringTyped.length, quote.length)
   let timeColour = 'cyan'
@@ -135,8 +136,25 @@ function gameEnded () {
 
 function game () {
   gameEnd = false
-  timeStarted = Date.now()
-  stdin.on('keypress', keypress)
+  timeStarted = Date.now() + 5000
+
+  // Game Start
+  const startinterval = setInterval(() => {
+    const timeInterval = (Math.round((Date.now() - timeStarted) /1000 * 10) / 10)
+    logUpdate(`Game Starting in ${timeInterval} sec`)
+    if(timeInterval === 0) {
+      clearInterval(startinterval)
+      // displaying the quote
+      stdout.write('\u001B[2J\u001B[0;0f')
+      stdout.write(quote)
+      // Moving cursor to start
+      stdout.cursorTo(0)
+
+      stdin.on('keypress', keypress)
+    }
+  },1000)
+
+  // After game starts
 
   const interval = setInterval(() => {
     if (gameEnd) {
