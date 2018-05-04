@@ -25,8 +25,10 @@ Now its in condition when you can see it working without above undone features
 
 **Install packages**
 
-- cd to folder and run `npm Install`
+- cd to folder and run `npm install`
 - Run `npm link` **(!important)**
+
+Npm link will move it to your global configurations.
 
 # commands
 

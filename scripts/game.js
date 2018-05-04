@@ -60,7 +60,7 @@ function updateColor () {
   updatedString += quote.slice(stringTyped.length, quote.length)
   let timeColour = 'cyan'
   let wordsPerminColor = 'cyan'
-  if (wordsPermin < 30 ) {
+  if (wordsPermin < 30) {
     wordsPerminColor = 'red'
   }
   logUpdate(
@@ -135,14 +135,15 @@ function gameEnded () {
 */
 
 function game () {
+  stdout.write(quote + '\n')
   gameEnd = false
   timeStarted = Date.now() + 5000
-
+  let startColor = 'yellowBright'
   // Game Start
   const startinterval = setInterval(() => {
-    const timeInterval = (Math.round((Date.now() - timeStarted) /1000 * 10) / 10)
-    logUpdate(`Game Starting in ${timeInterval} sec`)
-    if(timeInterval === 0) {
+    const timeInterval = (Math.round((Date.now() - timeStarted) / 1000 * 10) / 10)
+    logUpdate(`Game Starting in ${chalk[startColor](timeInterval)} sec`)
+    if (timeInterval === 0) {
       clearInterval(startinterval)
       // displaying the quote
       stdout.write('\u001B[2J\u001B[0;0f')
@@ -152,7 +153,7 @@ function game () {
 
       stdin.on('keypress', keypress)
     }
-  },1000)
+  }, 1000)
 
   // After game starts
 
