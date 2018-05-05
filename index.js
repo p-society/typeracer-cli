@@ -6,6 +6,7 @@
 
 const program = require('commander')
 const game = require('./scripts/game')
+const online = require('./online/client')
 
 program
   .command('start')
@@ -16,6 +17,8 @@ program
   .action((options) => {
     if (options.practice) {
       game()
+    } else if (options.online) {
+      online()
     }
   })
 

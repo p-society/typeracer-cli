@@ -8,7 +8,8 @@
   },
   "scripts": {
     "test": "jest && standard --fix",
-    "dev": "nodemon index.js"
+    "dev": "nodemon online/server.js",
+    "start": "node online/server.js"
   },
   "keywords": [
     "typeracer",
@@ -27,9 +28,14 @@
     "standard": "^11.0.1"
   },
   "dependencies": {
+    "body-parser": "^1.18.2",
     "chalk": "^2.4.1",
     "commander": "^2.15.1",
-    "log-update": "^2.3.0"
+    "express": "^4.16.3",
+    "log-update": "^2.3.0",
+    "request": "^2.85.0",
+    "socket.io": "^2.1.0",
+    "socket.io-client": "^2.1.0"
   },
   "standard": {
     "env": [

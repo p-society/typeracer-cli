@@ -138,7 +138,7 @@ function game () {
   // Game Start
   const startinterval = setInterval(() => {
     const timeInterval = (Math.round((Date.now() - timeStarted) / 1000 * 10) / 10)
-    logUpdate(`Game Starting in ${chalk[startColor](timeInterval)} sec`)
+    logUpdate(`\nGame Starting in ${chalk[startColor](timeInterval)} sec`)
     if (timeInterval === 0) {
       clearInterval(startinterval)
       // displaying the quote
