@@ -5,7 +5,7 @@ const quote = require('../scripts/paragraph')
 * @function online
 */
 
-function online () {
+function online (data) {
   const socketClient = require('socket.io-client')
   let _socket
   let connections = 5
@@ -16,9 +16,9 @@ function online () {
     reconnectionDelayMax: 5000,
     reconnectionAttempts: 1
   })
-
+    let username = data.username
   _socket.on('connect', function () {
-    console.log(quote)
+    process.stdout.write(`${username} connected`)
   })
 }
 

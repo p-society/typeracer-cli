@@ -7,6 +7,24 @@
 const program = require('commander')
 const game = require('./scripts/game')
 const online = require('./online/client')
+const {prompt} = require('inquirer')
+
+/**
+ * setting questions for online mode
+*/
+
+const questionUsername = [
+  {
+    type: 'input',
+    name: 'username',
+    message: 'Please enter your username name',
+    validate: function (value) {
+      if (!value) {
+        return 'Please enter your username'
+      }
+      return true
+    }
+  }]
 
 program
   .command('start')
@@ -18,7 +36,9 @@ program
     if (options.practice) {
       game()
     } else if (options.online) {
-      online()
+      prompt(questionUsername).then(answers => {
+        online(answers)
+      })
     }
   })
 
