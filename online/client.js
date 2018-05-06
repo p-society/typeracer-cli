@@ -1,5 +1,8 @@
 // Getting quote
 const quote = require('../scripts/paragraph')
+const chalk = require('chalk')
+const logUpdate = require('log-update')
+const game = require('../scripts/game')
 
 /**
 * @function online
@@ -18,7 +21,13 @@ function online (data) {
   })
     let username = data.username
   _socket.on('connect', function () {
-    process.stdout.write(`${username} connected`)
+    console.log(`${username} your connection is established\n`)
+    const stdin = process.stdin
+    const stdout = process.stdout
+    stdin.setRawMode(true)
+    stdin.resume()
+    require('readline').emitKeypressEvents(stdin)
+    game()
   })
 }
 
