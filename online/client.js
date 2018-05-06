@@ -6,6 +6,7 @@ const game = require('../scripts/game')
 
 /**
 * @function online
+* @param {Object} data
 */
 
 function online (data) {
@@ -19,6 +20,12 @@ function online (data) {
     reconnectionAttempts: 2
   })
     let username = data.username
+
+  /**
+  * Connection event
+  * @event connect
+  */
+
   _socket.on('connect', function () {
     const stdin = process.stdin
     const stdout = process.stdout
@@ -34,6 +41,12 @@ function online (data) {
     process.exit()
   })
 }
+
+/**
+* @function beforeGame
+* @param {String} chunk
+* @param {Object} key
+*/
 
 function beforeGame(chunk, key) {
   if(key.sequence === '\r' && key.name === 'return') {
