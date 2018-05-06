@@ -20,9 +20,20 @@ app.use('/', routes)
 /**
 * Socket.io configurations
 */
+let clientCounter = 0
 
 io.on('connection', function (client) {
-  console.log('Client connected...')
+  clientCounter++
+  // limiting to 5 people race only
+  if (clientCounter > 1) {
+    --clientCounter
+    client.emit('err', { message : "Reached maximum of 5 people in 1 race"})
+    client.disconnect(true)
+  }
+  client.on('disconnect',()=>{
+    clientCounter--
+    console.log(`${client.id} disconnected`)
+  })
 })
 
 /**

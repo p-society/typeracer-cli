@@ -31,11 +31,11 @@ program
   .alias('s')
   .description('Start typeracer')
   .option('-p, --practice', 'Start practice mode')
-  .option('-o, --online', 'Start playing online mode')
+  .option('-o, --onlineFriendly', 'Start playing online mode among 5 friends')
   .action((options) => {
     if (options.practice) {
       game()
-    } else if (options.online) {
+    } else if (options.onlineFriendly) {
       prompt(questionUsername).then(answers => {
         online(answers)
       })

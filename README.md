@@ -36,4 +36,4 @@ Npm link will move it to your global configurations.
 **Run as a npm package**
 
 - `typerace -h` to see help
-- `typerace s -p` to start practice mode.
+- `typerace p` to start practice mode.
