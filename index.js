@@ -17,25 +17,30 @@ const questionUsername = [
   {
     type: 'input',
     name: 'username',
-    message: 'Please enter your username name',
+    message: 'Enter Username',
     validate: function (value) {
       if (!value) {
-        return 'Please enter your username'
+        return 'Please enter Username'
       }
       return true
     }
   }]
 
 program
-  .command('start')
-  .alias('s')
+  .command('practice')
+  .alias('p')
   .description('Start typeracer')
-  .option('-p, --practice', 'Start practice mode')
-  .option('-o, --onlineFriendly', 'Start playing online mode among 5 friends')
-  .action((options) => {
-    if (options.practice) {
+  .action(() => {
       game()
-    } else if (options.onlineFriendly) {
+  })
+
+program
+  .command('online')
+  .alias('o')
+  .description('Start game in online mode')
+  .option('-f, --friendly', 'Start playing online mode among 5 friends')
+  .action((options)=>{
+    if (options.friendly) {
       prompt(questionUsername).then(answers => {
         online(answers)
       })

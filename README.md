@@ -29,7 +29,7 @@ Now its in condition when you can see it working without above undone features
 - cd to folder and run `npm install`
 - Run `npm link` **(!important)**
 
-Npm link will move it to your global configurations.
+**npm link** will move it to your global configurations so that you can use it as npm package.
 
 # commands
 
