@@ -130,7 +130,7 @@ function gameEnded () {
 * @function game
 */
 
-function onlinegame (val) {
+function onlinegame (val, _socket, username) {
   quote = val
   stdout.write(quote + '\n')
   gameEnd = false
@@ -156,7 +156,7 @@ function onlinegame (val) {
 
   const interval = setInterval(() => {
     if (gameEnd) {
-      gameEnded()
+      _socket.emit('end', {score: gameEnded(), username: username})
       clearInterval(interval)
     } else {
       Time()

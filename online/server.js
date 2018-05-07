@@ -21,23 +21,24 @@ app.use('/', routes)
 /**
 * Socket.io configurations
 */
-let clientCounter = 0
 
 io.on('connection', function (client) {
-  clientCounter++
-
   let room = function (value) {
     client.join(value)
-    client.emit('room', { value: value})
+
+    client.emit('room', {value: value})
   }
 
   client.on('join', function (val) {
     const countUser = io.sockets.adapter.rooms[val.roomName].length
 
-    client.to(val.roomName).emit('joinMessage', { message: `${val.username} joined`})
-    if(val.number && (Number(val.number) === countUser)) {
+    client.to(val.roomName).emit('joinMessage', {message: `${val.username} joined`})
+    client.on('end', function (result) {
+      client.to(val.roomName).emit('score', {message: `${result.username} completed race with speed ${result.score}`})
+    })
+    if (val.number && (Number(val.number) === countUser)) {
       io.in(val.roomName).emit('paragraph', quote)
-    } else if(countUser > Number(val.number)) {
+    } else if (countUser > Number(val.number)) {
       console.log('messi')
       client.emit('err', {message: `Sorry ${val.number} users are already playing the game`})
       client.disconnect(true)
@@ -46,9 +47,7 @@ io.on('connection', function (client) {
 
   client.on('roomNumber', room)
 
-
   client.on('disconnect', () => {
-    clientCounter--
     console.log(`${client.id} disconnected`)
   })
 })

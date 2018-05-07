@@ -1,9 +1,7 @@
 // Getting quote
-const quote = require('../scripts/paragraph')
 const chalk = require('chalk')
-const logUpdate = require('log-update')
 const onlinegame = require('../scripts/onlinegame')
-let _socket, para
+let _socket, para, username
 
 /**
 * @function socket
@@ -28,7 +26,7 @@ function socket () {
 
 function online (data) {
   socket()
-  let username = data.username
+  username = data.username
   const stdin = process.stdin
   const stdout = process.stdout
   /**
@@ -71,6 +69,10 @@ function online (data) {
     console.log(chalk.red(val.message))
     process.exit()
   })
+
+  _socket.on('score', function (val) {
+    console.log(chalk.cyan(val.message))
+  })
 }
 
 /**
@@ -82,7 +84,7 @@ function online (data) {
 function beforeGame (chunk, key) {
   if (key.sequence === '\r' && key.name === 'return') {
     process.stdout.write('\u001B[2J\u001B[0;0f')
-    onlinegame(para)
+    onlinegame(para, _socket, username)
   } else if (key.ctrl && key.name === 'c') {
     process.exit()
   }
