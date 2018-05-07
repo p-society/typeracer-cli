@@ -3,7 +3,7 @@ const quote = require('../scripts/paragraph')
 const chalk = require('chalk')
 const logUpdate = require('log-update')
 const game = require('../scripts/game')
-let _socket, para, wait
+let _socket, para
 
 /**
 * @function socket
@@ -50,18 +50,14 @@ function online (data) {
 
   _socket.emit('roomNumber', data.roomNumber)
 
-  // sending number of friends/enemies to join for race
-
-  _socket.emit('enemies', data.number)
-
   // setting paragraph to emit
 
   _socket.on('paragraph', function (val) {
     para = val
   })
 
-  _socket.on('wait', function (val) {
-    wait = val
+  _socket.on('room', function (val) {
+    _socket.emit('join', val)
   })
 
   _socket.on('err', function (val) {
@@ -80,7 +76,6 @@ function beforeGame (chunk, key) {
   if (key.sequence === '\r' && key.name === 'return') {
     process.stdout.write('\u001B[2J\u001B[0;0f')
     console.log(para)
-    console.log(wait)
   } else if (key.ctrl && key.name === 'c') {
     process.exit()
   }

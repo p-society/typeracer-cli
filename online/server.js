@@ -22,22 +22,21 @@ app.use('/', routes)
 * Socket.io configurations
 */
 let clientCounter = 0
+let roomNumber
 
 io.on('connection', function (client) {
   clientCounter++
-  // limiting to 5 people race only
-  if (clientCounter > 5) {
-    --clientCounter
-    client.emit('err', { message: 'Reached maximum of 5 people in 1 race'})
-    client.disconnect(true)
+
+  let room = function (value) {
+    client.join(value)
+    client.emit('room', value)
   }
 
-  client.on('roomNumber', function (value) {
-    client.join(value)
-    // Sending Wait response to others
-
-    io.in(value).emit('paragraph', quote)
+  client.on('join', function(val) {
+    io.in(val).emit('paragraph', quote)
   })
+
+  client.on('roomNumber', room)
 
   client.on('disconnect', () => {
     clientCounter--
