@@ -9,8 +9,10 @@ const port = process.env.PORT || 3000
 const routes = require('./routes/routes')
 const server = require('http').createServer(app)
 const io = require('socket.io')(server)
-const quote = require('../scripts/paragraph')
-
+const random = require('../scripts/paragraph')
+const para = require('../paragraphs/para')
+let quote
+let arr = []
 // Setting modules to use
 app.use(bodyParser.urlencoded({extended: true}))
 app.use(bodyParser.json())
@@ -32,14 +34,22 @@ io.on('connection', function (client) {
   client.on('join', function (val) {
     const countUser = io.sockets.adapter.rooms[val.roomName].length
 
+    quote = para[val.randomNumber].para
+    if (quote.length < 100) {
+      quote = para[val.randomNumber].para + ' ' + para[val.randomNumber - 1].para
+    }
+
     client.to(val.roomName).emit('joinMessage', {message: `${val.username} joined`})
     client.on('end', function (result) {
-      client.to(val.roomName).emit('score', {message: `${result.username} completed race with speed ${result.score}`})
+      arr.push(result)
+      if (arr.length === io.sockets.adapter.rooms[val.roomName].length) {
+        io.in(val.roomName).emit('score', arr)
+      }
     })
     if (val.number && (Number(val.number) === countUser)) {
       io.in(val.roomName).emit('paragraph', quote)
     } else if (countUser > Number(val.number)) {
-      console.log('messi')
+
       client.emit('err', {message: `Sorry ${val.number} users are already playing the game`})
       client.disconnect(true)
     }

@@ -11,9 +11,9 @@ This is gonna be a big and awesome project.
 - [x] Add logical paragraphs
 - [x] Show time
 - [x] Show speed
-- [ ] Setup server
-- [ ] Design API for online mode
-- [ ] Online mode competition
+- [x] Setup server
+- [x] Design API for online mode
+- [x] Online mode competition
 - [ ] Write tests
 
 # How to Use
@@ -37,3 +37,4 @@ Now its in condition when you can see it working without above undone features
 
 - `typerace -h` to see help
 - `typerace p` to start practice mode.
+- `typerace o -f` to start online mode

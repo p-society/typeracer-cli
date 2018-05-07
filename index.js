@@ -59,6 +59,23 @@ const question2 = [
       }
       return true
     }
+  },
+  {
+    type: 'input',
+    name: 'randomNumber',
+    message: 'Enter any number between 1 & 1659 (It\'s a password), share it with your friends',
+    validate: function (value) {
+      if (value > 1659) {
+        return 'Cannot exceed 1659'
+      } else if (value < 1) {
+        return 'Cannot be less than 1'
+      } else if (!value) {
+        return 'Please enter a value'
+      } else if (isNaN(value) === true) {
+        return 'Please enter number only'
+      }
+      return true
+    }
   }
 ]
 
@@ -85,7 +102,6 @@ const question3 = [
       return true
     }
   },
-
   {
     type: 'input',
     name: 'number',
@@ -93,6 +109,23 @@ const question3 = [
     validate: function (value) {
       if (value > 5) {
         return 'Cannot exceed 5'
+      } else if (!value) {
+        return 'Please enter a value'
+      } else if (isNaN(value) === true) {
+        return 'Please enter number only'
+      }
+      return true
+    }
+  },
+  {
+    type: 'input',
+    name: 'randomNumber',
+    message: '(Confirmation) Enter number when server was created',
+    validate: function (value) {
+      if (value > 1659) {
+        return 'Cannot exceed 1659'
+      } else if (value < 1) {
+        return 'Cannot be less than 1'
       } else if (!value) {
         return 'Please enter a value'
       } else if (isNaN(value) === true) {
