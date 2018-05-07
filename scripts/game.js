@@ -3,7 +3,13 @@
 */
 const chalk = require('chalk')
 const logUpdate = require('log-update')
-const quote = require('./paragraph')
+const para = require('../paragraphs/para')
+const randomNumber = require('./paragraph')
+let quote
+quote = para[randomNumber].para
+if (quote.length < 100) {
+  quote = para[randomNumber].para + ' ' + para[randomNumber - 1].para
+}
 
 // Creating an interface for reading line from console
 
@@ -81,7 +87,7 @@ function color (quote, stringTyped) {
     // if a single mistake,
     // the rest of the coloured string will appear red
     if (wrongInput) {
-      colouredString += chalk.red(quoteLetters[i])
+      colouredString += chalk.bgRed(quoteLetters[i])
       continue
     }
 
@@ -93,7 +99,7 @@ function color (quote, stringTyped) {
       }
     } else {
       wrongInput = true
-      colouredString += chalk.red(quoteLetters[i])
+      colouredString += chalk.bgRed(quoteLetters[i])
     }
   }
   return colouredString

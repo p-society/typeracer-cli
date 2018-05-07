@@ -80,7 +80,7 @@ function color (quote, stringTyped) {
     // if a single mistake,
     // the rest of the coloured string will appear red
     if (wrongInput) {
-      colouredString += chalk.red(quoteLetters[i])
+      colouredString += chalk.bgRed(quoteLetters[i])
       continue
     }
 
@@ -92,7 +92,7 @@ function color (quote, stringTyped) {
       }
     } else {
       wrongInput = true
-      colouredString += chalk.red(quoteLetters[i])
+      colouredString += chalk.bgRed(quoteLetters[i])
     }
   }
   return colouredString

@@ -1,47 +1,52 @@
-# typeracer-cli (WIP)
+<p align="center">
+<img src="https://user-images.githubusercontent.com/24803604/39728224-a4734c5a-5273-11e8-931f-0d0762eef2b9.png" />
+</p>
 
-Typing practice from your terminal and features like online competition.
-This is gonna be a big and awesome project.
 
-# To-Do
+Typing practice from your terminal and features like practice mode and online competition mode.
 
-- [x] Make as npm package
-- [x] Offline mode practice
-- [x] Random paragraph everytime
-- [x] Add logical paragraphs
-- [x] Show time
-- [x] Show speed
-- [x] Setup server
-- [x] Design API for online mode
-- [x] Online mode competition
-- [ ] Write tests
+# Installation
 
-# How to Use
+run `npm i --global typeracer-cli` from your command line
 
-Now its in condition when you can see it working without above undone features
+# Usage
 
-**Clone the repo**
+run `typerace -h` to its usage
 
-- `git clone https://github.com/p-society/typeracer-cli.git`
+**Output**
 
-**Install packages**
+```
+Usage: typerace [options] [command]
 
-- cd to folder and run `npm install`
-- Run `npm link` **(!important)**
+  Options:
 
-**npm link** will move it to your global configurations so that you can use it as npm package.
+    -h, --help          output usage information
 
-# commands
+  Commands:
 
-**Run as a npm package**
+    practice|p          Start typeracer
+    online|o [options]  Start game in online mode
+```
 
-- `typerace -h` to see help
+# Commands
+
+**Practice mode**
+
 - `typerace p` to start practice mode.
-- `typerace o -f` to start online mode
 
-# Online mode
+**Preview of practice mode**
 
-`typerace o -f` will prompt a question
+![practice](https://user-images.githubusercontent.com/24803604/39727452-565bb37a-5270-11e8-82ad-4c882147dc03.gif)
+
+
+**Online mode**
+
+**Prevew of online mode**
+
+![online](https://user-images.githubusercontent.com/24803604/39727662-431d9b60-5271-11e8-80fb-40698302c22d.gif)
+
+
+ - `typerace o -f` to start online mode which will prompt a question
 
 **Are you starting server for race (y/N) ?**
 
@@ -54,4 +59,4 @@ Now 2 cases are there
 - If **no**  
   - Ask for **Room to join for race**, **Number of racers**, **Number(sort of password)** from your friend who created a private room to race.
 
-Enjoy
+Enjoy :fire:
