@@ -38,3 +38,20 @@ Now its in condition when you can see it working without above undone features
 - `typerace -h` to see help
 - `typerace p` to start practice mode.
 - `typerace o -f` to start online mode
+
+# Online mode
+
+`typerace o -f` will prompt a question
+
+**Are you starting server for race (y/N) ?**
+
+Now 2 cases are there
+
+- If **yes**
+  - You will share **Room to join for race**, **Number of racers**, **Number(sort of password)**
+  - All the above will be prompted if you select yes and all of your friends should fill them out same.
+
+- If **no**  
+  - Ask for **Room to join for race**, **Number of racers**, **Number(sort of password)** from your friend who created a private room to race.
+
+Enjoy

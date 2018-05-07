@@ -52,6 +52,8 @@ const question2 = [
     validate: function (value) {
       if (value > 5) {
         return 'Cannot exceed 5'
+      } else if (value <= 1) {
+        return 'Cannot have competition with yourself in online mode'
       } else if (!value) {
         return 'Please enter a value'
       } else if (isNaN(value) === true) {
@@ -109,6 +111,8 @@ const question3 = [
     validate: function (value) {
       if (value > 5) {
         return 'Cannot exceed 5'
+      } else if (value <= 1) {
+        return 'Cannot have competition with yourself in online mode'
       } else if (!value) {
         return 'Please enter a value'
       } else if (isNaN(value) === true) {
