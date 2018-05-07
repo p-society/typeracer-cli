@@ -123,6 +123,7 @@ function updateWpm () {
 
 function gameEnded () {
   stdin.removeListener('keypress', keypress)
+  console.log(chalk.red('Yipee you did it!!! Now please wait for others. Do not press anything.'))
   return updateWpm()
 }
 

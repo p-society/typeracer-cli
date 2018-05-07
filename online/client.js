@@ -64,7 +64,7 @@ function online (data) {
   })
 
   _socket.on('room', function (val) {
-    _socket.emit('join', {roomName: val.value, username: data.username, number: data.number, randomNumber : data.randomNumber})
+    _socket.emit('join', {roomName: val.value, username: data.username, number: data.number, randomNumber: data.randomNumber})
   })
 
   _socket.on('err', function (val) {
@@ -73,8 +73,8 @@ function online (data) {
   })
 
   _socket.on('score', function (val) {
-
-    val.forEach((result)=>{
+    stdout.write('\u001B[2J\u001B[0;0f')
+    val.forEach((result) => {
       console.log(chalk.cyan(`\n${result.username} completed with speed of ${result.score}`))
     })
     console.log(chalk.green('\nYou are smart enough to guess the winner.\nPress Ctrl + c to exit the game'))
