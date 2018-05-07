@@ -50,7 +50,7 @@ function online (data) {
     para = val
 
     stdout.write('\u001B[2J\u001B[0;0f')
-    stdout.write('All users joined Press ENTER')
+    stdout.write('All users joined Press Ctrl + r to start the race')
     stdin.setRawMode(true)
     stdin.resume()
     require('readline').emitKeypressEvents(stdin)
@@ -88,9 +88,10 @@ function online (data) {
 */
 
 function beforeGame (chunk, key) {
-  if (key.sequence === '\r' && key.name === 'return') {
-    process.stdout.write('\u001B[2J\u001B[0;0f')
-    onlinegame(para, _socket, username)
+  let enterCount = 0
+  if (key.ctrl === true && key.name === 'r') {
+      process.stdout.write('\u001B[2J\u001B[0;0f')
+      onlinegame(para, _socket, username)
   } else if (key.ctrl && key.name === 'c') {
     process.exit()
   }

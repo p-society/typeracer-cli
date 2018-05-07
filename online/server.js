@@ -3,7 +3,6 @@
 */
 
 const express = require('express')
-const bodyParser = require('body-parser')
 const app = express()
 const port = process.env.PORT || 3000
 const server = require('http').createServer(app)
@@ -11,9 +10,6 @@ const io = require('socket.io')(server)
 const para = require('../paragraphs/para')
 let quote
 let arr = []
-// Setting modules to use
-app.use(bodyParser.urlencoded({extended: true}))
-app.use(bodyParser.json())
 
 /**
 * Socket.io configurations
