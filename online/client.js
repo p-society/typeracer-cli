@@ -43,7 +43,7 @@ function online (data) {
     stdin.resume()
     require('readline').emitKeypressEvents(stdin)
     stdin.on('keypress', beforeGame)
-    console.log(`${username} your connection is established\n Press Enter to start\n`)
+    console.log(`${username} your connection is established\n Press Enter when all your friends join\n`)
   })
 
   // sending room to join for race
@@ -56,8 +56,12 @@ function online (data) {
     para = val
   })
 
+  _socket.on('joinMessage', function (val) {
+    console.log(chalk.green(val.message))
+  })
+
   _socket.on('room', function (val) {
-    _socket.emit('join', val)
+    _socket.emit('join', {roomName: val.value, username: data.username})
   })
 
   _socket.on('err', function (val) {

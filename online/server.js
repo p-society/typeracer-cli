@@ -22,18 +22,19 @@ app.use('/', routes)
 * Socket.io configurations
 */
 let clientCounter = 0
-let roomNumber
 
 io.on('connection', function (client) {
   clientCounter++
 
   let room = function (value) {
     client.join(value)
-    client.emit('room', value)
+    client.emit('room', { value: value})
   }
 
-  client.on('join', function(val) {
-    io.in(val).emit('paragraph', quote)
+  client.on('join', function (val) {
+    console.log(val)
+    client.to(val.roomName).emit('joinMessage', { message: `${val.username} joined`})
+    io.in(val.roomName).emit('paragraph', quote)
   })
 
   client.on('roomNumber', room)
