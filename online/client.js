@@ -3,14 +3,13 @@ const quote = require('../scripts/paragraph')
 const chalk = require('chalk')
 const logUpdate = require('log-update')
 const game = require('../scripts/game')
-let _socket
-let para
+let _socket, para, wait
 
 /**
 * @function socket
 */
 
-function socket() {
+function socket () {
   const socketClient = require('socket.io-client')
 
   _socket = socketClient('http://localhost:3000', {
@@ -28,7 +27,6 @@ function socket() {
 */
 
 function online (data) {
-
   socket()
   let username = data.username
 
@@ -52,14 +50,18 @@ function online (data) {
 
   _socket.emit('roomNumber', data.roomNumber)
 
-  // Sending number of players
+  // sending number of friends/enemies to join for race
 
-  _socket.emit('people', data.number)
+  _socket.emit('enemies', data.number)
 
   // setting paragraph to emit
 
-  _socket.on('paragraph', function(val){
+  _socket.on('paragraph', function (val) {
     para = val
+  })
+
+  _socket.on('wait', function (val) {
+    wait = val
   })
 
   _socket.on('err', function (val) {
@@ -74,10 +76,11 @@ function online (data) {
 * @param {Object} key
 */
 
-function beforeGame(chunk, key) {
-  if(key.sequence === '\r' && key.name === 'return') {
+function beforeGame (chunk, key) {
+  if (key.sequence === '\r' && key.name === 'return') {
     process.stdout.write('\u001B[2J\u001B[0;0f')
     console.log(para)
+    console.log(wait)
   } else if (key.ctrl && key.name === 'c') {
     process.exit()
   }
