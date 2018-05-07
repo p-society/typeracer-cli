@@ -16,7 +16,7 @@ const chalk = require('chalk')
 */
 
 const question1 = [{
-  type : 'confirm',
+  type: 'confirm',
   name: 'join',
   message: 'Are you starting server for race ?',
   default: false
@@ -62,12 +62,53 @@ const question2 = [
   }
 ]
 
+const question3 = [
+  {
+    type: 'input',
+    name: 'username',
+    message: 'Enter Username',
+    validate: function (value) {
+      if (!value) {
+        return 'Please enter Username'
+      }
+      return true
+    }
+  },
+  {
+    type: 'input',
+    name: 'roomNumber',
+    message: 'Enter room address to join',
+    validate: function (value) {
+      if (!value) {
+        return 'Please enter room address'
+      }
+      return true
+    }
+  },
+
+  {
+    type: 'input',
+    name: 'number',
+    message: '(Confirmation) Enter number of players',
+    validate: function (value) {
+      if (value > 5) {
+        return 'Cannot exceed 5'
+      } else if (!value) {
+        return 'Please enter a value'
+      } else if (isNaN(value) === true) {
+        return 'Please enter number only'
+      }
+      return true
+    }
+  }
+]
+
 program
   .command('practice')
   .alias('p')
   .description('Start typeracer')
   .action(() => {
-      game()
+    game()
   })
 
 program
@@ -75,18 +116,23 @@ program
   .alias('o')
   .description('Start game in online mode')
   .option('-f, --friendly', 'Start playing online mode among friends (max 5)')
-  .action((options)=>{
+  .action((options) => {
     if (options.friendly) {
       prompt(question1).then(answers => {
-        if(answers.join === true) {
+        if (answers.join === true) {
           // Generating random channel
           const roomNumber = crypto
             .randomBytes(12)
             .toString('base64')
             .replace(/[+/=]+/g, '')
 
-          console.log(chalk.cyan(`Your room number is: ${roomNumber} `))
+          console.log(chalk.cyan(`Your room number is: ${roomNumber} . Give your friends this number to join.`))
           prompt(question2).then(answers => {
+            console.log('Connecting.....')
+            online(answers)
+          })
+        } else {
+          prompt(question3).then(answers => {
             console.log('Connecting.....')
             online(answers)
           })

@@ -1,16 +1,13 @@
 // Getting quote
-const quote = require('../scripts/paragraph')
 const chalk = require('chalk')
-const logUpdate = require('log-update')
-const game = require('../scripts/game')
-let _socket
-let para
+const onlinegame = require('../scripts/onlinegame')
+let _socket, para, username
 
 /**
 * @function socket
 */
 
-function socket() {
+function socket () {
   const socketClient = require('socket.io-client')
 
   _socket = socketClient('http://localhost:3000', {
@@ -28,43 +25,53 @@ function socket() {
 */
 
 function online (data) {
-
   socket()
-  let username = data.username
-
+  username = data.username
+  const stdin = process.stdin
+  const stdout = process.stdout
   /**
   * Connection event
   * @event connect
   */
 
   _socket.on('connect', function () {
-    const stdin = process.stdin
-    const stdout = process.stdout
     stdout.write('\u001B[2J\u001B[0;0f')
-    stdin.setRawMode(true)
-    stdin.resume()
-    require('readline').emitKeypressEvents(stdin)
-    stdin.on('keypress', beforeGame)
-    console.log(`${username} your connection is established\n Press Enter to start\n`)
+    stdout.write(`${username} your connection is established\n`)
+    stdout.write('Waiting for others to join...\n')
   })
 
   // sending room to join for race
 
   _socket.emit('roomNumber', data.roomNumber)
 
-  // Sending number of players
-
-  _socket.emit('people', data.number)
-
   // setting paragraph to emit
 
-  _socket.on('paragraph', function(val){
+  _socket.on('paragraph', function (val) {
     para = val
+
+    stdout.write('\u001B[2J\u001B[0;0f')
+    stdout.write('All users joined Press ENTER')
+    stdin.setRawMode(true)
+    stdin.resume()
+    require('readline').emitKeypressEvents(stdin)
+    stdin.on('keypress', beforeGame)
+  })
+
+  _socket.on('joinMessage', function (val) {
+    console.log(chalk.green(val.message))
+  })
+
+  _socket.on('room', function (val) {
+    _socket.emit('join', {roomName: val.value, username: data.username, number: data.number})
   })
 
   _socket.on('err', function (val) {
     console.log(chalk.red(val.message))
     process.exit()
+  })
+
+  _socket.on('score', function (val) {
+    console.log(chalk.cyan(val.message))
   })
 }
 
@@ -74,10 +81,10 @@ function online (data) {
 * @param {Object} key
 */
 
-function beforeGame(chunk, key) {
-  if(key.sequence === '\r' && key.name === 'return') {
+function beforeGame (chunk, key) {
+  if (key.sequence === '\r' && key.name === 'return') {
     process.stdout.write('\u001B[2J\u001B[0;0f')
-    console.log(para)
+    onlinegame(para, _socket, username)
   } else if (key.ctrl && key.name === 'c') {
     process.exit()
   }

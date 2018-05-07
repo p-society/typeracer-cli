@@ -11,7 +11,6 @@ const server = require('http').createServer(app)
 const io = require('socket.io')(server)
 const quote = require('../scripts/paragraph')
 
-
 // Setting modules to use
 app.use(bodyParser.urlencoded({extended: true}))
 app.use(bodyParser.json())
@@ -22,41 +21,33 @@ app.use('/', routes)
 /**
 * Socket.io configurations
 */
-let clientCounter = 0
-let people, channel
 
 io.on('connection', function (client) {
-  // Listen to people event from client
-  client.on('people', function(val){
-    people = val
-  })
+  let room = function (value) {
+    client.join(value)
 
-  console.log(people)
-
-  // listen to room event form client
-
-  client.on('roomNumber', function(val){
-    roomNumber = val
-    client.join(val)
-  })
-
-  clientCounter++
-  // limiting to 5 people race only
-  if (clientCounter > 3) {
-    --clientCounter
-    client.emit('err', { message : "Reached maximum of 5 people in 1 race"})
-    client.disconnect(true)
+    client.emit('room', {value: value})
   }
 
-  // Send only when all are connected
+  client.on('join', function (val) {
+    const countUser = io.sockets.adapter.rooms[val.roomName].length
 
-  else if(clientCounter === people) {
-    // Sending paragraph to everyone
-    io.to(channel).emit('paragraph', quote)
-  }
+    client.to(val.roomName).emit('joinMessage', {message: `${val.username} joined`})
+    client.on('end', function (result) {
+      client.to(val.roomName).emit('score', {message: `${result.username} completed race with speed ${result.score}`})
+    })
+    if (val.number && (Number(val.number) === countUser)) {
+      io.in(val.roomName).emit('paragraph', quote)
+    } else if (countUser > Number(val.number)) {
+      console.log('messi')
+      client.emit('err', {message: `Sorry ${val.number} users are already playing the game`})
+      client.disconnect(true)
+    }
+  })
 
-  client.on('disconnect',()=>{
-    clientCounter--
+  client.on('roomNumber', room)
+
+  client.on('disconnect', () => {
     console.log(`${client.id} disconnected`)
   })
 })
