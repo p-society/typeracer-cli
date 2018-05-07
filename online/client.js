@@ -10,7 +10,7 @@ let _socket, para, username
 function socket () {
   const socketClient = require('socket.io-client')
 
-  _socket = socketClient('http://localhost:3000', {
+  _socket = socketClient('https://gaudy-cement.glitch.me/', {
     reconnection: true,
     reconnectionDelay: 1000,
     reconnectionDelayMax: 5000,
@@ -57,12 +57,14 @@ function online (data) {
     stdin.on('keypress', beforeGame)
   })
 
+  // Sending join message
+
   _socket.on('joinMessage', function (val) {
     console.log(chalk.green(val.message))
   })
 
   _socket.on('room', function (val) {
-    _socket.emit('join', {roomName: val.value, username: data.username, number: data.number})
+    _socket.emit('join', {roomName: val.value, username: data.username, number: data.number, randomNumber : data.randomNumber})
   })
 
   _socket.on('err', function (val) {
@@ -71,7 +73,11 @@ function online (data) {
   })
 
   _socket.on('score', function (val) {
-    console.log(chalk.cyan(val.message))
+
+    val.forEach((result)=>{
+      console.log(chalk.cyan(`\n${result.username} completed with speed of ${result.score}`))
+    })
+    console.log(chalk.green('\nYou are smart enough to guess the winner.\nPress Ctrl + c to exit the game'))
   })
 }
 
