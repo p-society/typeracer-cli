@@ -2,7 +2,7 @@
 const quote = require('../scripts/paragraph')
 const chalk = require('chalk')
 const logUpdate = require('log-update')
-const game = require('../scripts/game')
+const onlinegame = require('../scripts/onlinegame')
 let _socket, para
 
 /**
@@ -29,21 +29,17 @@ function socket () {
 function online (data) {
   socket()
   let username = data.username
-
+  const stdin = process.stdin
+  const stdout = process.stdout
   /**
   * Connection event
   * @event connect
   */
 
   _socket.on('connect', function () {
-    const stdin = process.stdin
-    const stdout = process.stdout
     stdout.write('\u001B[2J\u001B[0;0f')
-    stdin.setRawMode(true)
-    stdin.resume()
-    require('readline').emitKeypressEvents(stdin)
-    stdin.on('keypress', beforeGame)
-    console.log(`${username} your connection is established\n Press Enter when all your friends join\n`)
+    stdout.write(`${username} your connection is established\n`)
+    stdout.write('Waiting for others to join...\n')
   })
 
   // sending room to join for race
@@ -54,6 +50,13 @@ function online (data) {
 
   _socket.on('paragraph', function (val) {
     para = val
+
+    stdout.write('\u001B[2J\u001B[0;0f')
+    stdout.write('All users joined Press ENTER')
+    stdin.setRawMode(true)
+    stdin.resume()
+    require('readline').emitKeypressEvents(stdin)
+    stdin.on('keypress', beforeGame)
   })
 
   _socket.on('joinMessage', function (val) {
@@ -61,7 +64,7 @@ function online (data) {
   })
 
   _socket.on('room', function (val) {
-    _socket.emit('join', {roomName: val.value, username: data.username})
+    _socket.emit('join', {roomName: val.value, username: data.username, number: data.number})
   })
 
   _socket.on('err', function (val) {
@@ -79,7 +82,7 @@ function online (data) {
 function beforeGame (chunk, key) {
   if (key.sequence === '\r' && key.name === 'return') {
     process.stdout.write('\u001B[2J\u001B[0;0f')
-    console.log(para)
+    onlinegame(para)
   } else if (key.ctrl && key.name === 'c') {
     process.exit()
   }

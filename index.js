@@ -44,6 +44,21 @@ const question2 = [
       }
       return true
     }
+  },
+  {
+    type: 'input',
+    name: 'number',
+    message: 'Enter number of players (max 5)',
+    validate: function (value) {
+      if (value > 5) {
+        return 'Cannot exceed 5'
+      } else if (!value) {
+        return 'Please enter a value'
+      } else if (isNaN(value) === true) {
+        return 'Please enter number only'
+      }
+      return true
+    }
   }
 ]
 
@@ -66,6 +81,22 @@ const question3 = [
     validate: function (value) {
       if (!value) {
         return 'Please enter room address'
+      }
+      return true
+    }
+  },
+
+  {
+    type: 'input',
+    name: 'number',
+    message: '(Confirmation) Enter number of players',
+    validate: function (value) {
+      if (value > 5) {
+        return 'Cannot exceed 5'
+      } else if (!value) {
+        return 'Please enter a value'
+      } else if (isNaN(value) === true) {
+        return 'Please enter number only'
       }
       return true
     }

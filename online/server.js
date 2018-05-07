@@ -32,12 +32,20 @@ io.on('connection', function (client) {
   }
 
   client.on('join', function (val) {
-    console.log(val)
+    const countUser = io.sockets.adapter.rooms[val.roomName].length
+
     client.to(val.roomName).emit('joinMessage', { message: `${val.username} joined`})
-    io.in(val.roomName).emit('paragraph', quote)
+    if(val.number && (Number(val.number) === countUser)) {
+      io.in(val.roomName).emit('paragraph', quote)
+    } else if(countUser > Number(val.number)) {
+      console.log('messi')
+      client.emit('err', {message: `Sorry ${val.number} users are already playing the game`})
+      client.disconnect(true)
+    }
   })
 
   client.on('roomNumber', room)
+
 
   client.on('disconnect', () => {
     clientCounter--
