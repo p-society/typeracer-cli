@@ -154,8 +154,7 @@ program
   .description('Start game in online mode')
   .option('-f, --friendly', 'Start playing online mode among friends (max 5)')
   .action((options) => {
-    if (!options.friendly)
-      options.help()
+    if (!options.friendly) { options.help() }
     if (options.friendly) {
       prompt(question1).then(answers => {
         if (answers.join === true) {
@@ -182,5 +181,4 @@ program
 
 program.parse(process.argv)
 
-if (program.args.length === 0)
-  program.help()
+if (program.args.length === 0) { program.help() }

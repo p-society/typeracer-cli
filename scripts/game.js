@@ -8,7 +8,7 @@ const randomNumber = require('./paragraph')
 const {prompt} = require('inquirer')
 let quote
 quote = para[randomNumber].para
-if (quote.length < 10) {
+if (quote.length < 100) {
   quote = para[randomNumber].para + ' ' + para[randomNumber - 1].para
 }
 
@@ -28,14 +28,14 @@ let wordsPermin = 0
 // setting questions for retry
 
 const question1 = [{
-		type: 'list',
-		name: 'whatdo',
-		message: 'What do you want to do?',
-		choices: [
-			'Retry',
-			'Exit'
-		]
-	}]
+  type: 'list',
+  name: 'whatdo',
+  message: 'What do you want to do?',
+  choices: [
+    'Retry',
+    'Exit'
+  ]
+}]
 
 // To clear the terminal
 stdout.on('resize', () => {
@@ -144,16 +144,15 @@ function updateWpm () {
 function gameEnded () {
   stdin.removeListener('keypress', keypress)
   prompt(question1).then(answers => {
-		switch (answers.whatdo) {
-			case 'Retry':
-				game()
-				break
-			case 'Exit':
-				process.exit()
-				break
-			default:
-				process.exit()
-		}
+    switch (answers.whatdo) {
+      case 'Retry':
+        game()
+        break
+      case 'Exit':
+        process.exit()
+      default:
+        process.exit()
+    }
   })
 }
 
@@ -182,7 +181,7 @@ function game () {
 
       stdin.on('keypress', keypress)
       stdin.setRawMode(true)
-	    stdin.resume()
+      stdin.resume()
     }
   }, 1000)
 
