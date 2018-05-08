@@ -43,6 +43,7 @@ io.on('connection', function (client) {
     // Sending message to everyone if client leaves the room
 
     client.on('disconnect', () => {
+      arr = []
       client.to(val.roomName).emit('disconnectMessage', `${val.username} left`)
     })
 
@@ -52,6 +53,7 @@ io.on('connection', function (client) {
       console.log(arr)
       if (arr.length === io.sockets.adapter.rooms[val.roomName].length) {
         io.in(val.roomName).emit('score', arr)
+        arr = []
       }
 
       client.on('rematch', function (result) {

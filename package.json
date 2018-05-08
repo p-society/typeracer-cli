@@ -1,6 +1,6 @@
 {
   "name": "typeracer-cli",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Typing practice from your terminal and features like online competition.",
   "main": "index.js",
   "bin": {
