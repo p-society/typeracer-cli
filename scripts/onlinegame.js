@@ -133,9 +133,10 @@ function gameEnded () {
 
 function onlinegame (val, _socket, username) {
   quote = val
-  stdout.write(quote + '\n')
   gameEnd = false
+  stringTyped = ''
   timeStarted = Date.now() + 5000
+  wordsPermin = 0
   let startColor = 'yellowBright'
   // Game Start
   const startinterval = setInterval(() => {
@@ -150,6 +151,8 @@ function onlinegame (val, _socket, username) {
       stdout.cursorTo(0)
 
       stdin.on('keypress', keypress)
+      stdin.setRawMode(true)
+      stdin.resume()
     }
   }, 1000)
 

@@ -87,6 +87,21 @@ function online (data) {
       console.log(chalk.cyan(`\n${result.username} completed with speed of ${result.score}`))
     })
     console.log(chalk.green('\nYou are smart enough to guess the winner.\nPress Ctrl + c to exit the game'))
+    console.log(chalk.cyan('\nPress Ctrl + f to request a rematch'))
+
+    // Showing message to request rematch
+
+    _socket.on('requestRematch', function (val) {
+      process.stdout.write('\u001B[2J\u001B[0;0f')
+      console.log(val.message)
+      console.log('\nPress Ctrl + y to accept\n Ctrl + c to quit')
+    })
+
+    // Showing accepted request
+
+    _socket.on('requestRematchaccepted', function (val) {
+      console.log(val.message)
+    })
   })
 }
 
@@ -102,6 +117,13 @@ function beforeGame (chunk, key) {
     onlinegame(para, _socket, username)
   } else if (key.ctrl && key.name === 'c') {
     process.exit()
+  } else if (key.ctrl && key.name === 'f') {
+    process.stdout.write('\u001B[2J\u001B[0;0f')
+    console.log('Waiting for response..')
+    _socket.emit('rematch', {username: username})
+  } else if (key.ctrl && key.name === 'y') {
+    _socket.emit('accepted', {username: username})
+    onlinegame(para, _socket, username)
   }
 }
 

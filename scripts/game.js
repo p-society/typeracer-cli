@@ -5,6 +5,7 @@ const chalk = require('chalk')
 const logUpdate = require('log-update')
 const para = require('../paragraphs/para')
 const randomNumber = require('./paragraph')
+const {prompt} = require('inquirer')
 let quote
 quote = para[randomNumber].para
 if (quote.length < 100) {
@@ -23,6 +24,19 @@ let gameEnd = true
 let timeStarted = 0
 let time = 0
 let wordsPermin = 0
+
+// setting questions for retry
+
+const question1 = [{
+  type: 'list',
+  name: 'whatdo',
+  message: 'What do you want to do?',
+  choices: [
+    'Retry',
+    'Exit'
+  ]
+}]
+
 // To clear the terminal
 stdout.on('resize', () => {
   stdout.write('\u001B[2J\u001B[0;0f')
@@ -129,7 +143,17 @@ function updateWpm () {
 
 function gameEnded () {
   stdin.removeListener('keypress', keypress)
-  process.exit(0)
+  prompt(question1).then(answers => {
+    switch (answers.whatdo) {
+      case 'Retry':
+        game()
+        break
+      case 'Exit':
+        process.exit()
+      default:
+        process.exit()
+    }
+  })
 }
 
 /**
@@ -137,9 +161,11 @@ function gameEnded () {
 */
 
 function game () {
-  stdout.write(quote + '\n')
+  stdout.write('\u001B[2J\u001B[0;0f')
   gameEnd = false
+  stringTyped = ''
   timeStarted = Date.now() + 5000
+  wordsPermin = 0
   let startColor = 'yellowBright'
   // Game Start
   const startinterval = setInterval(() => {
@@ -154,6 +180,8 @@ function game () {
       stdout.cursorTo(0)
 
       stdin.on('keypress', keypress)
+      stdin.setRawMode(true)
+      stdin.resume()
     }
   }, 1000)
 
@@ -167,7 +195,7 @@ function game () {
       Time()
       updateWpm()
     }
-  }, 100)
+  }, 1000)
 }
 
 module.exports = game

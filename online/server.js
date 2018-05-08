@@ -47,12 +47,21 @@ io.on('connection', function (client) {
     })
 
     // Sending score to everyone when game ends
-
     client.on('end', function (result) {
       arr.push(result)
+      console.log(arr)
       if (arr.length === io.sockets.adapter.rooms[val.roomName].length) {
         io.in(val.roomName).emit('score', arr)
       }
+
+      client.on('rematch', function (result) {
+        arr = []
+        client.to(val.roomName).emit('requestRematch', {message: `${val.username} requested a rematch`})
+      })
+
+      client.on('accepted', function (result) {
+        client.to(val.roomName).emit('requestRematchaccepted', {message: `${val.username} accepted rematch press Ctrl + y`})
+      })
     })
 
     if (val.number && (Number(val.number) === countUser)) {
