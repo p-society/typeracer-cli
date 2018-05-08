@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://user-images.githubusercontent.com/24803604/39728224-a4734c5a-5273-11e8-931f-0d0762eef2b9.png" />
+<img src="https://user-images.githubusercontent.com/24803604/39766933-2386f1d8-5303-11e8-9f34-76c3b53f58c7.png" />
 </p>
 
 
@@ -9,9 +9,14 @@ Typing practice from your terminal and features like practice mode and online co
 
 run `npm i --global typeracer-cli` from your command line
 
+# Features
+
+- Practice mode
+- Online mode (can ask for a rematch)
+
 # Usage
 
-run `typerace -h` to its usage
+run `typerace` or `typerace -h` to its usage
 
 **Output**
 
