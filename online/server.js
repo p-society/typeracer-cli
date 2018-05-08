@@ -22,6 +22,12 @@ io.on('connection', function (client) {
     client.emit('room', {value: value})
   }
 
+  /** Getting info when client joins
+  * @event join
+  * @function
+  * @param {Object} val
+  */
+
   client.on('join', function (val) {
     const countUser = io.sockets.adapter.rooms[val.roomName].length
 
@@ -30,13 +36,25 @@ io.on('connection', function (client) {
       quote = para[val.randomNumber].para + ' ' + para[val.randomNumber - 1].para
     }
 
+    // Sending join message to everyone in room except client who joins
+
     client.to(val.roomName).emit('joinMessage', {message: `${val.username} joined`})
+
+    // Sending message to everyone if client leaves the room
+
+    client.on('disconnect', () => {
+      client.to(val.roomName).emit('disconnectMessage', `${val.username} left`)
+    })
+
+    // Sending score to everyone when game ends
+
     client.on('end', function (result) {
       arr.push(result)
       if (arr.length === io.sockets.adapter.rooms[val.roomName].length) {
         io.in(val.roomName).emit('score', arr)
       }
     })
+
     if (val.number && (Number(val.number) === countUser)) {
       io.in(val.roomName).emit('paragraph', quote)
     } else if (countUser > Number(val.number)) {
@@ -46,10 +64,6 @@ io.on('connection', function (client) {
   })
 
   client.on('roomNumber', room)
-
-  client.on('disconnect', () => {
-    console.log(`${client.id} disconnected`)
-  })
 })
 
 /**

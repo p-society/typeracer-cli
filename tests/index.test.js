@@ -5,7 +5,7 @@ const io = require('socket.io-client')
 describe('Suite of unit tests', function () {
   var socket
   beforeEach(function (done) {
-      // Setup
+    // Setup
     socket = io.connect('https://gaudy-cement.glitch.me/', {
       reconnection: true,
       reconnectionDelay: 1000,

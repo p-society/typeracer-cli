@@ -63,10 +63,19 @@ function online (data) {
     console.log(chalk.green(val.message))
   })
 
+  // Sending leave message
+
+  _socket.on('disconnectMessage', function (val) {
+    console.log(chalk.blue('\n' + val))
+  })
+
+  // Emitting client info on joining the room
+
   _socket.on('room', function (val) {
     _socket.emit('join', {roomName: val.value, username: data.username, number: data.number, randomNumber: data.randomNumber})
   })
 
+  // Sending error message to client
   _socket.on('err', function (val) {
     console.log(chalk.red(val.message))
     process.exit()
