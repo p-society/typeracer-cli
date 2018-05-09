@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://user-images.githubusercontent.com/24803604/39766933-2386f1d8-5303-11e8-9f34-76c3b53f58c7.png" />
+  <img src="https://raw.githubusercontent.com/p-society/artwork/master/gifs/typeracer.gif" />
 </p>
 
 
