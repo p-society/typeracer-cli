@@ -68,7 +68,7 @@ Usage: typerace [options] [command]
 
 **Prevew of online mode**
 
-![online](https://user-images.githubusercontent.com/24803604/39727662-431d9b60-5271-11e8-80fb-40698302c22d.gif)
+![online](https://user-images.githubusercontent.com/24803604/39809147-a13edd98-539e-11e8-9dbd-6cd3ee8a2961.gif)
 
 
  - `typerace o -f` to start online mode which will prompt a question
