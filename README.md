@@ -61,7 +61,7 @@ Usage: typerace [options] [command]
 
 **Preview of practice mode**
 
-![practice](https://user-images.githubusercontent.com/4240489/39816659-7e4ad204-53b9-11e8-94be-5347c9bfa2c4.gif)
+![practice](https://user-images.githubusercontent.com/4240489/39820119-b0e09d8a-53c2-11e8-9337-357a11705030.gif)
 
 
 **Online mode**
