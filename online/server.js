@@ -8,8 +8,21 @@ const port = process.env.PORT || 3000
 const server = require('http').createServer(app)
 const io = require('socket.io')(server)
 const para = require('../paragraphs/para')
-let quote
+let quote, randomNumber
 let arr = []
+const paras = require('../paragraphs/para')
+/**
+* @function randomNumRetry
+*/
+
+function randomNumRetry() {
+  randomNumber = Math.floor((Math.random() * paras.length))
+  quote = paras[randomNumber].para
+  if (quote.length < 100) {
+    quote = paras[randomNumber].para + ' ' + paras[randomNumber - 1].para
+  }
+  return quote
+}
 
 /**
 * Socket.io configurations
@@ -30,11 +43,6 @@ io.on('connection', function (client) {
 
   client.on('join', function (val) {
     const countUser = io.sockets.adapter.rooms[val.roomName].length
-
-    quote = para[val.randomNumber].para
-    if (quote.length < 100) {
-      quote = para[val.randomNumber].para + ' ' + para[val.randomNumber - 1].para
-    }
 
     // Sending join message to everyone in room except client who joins
 
@@ -58,16 +66,20 @@ io.on('connection', function (client) {
 
       client.on('rematch', function (result) {
         arr = []
-        client.to(val.roomName).emit('requestRematch', {message: `${val.username} requested a rematch`})
+        client.to(val.roomName).emit('requestRematch', {message: `${result.username} requested a rematch`})
       })
 
       client.on('accepted', function (result) {
-        client.to(val.roomName).emit('requestRematchaccepted', {message: `${val.username} accepted rematch press Ctrl + y`})
+        client.to(val.roomName).emit('requestRematchaccepted', {message: `${result.username} accepted rematch press Ctrl + g`})
+      })
+
+      client.on('randomPara', function (result) {
+        client.to(client.id).emit('tempPara', {paragraph : result.para})
       })
     })
 
     if (val.number && (Number(val.number) === countUser)) {
-      io.in(val.roomName).emit('paragraph', quote)
+      io.in(val.roomName).emit('paragraph', randomNumRetry())
     } else if (countUser > Number(val.number)) {
       client.emit('err', {message: `Sorry ${val.number} users are already playing the game`})
       client.disconnect(true)

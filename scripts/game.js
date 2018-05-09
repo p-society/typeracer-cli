@@ -4,7 +4,7 @@
 const chalk = require('chalk')
 const logUpdate = require('log-update')
 const para = require('../paragraphs/para')
-const randomNumber = require('./paragraph')
+let randomNumber = require('./paragraph')
 const {prompt} = require('inquirer')
 let quote
 quote = para[randomNumber].para
@@ -138,6 +138,19 @@ function updateWpm () {
 }
 
 /**
+* @function randomNumRetry
+*/
+
+function randomNumRetry() {
+  randomNumber = Math.floor((Math.random() * para.length))
+  quote = para[randomNumber].para
+  if (quote.length < 100) {
+    quote = para[randomNumber].para + ' ' + para[randomNumber - 1].para
+  }
+  return quote
+}
+
+/**
 * @function gameEnded
 */
 
@@ -146,6 +159,7 @@ function gameEnded () {
   prompt(question1).then(answers => {
     switch (answers.whatdo) {
       case 'Retry':
+        randomNumRetry()
         game()
         break
       case 'Exit':
