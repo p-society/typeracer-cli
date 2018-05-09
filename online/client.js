@@ -1,7 +1,22 @@
 // Getting quote
 const chalk = require('chalk')
 const onlinegame = require('../scripts/onlinegame')
-let _socket, para, username
+let _socket, para, username, randomParatemp, randomNumber, quote
+
+const paras = require('../paragraphs/para')
+
+/**
+* @function randomNumRetry
+*/
+
+function randomNumRetry () {
+  randomNumber = Math.floor((Math.random() * paras.length))
+  quote = paras[randomNumber].para
+  if (quote.length < 100) {
+    quote = paras[randomNumber].para + ' ' + paras[randomNumber - 1].para
+  }
+  return quote
+}
 
 /**
 * @function socket
@@ -10,7 +25,7 @@ let _socket, para, username
 function socket () {
   const socketClient = require('socket.io-client')
 
-  _socket = socketClient('http://localhost:3000', {
+  _socket = socketClient('https://gaudy-cement.glitch.me/', {
     reconnection: true,
     reconnectionDelay: 1000,
     reconnectionDelayMax: 5000,
@@ -81,6 +96,8 @@ function online (data) {
     process.exit()
   })
 
+  // Getting event when game ends
+
   _socket.on('score', function (val) {
     stdout.write('\u001B[2J\u001B[0;0f')
     val.forEach((result) => {
@@ -88,6 +105,7 @@ function online (data) {
     })
     console.log(chalk.green('\nYou are smart enough to guess the winner.\n\n'))
     console.log(chalk.cyan('Press Ctrl + f to request a rematch\nPress Ctrl + c to quit'))
+
     // Showing message to request rematch
 
     _socket.on('requestRematch', function (val) {
@@ -101,6 +119,7 @@ function online (data) {
     _socket.on('requestRematchaccepted', function (val) {
       process.stdout.write('\u001B[2J\u001B[0;0f')
       console.log(val.message)
+      randomParatemp = val.para
     })
   })
 }
@@ -114,18 +133,26 @@ function online (data) {
 function beforeGame (chunk, key) {
   if (key.ctrl === true && key.name === 'r') {
     process.stdout.write('\u001B[2J\u001B[0;0f')
+    // Start the game
     onlinegame(para, _socket, username)
   } else if (key.ctrl && key.name === 'c') {
     process.exit()
   } else if (key.ctrl && key.name === 'f') {
+    // If user accepts the rematch then emitting username
     _socket.emit('rematch', {username: username})
+
     process.stdout.write('\u001B[2J\u001B[0;0f')
     console.log('Waiting....')
   } else if (key.ctrl && key.name === 'y') {
-    _socket.emit('accepted', {username: username})
-    onlinegame(para, _socket, username)
+    // Changing paragraph
+    let temp = randomNumRetry()
+
+    _socket.emit('accepted', {username: username, para: temp})
+
+    onlinegame(temp, _socket, username)
   } else if (key.ctrl && key.name === 'g') {
-    onlinegame(para, _socket, username)
+    // Starting game
+    onlinegame(randomParatemp, _socket, username)
   }
 }
 

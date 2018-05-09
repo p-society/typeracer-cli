@@ -62,18 +62,15 @@ io.on('connection', function (client) {
         io.in(val.roomName).emit('score', arr)
         arr = []
       }
-
+      // Getting event for rematch
       client.on('rematch', function (result) {
         arr = []
         client.to(val.roomName).emit('requestRematch', {message: `${result.username} requested a rematch`})
       })
 
+      // Getting accepted requests form clients
       client.on('accepted', function (result) {
-        client.to(val.roomName).emit('requestRematchaccepted', {message: `${result.username} accepted rematch press Ctrl + g`})
-      })
-
-      client.on('randomPara', function (result) {
-        client.to(client.id).emit('tempPara', {paragraph: result.para})
+        client.to(val.roomName).emit('requestRematchaccepted', {message: `${result.username} accepted rematch press Ctrl + g`, para: result.para})
       })
     })
 
