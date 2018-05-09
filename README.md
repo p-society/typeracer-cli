@@ -9,6 +9,26 @@ Typing practice from your terminal and features like practice mode and online co
 
 run `npm i --global typeracer-cli` from your command line
 
+# Possible Errors
+
+When you have installed this tool some times later you could find some error when you start **typerace**.
+
+This may be because new update might have been rolled out and you have to update to latest version.
+
+**How to update**
+
+Its same as installation just run `npm i --global typeracer-cli` from your command line
+
+Now even after that if you see any errors, follow the below steps
+
+- find **.nvm** folder in your home directory.
+
+-  cd to `.nvm/versions/node/${your node version}/bin` and delete **typerace file**
+-  cd to `.nvm/versions/node/${your node version}/lib/node_modules` and delete **typeracer-cli folder**
+- run `npm - -global typeracer-cli`
+
+These steps should resolve the isssue. If it does not please open an isssue.
+
 # Features
 
 - Practice mode
