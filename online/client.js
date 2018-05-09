@@ -1,35 +1,7 @@
 // Getting quote
 const chalk = require('chalk')
 const onlinegame = require('../scripts/onlinegame')
-let _socket, para, username, randomNumber
-const paras = require('../paragraphs/para')
-const {prompt} = require('inquirer')
-
-/**
-* @function randomNumRetry
-*/
-
-function randomNumRetry() {
-  randomNumber = Math.floor((Math.random() * paras.length))
-  quote = paras[randomNumber].para
-  if (quote.length < 100) {
-    quote = paras[randomNumber].para + ' ' + paras[randomNumber - 1].para
-  }
-  return quote
-}
-
-
-// setting questions for retry
-
-const question1 = [{
-  type: 'list',
-  name: 'whatdo',
-  message: 'What do you want to do?',
-  choices: [
-    'Request Rematch',
-    'Exit'
-  ]
-}]
+let _socket, para, username
 
 /**
 * @function socket
@@ -140,7 +112,6 @@ function online (data) {
 */
 
 function beforeGame (chunk, key) {
-  let tempPara = randomNumRetry()
   if (key.ctrl === true && key.name === 'r') {
     process.stdout.write('\u001B[2J\u001B[0;0f')
     onlinegame(para, _socket, username)

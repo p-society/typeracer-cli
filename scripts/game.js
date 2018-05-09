@@ -141,7 +141,7 @@ function updateWpm () {
 * @function randomNumRetry
 */
 
-function randomNumRetry() {
+function randomNumRetry () {
   randomNumber = Math.floor((Math.random() * para.length))
   quote = para[randomNumber].para
   if (quote.length < 100) {

@@ -7,7 +7,6 @@ const app = express()
 const port = process.env.PORT || 3000
 const server = require('http').createServer(app)
 const io = require('socket.io')(server)
-const para = require('../paragraphs/para')
 let quote, randomNumber
 let arr = []
 const paras = require('../paragraphs/para')
@@ -15,7 +14,7 @@ const paras = require('../paragraphs/para')
 * @function randomNumRetry
 */
 
-function randomNumRetry() {
+function randomNumRetry () {
   randomNumber = Math.floor((Math.random() * paras.length))
   quote = paras[randomNumber].para
   if (quote.length < 100) {
@@ -74,7 +73,7 @@ io.on('connection', function (client) {
       })
 
       client.on('randomPara', function (result) {
-        client.to(client.id).emit('tempPara', {paragraph : result.para})
+        client.to(client.id).emit('tempPara', {paragraph: result.para})
       })
     })
 
