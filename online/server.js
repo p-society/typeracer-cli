@@ -1,7 +1,7 @@
 /**
 * Requiring modules and files
 */
-
+require("dotenv").config()
 const express = require('express')
 const app = express()
 const port = process.env.PORT || 3000
@@ -10,6 +10,21 @@ const io = require('socket.io')(server)
 let quote, randomNumber
 let arr = []
 const paras = require('../paragraphs/para')
+const mongoose = require('mongoose')
+const scoreSchema = require('./scoreSchema')
+
+/**
+* Mongodb connection
+*/
+
+mongoose.connect(process.env.DATABASE)
+mongoose.connection.on('connected',()=>{
+  console.log("Successfully connected to database");
+})
+mongoose.connection.on('error',(err)=>{
+  console.log(err)
+})
+
 /**
 * @function randomNumRetry
 */
