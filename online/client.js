@@ -1,6 +1,7 @@
-// Getting quote
+// Requiring modules
 const chalk = require('chalk')
 const onlinegame = require('../scripts/onlinegame')
+const Table = require('cli-table2')
 let _socket, para, username, randomParatemp, randomNumber, quote
 
 const paras = require('../paragraphs/para')
@@ -111,7 +112,8 @@ function online (data) {
     _socket.on('requestRematch', function (val) {
       process.stdout.write('\u001B[2J\u001B[0;0f')
       console.log(val.message)
-      console.log('\nPress Ctrl + y to accept\n Ctrl + c to quit')
+      console.log(chalk.green('Press Ctrl + y to accept'))
+      console.log(chalk.red('Ctrl + c to quit'))
     })
 
     // Showing accepted request
@@ -156,4 +158,29 @@ function beforeGame (chunk, key) {
   }
 }
 
-module.exports = online
+function score () {
+  socket()
+
+  _socket.on('connect', function () {
+    process.stdout.write('\u001B[2J\u001B[0;0f')
+  })
+
+  _socket.on('highscores', (val) => {
+    const table = new Table({
+      head: ['Player', 'Highscore'],
+      colWidths: [30, 20]
+    })
+
+    val.forEach(result => {
+      var final = [`${result.username}`, `${result.score}`]
+      table.push(final)
+    })
+    console.log(table.toString())
+    process.exit()
+  })
+}
+
+module.exports = {
+  online: online,
+  score: score
+}
