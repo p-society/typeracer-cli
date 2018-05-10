@@ -84,4 +84,10 @@ Now 2 cases are there
 - If **no**  
   - Ask for **Room to join for race**, **Number of racers**, **Number(sort of password)** from your friend who created a private room to race.
 
+## Highscores
+
+You can see top 10 Highscores of online mode
+
+run `typerace o -s`
+
 Enjoy :fire:

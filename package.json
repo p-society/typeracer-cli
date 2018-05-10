@@ -29,6 +29,7 @@
   },
   "dependencies": {
     "chalk": "^2.4.1",
+    "cli-table2": "^0.2.0",
     "commander": "^2.15.1",
     "dotenv": "^5.0.1",
     "express": "^4.16.3",
