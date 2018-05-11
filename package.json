@@ -1,6 +1,6 @@
 {
   "name": "typeracer-cli",
-  "version": "0.0.16",
+  "version": "0.0.17",
   "description": "Typing practice from your terminal and features like online competition.",
   "main": "index.js",
   "bin": {
@@ -35,7 +35,7 @@
     "express": "^4.16.3",
     "inquirer": "^5.2.0",
     "log-update": "^2.3.0",
-    "mongoose": "^5.0.18",
+    "mongoose": "^5.1.0",
     "socket.io": "^2.1.0",
     "socket.io-client": "^2.1.0"
   },

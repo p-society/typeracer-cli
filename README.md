@@ -91,3 +91,7 @@ You can see top 10 Highscores of online mode
 run `typerace o -s`
 
 Enjoy :fire:
+
+# Idea
+
+*Conceived by:* <a href="https://github.com/shibasisp">Shibasis Patel</a>
