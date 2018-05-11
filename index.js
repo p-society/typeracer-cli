@@ -65,10 +65,10 @@ const question2 = [
   {
     type: 'input',
     name: 'randomNumber',
-    message: 'Enter any number between 1 & 1870 (It\'s a password), share it with your friends',
+    message: 'Enter any number between 1 & 1921 (It\'s a password), share it with your friends',
     validate: function (value) {
-      if (value > 1870) {
-        return 'Cannot exceed 1870'
+      if (value > 1921) {
+        return 'Cannot exceed 1921'
       } else if (value < 1) {
         return 'Cannot be less than 1'
       } else if (!value) {
@@ -126,8 +126,8 @@ const question3 = [
     name: 'randomNumber',
     message: '(Confirmation) Enter number when server was created',
     validate: function (value) {
-      if (value > 1870) {
-        return 'Cannot exceed 1870'
+      if (value > 1921) {
+        return 'Cannot exceed 1921'
       } else if (value < 1) {
         return 'Cannot be less than 1'
       } else if (!value) {
