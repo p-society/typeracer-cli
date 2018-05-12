@@ -1,6 +1,7 @@
 const randomNumber = require('../scripts/paragraph')
 const paragraph = require('../paragraphs/para')
 const io = require('socket.io-client')
+// const fs = require('fs')
 
 describe('Suite of unit tests', function () {
   var socket
@@ -49,4 +50,34 @@ describe('paragraph', () => {
     let para = paragraph[randomNumber].para
     expect(para).toBeDefined()
   })
+
+  it('checks same paragraph', () => {
+    var valueArr = paragraph.map(function (item) { return item.para })
+    var isDuplicate = valueArr.some(function (item, idx) {
+      return valueArr.indexOf(item) !== idx
+    })
+    if (isDuplicate === true) {
+      throw new Error('Please check paragraphs you added. It seems that they are already present in para.json file')
+    }
+    expect(isDuplicate).toBe(false)
+  })
+
+/**
+* To remove redundancy and write new paragraphs
+
+it('convert to unique paragraph', () => {
+  var repeats = []
+  var item
+  var i = 0
+
+  while (i < paragraph.length) {
+    repeats.indexOf(item = paragraph[i++].para) > -1 ? paragraph.pop(i--) : repeats.push(item)
+  }
+  let newPara = JSON.stringify(paragraph, null, ' ')
+  fs.writeFile('./paragraphs/para.json', newPara, (err) => {
+    console.log('done')
+  })
+})
+
+*/
 })

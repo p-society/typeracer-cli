@@ -92,6 +92,40 @@ run `typerace o -s`
 
 Enjoy :fire:
 
+# Contributing
+
+If you think of any new feature and found any bug, we are open to PR's, to contribute follow the guides
+
+**General Setup**
+
+- fork the repository
+
+- clone your forked repository
+
+- cd to folder and run `npm install`
+
+- create a `.env` file in root directory and put following in it
+
+```
+DATABASE=your mongoDB url
+```
+
+- run `npm start`
+
+For better functionality of game we need as many paragraphs you can add
+
+**To contribute to paragraphs**
+
+- Add paragraphs in `paragraphs/para.json` as format already present
+
+- run `npm test`
+
+- (**Important**) all tests should pass as you would get error for a test if paragraphs are same
+
+- Find same paragraphs then run `npm test`
+
+- If all tests pass then **Open a PR**
+
 # Idea
 
 *Conceived by:* <a href="https://github.com/shibasisp">Shibasis Patel</a>
