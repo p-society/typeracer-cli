@@ -57,7 +57,7 @@ describe('paragraph', () => {
       return valueArr.indexOf(item) !== idx
     })
     if (isDuplicate === true) {
-      throw new Error('Please check paragraphs you added. It seems that they are already present in para.json file')
+      throw new Error('Please check paragraphs you added. It seems that atleast one of them is already present in para.json file')
     }
     expect(isDuplicate).toBe(false)
   })
