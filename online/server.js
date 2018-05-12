@@ -44,6 +44,13 @@ function randomNumRetry () {
 */
 
 io.on('connection', function (client) {
+  // Sorting it before any operation occur
+
+  Score.update({_id: process.env.ID}, {$push: {players: {$each: [], $sort: -1}}}, (err) => {
+    if (err) throw new Error(err)
+    console.log('Sorted in descending order before adding')
+  })
+
   Score.findOne({_id: process.env.ID}, (err, players) => {
     if (err) {
       console.log(chalk.red('Sorry encountered some error please try in some time'))
@@ -99,32 +106,37 @@ io.on('connection', function (client) {
         let lowestScore = []
         lowestScore.push(playersArray[playersArray.length - 1].score)
 
-        // Sorting it before any operation occur
-
-        Score.update({_id: process.env.ID}, {$push: {players: {$each: [], $sort: -1}}}, (err) => {
-          if (err) throw new Error(err)
-          console.log('Sorted in descending order before adding')
-        })
-
         // checking if last score is less then current score
         if (score > lowestScore[0]) {
-          // First removing last player
+          async function remove () {
+            // First removing last player
+            await Score.update({_id: process.env.ID}, {$pop: {players: 1}}, (err) => {
+              if (err) throw new Error(err)
+              console.log('Removed last player')
+            })
+          }
 
-          Score.update({_id: process.env.ID}, {$pop: {players: 1}}, (err) => {
-            if (err) throw new Error(err)
-            console.log('Removed last player')
-          })
+          async function add () {
+            // Then updating current player
+            await Score.update({_id: process.env.ID}, {$push: {players: {score, username}}}, (err) => {
+              if (err) throw new Error(err)
+              console.log('Added new High score')
+            })
+          }
 
-          // Then updating current player
-          Score.update({_id: process.env.ID}, {$push: {players: {score, username}}}, (err) => {
-            if (err) throw new Error(err)
-            console.log('Added new High score')
-          })
-          // Then again sorting it correctly
-          Score.update({_id: process.env.ID}, {$push: {players: {$each: [], $sort: -1}}}, (err) => {
-            if (err) throw new Error(err)
-            console.log('Sorted in descending order after adding')
-          })
+          async function update () {
+            // Then again sorting it correctly
+            await Score.update({_id: process.env.ID}, {$push: {players: {$each: [], $sort: -1}}}, (err) => {
+              if (err) throw new Error(err)
+              console.log('Sorted in descending order after adding')
+            })
+          }
+
+          (async () => {
+            Promise.all([remove(), add(), update()]).then(() => {
+              console.log('done')
+            })
+          })()
         }
       })
 
