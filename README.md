@@ -61,14 +61,14 @@ Usage: typerace [options] [command]
 
 **Preview of practice mode**
 
-![practice](https://user-images.githubusercontent.com/4240489/39820119-b0e09d8a-53c2-11e8-9337-357a11705030.gif)
+![practice](https://user-images.githubusercontent.com/24803604/39970250-e3d22eca-5705-11e8-9c89-472ff4d982ea.gif)
 
 
 **Online mode**
 
 **Prevew of online mode**
 
-![online](https://user-images.githubusercontent.com/24803604/39809147-a13edd98-539e-11e8-9dbd-6cd3ee8a2961.gif)
+![online](https://user-images.githubusercontent.com/24803604/39970260-f63d6bc4-5705-11e8-8d94-b2f984f8c998.gif)
 
 
  - `typerace o -f` to start online mode which will prompt a question
