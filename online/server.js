@@ -33,7 +33,7 @@ mongoose.connection.on('error', (err) => {
 function randomNumRetry () {
   randomNumber = Math.floor((Math.random() * paras.length))
   quote = paras[randomNumber].para
-  if (quote.length < 100) {
+  if (quote.length < 10) {
     quote = paras[randomNumber].para + ' ' + paras[randomNumber - 1].para
   }
   return quote
@@ -44,13 +44,6 @@ function randomNumRetry () {
 */
 
 io.on('connection', function (client) {
-  // Sorting it before any operation occur
-
-  Score.update({_id: process.env.ID}, {$push: {players: {$each: [], $sort: -1}}}, (err) => {
-    if (err) throw new Error(err)
-    console.log('Sorted in descending order before adding')
-  })
-
   Score.findOne({_id: process.env.ID}, (err, players) => {
     if (err) {
       console.log(chalk.red('Sorry encountered some error please try in some time'))
@@ -107,17 +100,17 @@ io.on('connection', function (client) {
         lowestScore.push(playersArray[playersArray.length - 1].score)
 
         // checking if last score is less then current score
-        async function remove () {
+        function remove () {
           // First removing last player
-          await Score.update({_id: process.env.ID}, {$pop: {players: 1}}, (err) => {
+          Score.update({_id: process.env.ID}, {$pop: {players: 1}}, (err) => {
             if (err) throw new Error(err)
             console.log('Removed last player')
           })
         }
 
-        async function add () {
+        function add () {
           // Then updating current player
-          await Score.update({_id: process.env.ID}, {$push: {players: {score, username}}}, (err) => {
+          Score.update({_id: process.env.ID}, {$push: {players: {score, username}}}, (err) => {
             if (err) throw new Error(err)
             console.log('Added new High score')
           })
@@ -132,8 +125,10 @@ io.on('connection', function (client) {
         }
         if (score > lowestScore[0]) {
           (async () => {
-            Promise.all([remove(), add(), update()]).then(() => {
-              console.log('done')
+            Promise.all([update()]).then(async () => {
+              await remove()
+              await add()
+              await update()
             })
           })()
         }
