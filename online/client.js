@@ -26,7 +26,7 @@ function randomNumRetry () {
 function socket () {
   const socketClient = require('socket.io-client')
 
-  _socket = socketClient(process.env.SERVER_URL, {
+  _socket = socketClient('https://gaudy-cement.glitch.me/', {
     reconnection: true,
     reconnectionDelay: 1000,
     reconnectionDelayMax: 5000,
