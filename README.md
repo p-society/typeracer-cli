@@ -131,8 +131,9 @@ Yes, ofcourse you can we need lots of paragraphs so that our users don't get bor
 ## Support Us
 
 We are a bunch of undergrads passionate about software development looking to make cool stuff. A little motivation and support helps us a lot. If you like this nifty hack you can support us by doing any (or all :wink: ) of the following:
-- :star: Star us on [Github](https://github.com) and make us trend so that other people can know about our project.
-- :clap: Clap for us on [Medium]()
+- :clap: Upvote on producthunt [producthunt](https://www.producthunt.com/posts/typeracer-cli)
+- :star: Star us on [Github](https://github.com/p-society/typeracer-cli) and make us trend so that other people can know about our project.
+- :clap: Clap for us on [Medium](https://medium.com/programming-society-gazette/shellracer-bbce3efbe888)
 - Tweet about us
 - Share this on Facebook
 - Install it and increase our download count on npm
