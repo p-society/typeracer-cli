@@ -1,7 +1,7 @@
 // Requiring modules
 const chalk = require('chalk')
 const onlinegame = require('../scripts/onlinegame')
-const Table = require('cli-table2')
+const Table = require('cli-table3')
 let _socket, para, username, randomParatemp, randomNumber, quote
 
 const paras = require('../paragraphs/para')
