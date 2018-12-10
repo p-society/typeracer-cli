@@ -1,14 +1,16 @@
 {
   "name": "typeracer-cli",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Typing practice from your terminal and features like online competition.",
-  "main": "index.js",
+  "main": "dist/index.js",
   "bin": {
-    "typerace": "index.js"
+    "typerace": "dist/index.js"
   },
   "scripts": {
+    "build": "gulp && node dist/index.js",
     "test": "jest && standard --fix",
-    "dev": "nodemon online/server.js",
+    "dev": "nodemon --no-deprecation --watch 'src/**/*.ts' --ignore 'src/**/*.spec.ts' --exec 'ts-node' src/online/app.ts",
+    "lint": "tslint -c tslint.json 'src/**/*.ts' --fix",
     "start": "node online/server.js"
   },
   "keywords": [
@@ -24,8 +26,13 @@
   "author": "Kautilya Tripathi <tripathi.kautilya@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "@types/node": "^10.12.12",
     "jest": "^22.4.3",
-    "standard": "^11.0.1"
+    "tslint": "^5.11.0",
+    "nodemon": "^1.18.7",
+    "standard": "^11.0.1",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.2.2"
   },
   "dependencies": {
     "chalk": "^2.4.1",
@@ -33,6 +40,10 @@
     "commander": "^2.15.1",
     "dotenv": "^5.0.1",
     "express": "^4.16.3",
+    "figlet": "^1.2.1",
+    "gulp": "^4.0.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-typescript": "^5.0.0",
     "inquirer": "^5.2.0",
     "log-update": "^2.3.0",
     "mongoose": "^5.1.0",
