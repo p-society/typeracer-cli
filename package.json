@@ -1,6 +1,6 @@
 {
   "name": "typeracer-cli",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Typing practice from your terminal and features like online competition.",
   "main": "dist/index.js",
   "bin": {
@@ -8,10 +8,10 @@
   },
   "scripts": {
     "build": "gulp && node dist/index.js",
-    "test": "jest && standard --fix",
+    "test": "mocha --no-deprecation --timeout 10000 --require ts-node/register **/*.spec.ts",
     "dev": "nodemon --no-deprecation --watch 'src/**/*.ts' --ignore 'src/**/*.spec.ts' --exec 'ts-node' src/online/app.ts",
     "lint": "tslint -c tslint.json 'src/**/*.ts' --fix",
-    "start": "node online/server.js"
+    "start": "gulp && node dist/online/app.js"
   },
   "keywords": [
     "typeracer",
@@ -27,16 +27,20 @@
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^10.12.12",
-    "jest": "^22.4.3",
-    "tslint": "^5.11.0",
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "chai-http": "^4.2.0",
+    "mocha": "^5.2.0",
+    "mocha-typescript": "^1.1.17",
     "nodemon": "^1.18.7",
-    "standard": "^11.0.1",
+    "sinon": "^7.2.0",
     "ts-node": "^7.0.1",
+    "tslint": "^5.11.0",
     "typescript": "^3.2.2"
   },
   "dependencies": {
     "chalk": "^2.4.1",
-    "cli-table3": "^0.5.0",
+    "cli-table2": "^0.2.0",
     "commander": "^2.15.1",
     "dotenv": "^5.0.1",
     "express": "^4.16.3",
@@ -49,10 +53,5 @@
     "mongoose": "^5.1.0",
     "socket.io": "^2.1.0",
     "socket.io-client": "^2.1.0"
-  },
-  "standard": {
-    "env": [
-      "jest"
-    ]
   }
 }

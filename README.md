@@ -4,6 +4,9 @@
 
 > Practice touch typing and compete with your friends all from the comfort of your shell and become a typing ninja :boom:.
 
+[![Build Status](https://travis-ci.org/p-society/typeracer-cli.svg?branch=master)](https://travis-ci.org/p-society/typeracer-cli)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/baa51166cb03438488dd285d331fdad8)](https://www.codacy.com/app/knrt10/typeracer-cli?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=knrt10/typeracer-cli&amp;utm_campaign=Badge_Grade)
+
 *But this has already been done. Why should I use this client?*
 
 Because most other shell clients don't offer the features that we do

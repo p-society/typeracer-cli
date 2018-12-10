@@ -1,6 +1,7 @@
-#!/usr/bin/env node
+"use strict";
+require("dotenv").config();
 
-function hello(compiler: string) {
-    console.log(`Hello from ${compiler}`);
-}
-hello("TypeScript");
+import { Typeracer } from "./server";
+
+// tslint:disable-next-line:no-unused-expression
+new Typeracer();
