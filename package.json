@@ -8,10 +8,10 @@
   },
   "scripts": {
     "build": "gulp && node dist/index.js",
-    "test": "jest && standard --fix",
+    "test": "jest && npm run lint",
     "dev": "nodemon --no-deprecation --watch 'src/**/*.ts' --ignore 'src/**/*.spec.ts' --exec 'ts-node' src/online/app.ts",
     "lint": "tslint -c tslint.json 'src/**/*.ts' --fix",
-    "start": "node online/server.js"
+    "start": "gulp && node dist/online/app.js"
   },
   "keywords": [
     "typeracer",

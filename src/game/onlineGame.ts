@@ -2,11 +2,8 @@
  * Module dependencies and files from other folders
  */
 const chalk = require("chalk");
-import { prompt } from "inquirer";
 import logUpdate = require("log-update");
 import { output } from "../functions";
-import { randomNumQuote } from "../functions/randomQuote";
-import { offline } from "../questions";
 
 /**
  * @exports Game
@@ -48,7 +45,7 @@ export class Game {
    * @static
    */
   private static updateColor() {
-     // Clearing the terminal for double time error
+    // Clearing the terminal for double time error
     output("\u001B[2J\u001B[0;0f");
 
     let updatedString = Game.color(Game.quote, Game.stringTyped);
@@ -113,6 +110,7 @@ export class Game {
     if (Game.stringTyped.length > 0) {
       Game.wordsPermin = Game.stringTyped.split(" ").length / (Game.time / 60);
     }
+    return Game.wordsPermin;
   }
 
   /**
@@ -121,29 +119,18 @@ export class Game {
    */
   private static gameEnded() {
     Game.stdin.removeListener("keypress", Game.keypress);
-    prompt(offline.question1).then((answers) => {
-      switch (answers.whatdo) {
-        case "Retry":
-          const game: Game = new Game(randomNumQuote());
-          game.game();
-          break;
-        case "Exit":
-          process.exit();
-        default:
-          process.exit();
-      }
-    });
+    output("Yipee you did it!!! Now please wait for others. Do not press anything.");
+    return Game.updateWpm();
   }
 
   /**
    * @constructor
    */
-  constructor(randQuote: string) {
+  constructor() {
     Game.gameEnd = true;
     Game.timeStarted = 0;
     Game.time = 0;
     Game.wordsPermin = 0;
-    Game.quote = randQuote;
     // Creating an interface for reading line from console
     Game.stdin = process.stdin;
     Game.stdout = process.stdout;
@@ -159,7 +146,9 @@ export class Game {
   /**
    * @method game public
    */
-  public game() {
+  // tslint:disable-next-line:variable-name
+  public game(val, _socket, username) {
+    Game.quote = val;
     output("\u001B[2J\u001B[0;0f");
     Game.gameEnd = false;
     Game.stringTyped = "";
@@ -187,12 +176,12 @@ export class Game {
 
     const interval = setInterval(() => {
       if (Game.gameEnd) {
-        Game.gameEnded();
+        _socket.emit("end", { score: Game.gameEnded(), username });
         clearInterval(interval);
       } else {
         Game.Time();
         Game.updateWpm();
       }
-    }, 1000);
+    }, 100);
   }
- }
+}
